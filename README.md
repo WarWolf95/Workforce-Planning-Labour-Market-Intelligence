@@ -87,3 +87,12 @@ Analytical SQL files are stored in [queries/](queries/). You can execute them di
 To confirm data pipeline compilation integrity, verify the following metrics in your analytics dashboard:
 1. **Software Developer (London)**: Visualizes a salary lag of exactly **-26.3%** (£47,907 avg internal salary vs £65,040 ONS median salary).
 2. **Battery Design Engineer**: Reflects a 5-year retirement risk of exactly **41.0%** and **11** critical roles currently operating without a designated successor.
+
+---
+
+## Dashboard Preview
+
+Below is a preview of the Workforce Planning & Labour Market Intelligence dashboard implemented in Power BI:
+
+![Dashboard Preview](reports/dashboard_preview.png)
+
