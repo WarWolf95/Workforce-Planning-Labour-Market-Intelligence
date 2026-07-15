@@ -222,25 +222,6 @@ def compile_oracle_script(
         f.write("COMMIT;\n\n")
         
     logger.info(f"Oracle LiveSQL script compiled: {OUTPUT_SQL_FILE}")
-    
-    # 4. EXPORT STAR SCHEMA FOR POWER BI (Full datasets, not downsampled)
-    logger.info("Exporting Star Schema CSVs for Power BI...")
-    
-    # Save the processed tables into processed/powerbi folder
-    df_soc.to_csv(PBI_DIR / "dim_soc_taxonomy.csv", index=False)
-    df_ashe.to_csv(PBI_DIR / "dim_ashe_salary.csv", index=False)
-    df_supply.to_csv(PBI_DIR / "dim_labor_supply.csv", index=False)
-    df_skills.to_csv(PBI_DIR / "dim_extracted_skills.csv", index=False)
-    df_workforce.to_csv(PBI_DIR / "fact_employees.csv", index=False)
-    df_vacancies.to_csv(PBI_DIR / "fact_market_vacancies.csv", index=False)
-    
-    # Create simple dim_regions table
-    regions_list = ["London", "South East", "West Midlands", "North West", "Scotland", "Wales", "East of England", "South West", "United Kingdom"]
-    regions_records = [{"region": r, "country": "Scotland" if r == "Scotland" else ("Wales" if r == "Wales" else "England")} for r in regions_list]
-    df_regions = pd.DataFrame(regions_records)
-    df_regions.to_csv(PBI_DIR / "dim_regions.csv", index=False)
-    
-    logger.info(f"Power BI Star Schema CSVs exported successfully to: {PBI_DIR}")
 
 def main() -> None:
     logger.info("=========================================")

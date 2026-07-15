@@ -1,0 +1,801 @@
+employee_id,employee_name,job_title,department,required_skills_count,matched_skills_count,skills_match_pct,missing_skills
+EMP-0017,Leo Brown,Software Developer,Digital Services,4,1,25.0,Javascript; Python; SQL
+EMP-0169,Muhammad Roberts,Software Developer,Digital Services,4,1,25.0,Git; Javascript; Python
+EMP-0295,Oliver Davies,Software Developer,Digital Services,4,1,25.0,Javascript; Python; SQL
+EMP-0296,Freya Martin,IT Business Analyst,Digital Services,4,1,25.0,Agile; Business Analysis; UML
+EMP-0306,David Martin,Software Developer,Digital Services,4,1,25.0,Git; Javascript; SQL
+EMP-0326,Ivy Martin,IT Business Analyst,Digital Services,4,1,25.0,Business Analysis; Requirements Gathering; UML
+EMP-0377,Rachel Smith,Software Developer,Digital Services,4,1,25.0,Git; Javascript; SQL
+EMP-0530,Isla Davies,Software Developer,Digital Services,4,1,25.0,Javascript; Python; SQL
+EMP-0591,Clara Wilson,IT Business Analyst,Digital Services,4,1,25.0,Agile; Requirements Gathering; UML
+EMP-0679,Grace Wilson,IT Business Analyst,Digital Services,4,1,25.0,Business Analysis; Requirements Gathering; UML
+EMP-0003,Leo Robinson,Web Designer,Digital Services,3,1,33.3,CSS; HTML
+EMP-0252,Ivy Martin,Web Designer,Digital Services,3,1,33.3,HTML; WordPress
+EMP-0293,Oliver Davies,Web Designer,Digital Services,3,1,33.3,HTML; WordPress
+EMP-0329,George Williams,Web Designer,Digital Services,3,1,33.3,HTML; WordPress
+EMP-0390,Leo Smith,Web Designer,Digital Services,3,1,33.3,CSS; HTML
+EMP-0551,Robert Wood,Web Designer,Digital Services,3,1,33.3,CSS; WordPress
+EMP-0744,Henry Walker,Web Designer,Digital Services,3,1,33.3,CSS; HTML
+EMP-0021,Ivy Taylor,Staff Nurse,Clinical Operations,5,2,40.0,Administration; Medication Administration; Patient Assessment
+EMP-0123,Robert Green,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Patient Assessment
+EMP-0135,Oscar Thompson,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Patient Assessment
+EMP-0140,James Wood,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Medication Administration
+EMP-0180,Ivy Jones,Staff Nurse,Clinical Operations,5,2,40.0,Administration; Medication Administration; NMC Pin
+EMP-0228,Sarah Johnson,Staff Nurse,Clinical Operations,5,2,40.0,Administration; Medication Administration; NMC Pin
+EMP-0237,Amelia Green,Staff Nurse,Clinical Operations,5,2,40.0,Administration; Medication Administration; NMC Pin
+EMP-0281,Amelia Wilson,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; NMC Pin
+EMP-0338,Jack Williams,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Medication Administration
+EMP-0462,Robert Evans,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Medication Administration
+EMP-0512,Sophia Wilson,Staff Nurse,Clinical Operations,5,2,40.0,Administration; NMC Pin; Patient Assessment
+EMP-0525,Henry Smith,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Patient Assessment
+EMP-0599,Robert Evans,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Patient Assessment
+EMP-0678,Ava Smith,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Medication Administration
+EMP-0691,Noah Jones,Staff Nurse,Clinical Operations,5,2,40.0,Administration; CPR; Patient Assessment
+EMP-0002,Muhammad Martin,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0012,William Wright,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0013,Lily Wood,IT Support Analyst,Digital Services,4,2,50.0,Active Directory; Troubleshooting
+EMP-0016,Lily White,IT Business Analyst,Digital Services,4,2,50.0,Agile; UML
+EMP-0030,Rachel Green,Data Engineer,Digital Services,4,2,50.0,AWS; Python
+EMP-0033,Mia Smith,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0042,Arthur White,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; SQL
+EMP-0055,James Wilson,Data Engineer,Digital Services,4,2,50.0,AWS; Python
+EMP-0059,Arthur Wright,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0061,Sophia Roberts,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0091,Harry Williams,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0112,Lily Hall,IT Business Analyst,Digital Services,4,2,50.0,Agile; Business Analysis
+EMP-0116,Robert Hall,Data Engineer,Digital Services,4,2,50.0,AWS; SQL
+EMP-0117,Harry Williams,IT Business Analyst,Digital Services,4,2,50.0,Agile; UML
+EMP-0136,Ivy Wright,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0154,Harry White,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0168,Muhammad Evans,IT Support Analyst,Digital Services,4,2,50.0,Active Directory; Office 365
+EMP-0174,Noah Brown,Data Engineer,Digital Services,4,2,50.0,AWS; Data Pipelines
+EMP-0176,Henry Thompson,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0185,Helen Evans,IT Support Analyst,Digital Services,4,2,50.0,Active Directory; Networking
+EMP-0195,George Robinson,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0197,Oliver Wright,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0204,Thomas Martin,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; Python
+EMP-0223,Robert Roberts,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0227,Sophia Williams,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0230,Ivy Hall,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; SQL
+EMP-0234,Sarah Davies,IT Business Analyst,Digital Services,4,2,50.0,Business Analysis; Requirements Gathering
+EMP-0246,Isla Wood,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0265,Jack Brown,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0266,Thomas Wilson,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0271,Mia Wood,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0303,Arthur Robinson,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0304,Henry Green,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0305,Lily Brown,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0307,Ava Hall,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0312,David White,IT Support Analyst,Digital Services,4,2,50.0,Networking; Office 365
+EMP-0319,Florence Jones,Software Developer,Digital Services,4,2,50.0,Git; Javascript
+EMP-0347,Amelia Harris,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0373,Grace Wood,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0391,Grace Taylor,Data Engineer,Digital Services,4,2,50.0,Python; SQL
+EMP-0392,Freya Brown,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0394,Leo Roberts,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0406,Helen Green,IT Support Analyst,Digital Services,4,2,50.0,Networking; Office 365
+EMP-0407,Clara Thompson,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0409,Henry Hall,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; SQL
+EMP-0426,Sarah Walker,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0429,Muhammad Brown,IT Support Analyst,Digital Services,4,2,50.0,Networking; Troubleshooting
+EMP-0456,Henry White,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0458,Thomas Jones,Software Developer,Digital Services,4,2,50.0,Javascript; Python
+EMP-0489,Mia Thompson,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0490,Isla Robinson,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; Python
+EMP-0494,Noah Brown,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0497,Emily White,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0517,Florence Wood,IT Business Analyst,Digital Services,4,2,50.0,Agile; Business Analysis
+EMP-0531,Isla Taylor,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; Python
+EMP-0539,Florence Taylor,Data Engineer,Digital Services,4,2,50.0,AWS; Python
+EMP-0554,Freya Martin,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0556,Emily Walker,Software Developer,Digital Services,4,2,50.0,Javascript; Python
+EMP-0564,Oscar Robinson,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0605,Leo Williams,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0623,Jack Johnson,IT Support Analyst,Digital Services,4,2,50.0,Active Directory; Troubleshooting
+EMP-0627,Freya White,IT Business Analyst,Digital Services,4,2,50.0,Agile; Business Analysis
+EMP-0628,Mia Roberts,IT Support Analyst,Digital Services,4,2,50.0,Active Directory; Troubleshooting
+EMP-0633,Oliver Smith,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0651,James Thompson,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0653,Leo Wood,Software Developer,Digital Services,4,2,50.0,Git; Javascript
+EMP-0671,Florence Green,IT Support Analyst,Digital Services,4,2,50.0,Office 365; Troubleshooting
+EMP-0680,Ivy Smith,Data Engineer,Digital Services,4,2,50.0,AWS; Data Pipelines
+EMP-0692,Arthur Wright,Software Developer,Digital Services,4,2,50.0,Javascript; SQL
+EMP-0699,Florence Wilson,IT Business Analyst,Digital Services,4,2,50.0,Agile; Business Analysis
+EMP-0715,Oliver Wright,IT Support Analyst,Digital Services,4,2,50.0,Active Directory; Office 365
+EMP-0724,Helen Taylor,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0725,Thomas Hall,IT Support Analyst,Digital Services,4,2,50.0,Office 365; Troubleshooting
+EMP-0728,Ivy Wilson,Data Engineer,Digital Services,4,2,50.0,AWS; Data Pipelines
+EMP-0729,Rachel Jones,IT Business Analyst,Digital Services,4,2,50.0,Business Analysis; Requirements Gathering
+EMP-0749,Lily Williams,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0759,Isla White,Data Engineer,Digital Services,4,2,50.0,AWS; Python
+EMP-0761,Oscar Wood,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0762,Sarah Hall,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0769,Sarah Smith,Medical Imaging Technician,Clinical Operations,2,1,50.0,MRI
+EMP-0772,Sophia Brown,Energy Plant Operator,Green Energy Projects,2,1,50.0,Plant Operations
+EMP-0775,Leo Martin,Data Engineer,Digital Services,4,2,50.0,AWS; SQL
+EMP-0778,Mia Green,Medical Imaging Technician,Clinical Operations,2,1,50.0,Medical Imaging
+EMP-0782,Mia Evans,IT Business Analyst,Digital Services,4,2,50.0,Agile; Requirements Gathering
+EMP-0786,Oscar Martin,Data Engineer,Digital Services,4,2,50.0,Data Pipelines; SQL
+EMP-0788,Isla Taylor,IT Business Analyst,Digital Services,4,2,50.0,Business Analysis; Requirements Gathering
+EMP-0791,Helen Walker,Energy Plant Operator,Green Energy Projects,2,1,50.0,SCADA
+EMP-0025,William Brown,Staff Nurse,Clinical Operations,5,3,60.0,Administration; NMC Pin
+EMP-0219,Rachel Williams,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Patient Assessment
+EMP-0235,David Williams,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Patient Assessment
+EMP-0336,Ivy Wright,Staff Nurse,Clinical Operations,5,3,60.0,Administration; NMC Pin
+EMP-0356,Thomas Smith,Staff Nurse,Clinical Operations,5,3,60.0,Administration; NMC Pin
+EMP-0363,Oscar Davies,Staff Nurse,Clinical Operations,5,3,60.0,Administration; NMC Pin
+EMP-0410,Muhammad White,Staff Nurse,Clinical Operations,5,3,60.0,Administration; CPR
+EMP-0578,Leo Green,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Medication Administration
+EMP-0646,George Harris,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Patient Assessment
+EMP-0654,Emily Evans,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Medication Administration
+EMP-0658,Helen Harris,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Patient Assessment
+EMP-0685,Thomas Walker,Staff Nurse,Clinical Operations,5,3,60.0,Administration; NMC Pin
+EMP-0690,Florence Davies,Staff Nurse,Clinical Operations,5,3,60.0,Administration; NMC Pin
+EMP-0709,Sarah Thompson,Staff Nurse,Clinical Operations,5,3,60.0,Administration; CPR
+EMP-0787,Thomas Walker,Staff Nurse,Clinical Operations,5,3,60.0,Administration; Medication Administration
+EMP-0008,Sarah Wood,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0014,Thomas Evans,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0020,Amelia Harris,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0022,Muhammad Thompson,HR Advisor,Corporate Services,3,2,66.7,Employee Relations
+EMP-0023,Oliver Roberts,Healthcare Assistant,Clinical Operations,3,2,66.7,Vital Signs
+EMP-0028,Florence Brown,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0029,William White,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0031,Leo Robinson,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0045,Harry Roberts,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0046,Freya Jones,Finance Analyst,Corporate Services,3,2,66.7,Excel
+EMP-0052,Jack Thompson,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0054,Freya Thompson,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0057,Henry Wright,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0064,Robert Harris,Civil Engineer,Green Energy Projects,3,2,66.7,Project Management
+EMP-0068,Freya Williams,Finance Analyst,Corporate Services,3,2,66.7,Excel
+EMP-0070,Lily Davies,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0075,Rachel Wood,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Power Systems
+EMP-0076,Sarah Taylor,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0077,Amelia Thompson,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0082,Sarah Williams,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0085,Isla Roberts,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0088,Ivy White,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0094,Ivy Williams,Web Designer,Digital Services,3,2,66.7,HTML
+EMP-0096,Leo Robinson,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0100,Sophia Thompson,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0101,Muhammad Johnson,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0103,Isla Wright,Healthcare Assistant,Clinical Operations,3,2,66.7,Vital Signs
+EMP-0104,James Williams,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0105,Emily Hall,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Electrical Testing
+EMP-0107,Isla Davies,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0111,Sophia Taylor,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0114,Isla Wood,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0120,Helen Martin,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0126,George Hall,HR Advisor,Corporate Services,3,2,66.7,Employee Relations
+EMP-0129,Noah Jones,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0131,Ava Green,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0137,Helen Thompson,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0147,Emily Johnson,Civil Engineer,Green Energy Projects,3,2,66.7,Project Management
+EMP-0152,Rachel Smith,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Grid Connections
+EMP-0153,Ava Hall,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0156,Emily Robinson,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0160,William Green,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0162,Henry Martin,Web Designer,Digital Services,3,2,66.7,HTML
+EMP-0163,Helen Brown,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0165,James Robinson,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0167,Lily Williams,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0170,Freya Roberts,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0171,Grace Taylor,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0173,Sarah Davies,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0175,Amelia Roberts,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0189,Robert Taylor,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0191,Florence Robinson,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0196,Mia Roberts,Battery Design Engineer,Green Energy Projects,3,2,66.7,Product Design
+EMP-0203,Lily Harris,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0205,Muhammad Hall,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0208,Freya Wilson,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0209,Ivy Johnson,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0211,Rachel Roberts,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0212,Oscar White,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0214,Mia Roberts,Civil Engineer,Green Energy Projects,3,2,66.7,Project Management
+EMP-0217,Henry Evans,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0222,Sophia Thompson,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0224,William Robinson,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0236,Isla Smith,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0238,Oliver Davies,Web Designer,Digital Services,3,2,66.7,CSS
+EMP-0239,Mia Thompson,Civil Engineer,Green Energy Projects,3,2,66.7,Project Management
+EMP-0240,Rachel Wright,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0241,Emily Roberts,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0245,Sarah Thompson,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,HV Electrical
+EMP-0247,Sophia Martin,Web Designer,Digital Services,3,2,66.7,CSS
+EMP-0248,Rachel Roberts,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0249,Harry Johnson,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0250,Thomas Roberts,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0256,Leo Evans,HR Advisor,Corporate Services,3,2,66.7,Recruitment
+EMP-0257,Helen Green,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0258,Leo Wilson,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0264,Isla Green,Healthcare Assistant,Clinical Operations,3,2,66.7,Vital Signs
+EMP-0270,Florence Brown,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0274,Ivy Harris,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0279,Emily Jones,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Grid Connections
+EMP-0288,Sophia White,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0290,Leo White,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0291,Ava Thompson,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0292,Oscar White,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0299,Amelia Wood,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0301,Rachel Jones,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0311,Florence Davies,Web Designer,Digital Services,3,2,66.7,HTML
+EMP-0314,Mia Harris,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0316,Ivy Hall,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Maintenance
+EMP-0318,Henry White,Healthcare Assistant,Clinical Operations,3,2,66.7,Vital Signs
+EMP-0320,Isla Martin,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0325,Florence Thompson,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,HV Electrical
+EMP-0330,Thomas Walker,Civil Engineer,Green Energy Projects,3,2,66.7,Structural Analysis
+EMP-0333,Oscar Wood,Civil Engineer,Green Energy Projects,3,2,66.7,Structural Analysis
+EMP-0341,Helen Martin,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0342,Emily Green,Web Designer,Digital Services,3,2,66.7,HTML
+EMP-0344,Oscar Davies,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Grid Connections
+EMP-0345,Emily Taylor,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Power Systems
+EMP-0346,Florence Green,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0350,Ivy Jones,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0352,Emily Taylor,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0357,Sarah Walker,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0358,Noah Hall,Civil Engineer,Green Energy Projects,3,2,66.7,Structural Analysis
+EMP-0359,Thomas Smith,HR Advisor,Corporate Services,3,2,66.7,Recruitment
+EMP-0360,Sophia Wood,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0362,Henry Green,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0365,Noah Davies,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0368,Isla Hall,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Electrical Testing
+EMP-0370,Henry Williams,Operations Administrator,Corporate Services,3,2,66.7,Administration
+EMP-0372,Henry Jones,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Electrical Testing
+EMP-0381,Helen Taylor,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Power Systems
+EMP-0382,Oliver Green,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0387,Amelia Robinson,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0388,Arthur Davies,Clinical Practitioner,Clinical Operations,3,2,66.7,Clinical Diagnostics
+EMP-0393,Oscar Evans,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0398,Emily Martin,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0399,Sarah White,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0400,Emily Wood,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0403,Freya Robinson,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0404,Emily Johnson,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0405,Harry Williams,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0408,Muhammad Jones,Battery Design Engineer,Green Energy Projects,3,2,66.7,Product Design
+EMP-0411,James White,Battery Design Engineer,Green Energy Projects,3,2,66.7,Prototyping
+EMP-0413,Emily Martin,Finance Analyst,Corporate Services,3,2,66.7,Excel
+EMP-0414,James Robinson,Battery Design Engineer,Green Energy Projects,3,2,66.7,Prototyping
+EMP-0417,Arthur Wood,HR Advisor,Corporate Services,3,2,66.7,Employee Relations
+EMP-0418,Muhammad Robinson,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0420,Clara Martin,Battery Design Engineer,Green Energy Projects,3,2,66.7,Prototyping
+EMP-0424,Oscar Green,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0427,William Davies,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0428,James Wright,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0430,William Johnson,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0432,Clara Thompson,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Electrical Testing
+EMP-0434,Emily Johnson,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0436,Ava Wilson,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0437,James Wright,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0438,Muhammad Johnson,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0444,Oliver Thompson,Operations Administrator,Corporate Services,3,2,66.7,Scheduling
+EMP-0446,Helen Jones,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0447,Sarah Hall,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Grid Connections
+EMP-0448,Oliver Wright,Operations Administrator,Corporate Services,3,2,66.7,Customer Service
+EMP-0449,Thomas Johnson,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0454,Grace Green,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0455,George Wright,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0460,Ivy Hall,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0464,Freya Roberts,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0467,Oliver Green,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0469,Muhammad Taylor,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0470,Grace Wilson,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0474,Helen Brown,Battery Design Engineer,Green Energy Projects,3,2,66.7,Product Design
+EMP-0477,Harry Walker,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0478,James White,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0482,James Taylor,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0484,Oscar Johnson,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0486,Helen Jones,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0487,Sarah Williams,Civil Engineer,Green Energy Projects,3,2,66.7,Structural Analysis
+EMP-0488,Robert Brown,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0492,Thomas Robinson,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0493,George Wright,Civil Engineer,Green Energy Projects,3,2,66.7,Project Management
+EMP-0498,Grace Williams,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0499,Isla Roberts,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0503,Thomas Taylor,Web Designer,Digital Services,3,2,66.7,HTML
+EMP-0506,Amelia Evans,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0513,Ava Martin,Operations Administrator,Corporate Services,3,2,66.7,Scheduling
+EMP-0515,Ava Wood,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0518,George Wood,Clinical Practitioner,Clinical Operations,3,2,66.7,Clinical Diagnostics
+EMP-0519,Rachel White,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Power Systems
+EMP-0532,Amelia Taylor,Civil Engineer,Green Energy Projects,3,2,66.7,Structural Analysis
+EMP-0533,Grace Smith,Web Designer,Digital Services,3,2,66.7,CSS
+EMP-0534,James Smith,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Maintenance
+EMP-0538,Helen Green,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0541,Ivy Walker,Operations Administrator,Corporate Services,3,2,66.7,Scheduling
+EMP-0542,Robert Taylor,Civil Engineer,Green Energy Projects,3,2,66.7,Project Management
+EMP-0545,Oscar Green,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0546,Lily Harris,Operations Administrator,Corporate Services,3,2,66.7,Scheduling
+EMP-0548,Thomas Wright,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Electrical Testing
+EMP-0557,William Jones,Web Designer,Digital Services,3,2,66.7,CSS
+EMP-0562,Clara Williams,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Maintenance
+EMP-0563,Helen Davies,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0568,Rachel Williams,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Electrical Testing
+EMP-0569,William Walker,Operations Administrator,Corporate Services,3,2,66.7,Customer Service
+EMP-0572,Rachel Johnson,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0574,David White,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0575,Helen Martin,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0581,Henry Wilson,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0584,Oscar Taylor,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0587,Amelia Hall,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0589,Muhammad Brown,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0594,Rachel Wood,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0600,Helen White,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0601,Ava Wilson,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0602,James Jones,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0603,Arthur Roberts,HR Advisor,Corporate Services,3,2,66.7,Recruitment
+EMP-0606,Grace White,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0607,William Roberts,Operations Administrator,Corporate Services,3,2,66.7,Customer Service
+EMP-0608,James Wilson,Chemical Engineer,Green Energy Projects,3,2,66.7,Chemical Process
+EMP-0610,William Walker,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0611,Muhammad Wood,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Power Systems
+EMP-0612,Isla Jones,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0613,Oliver Roberts,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0618,Grace Wright,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0621,Florence Roberts,Clinical Practitioner,Clinical Operations,3,2,66.7,Patient Care
+EMP-0622,Freya Harris,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0629,Clara Wood,Civil Engineer,Green Energy Projects,3,2,66.7,AutoCAD
+EMP-0632,Florence Thompson,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0637,Noah Harris,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0640,Freya Roberts,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0644,Sophia Walker,Battery Design Engineer,Green Energy Projects,3,2,66.7,Product Design
+EMP-0645,Mia Martin,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0648,Sophia Evans,Operations Administrator,Corporate Services,3,2,66.7,Administration
+EMP-0650,Isla Roberts,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0652,Arthur Johnson,Pharmacist,Clinical Operations,3,2,66.7,Patient Counselling
+EMP-0656,Amelia Robinson,Healthcare Assistant,Clinical Operations,3,2,66.7,Vital Signs
+EMP-0661,Sophia Hall,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0666,James Walker,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0667,Leo Harris,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0668,Henry Roberts,Pharmacist,Clinical Operations,3,2,66.7,Medicines Management
+EMP-0669,Noah Taylor,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0674,Clara Wilson,Clinical Practitioner,Clinical Operations,3,2,66.7,Clinical Diagnostics
+EMP-0681,Oliver Smith,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0686,Henry Roberts,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Maintenance
+EMP-0687,William Brown,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0688,Amelia Davies,Operations Administrator,Corporate Services,3,2,66.7,Administration
+EMP-0689,James Jones,Chemical Engineer,Green Energy Projects,3,2,66.7,ASPEN
+EMP-0693,Helen Green,Web Designer,Digital Services,3,2,66.7,CSS
+EMP-0696,Sarah Evans,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,HV Electrical
+EMP-0700,Sophia Hall,Operations Administrator,Corporate Services,3,2,66.7,Customer Service
+EMP-0702,Ava Wilson,Turbine Maintenance Technician,Green Energy Projects,3,2,66.7,Instrumentation
+EMP-0704,Jack Taylor,Battery Design Engineer,Green Energy Projects,3,2,66.7,Prototyping
+EMP-0706,Florence Thompson,HR Advisor,Corporate Services,3,2,66.7,Employee Relations
+EMP-0717,Amelia Martin,Battery Design Engineer,Green Energy Projects,3,2,66.7,Product Design
+EMP-0719,Robert Wilson,Operations Administrator,Corporate Services,3,2,66.7,Administration
+EMP-0720,Clara Johnson,Healthcare Assistant,Clinical Operations,3,2,66.7,Personal Care
+EMP-0721,Henry Williams,Chemical Engineer,Green Energy Projects,3,2,66.7,Mass Balance
+EMP-0723,Thomas Thompson,Mechanical Engineer,Green Energy Projects,3,2,66.7,CAD
+EMP-0726,David White,Mechanical Engineer,Green Energy Projects,3,2,66.7,Mechanical Design
+EMP-0727,Robert Wood,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0739,Grace Roberts,Electrical Grid Engineer,Green Energy Projects,3,2,66.7,Power Systems
+EMP-0742,Florence Hall,HR Advisor,Corporate Services,3,2,66.7,Employee Relations
+EMP-0752,David Brown,Healthcare Assistant,Clinical Operations,3,2,66.7,Patient Mobility
+EMP-0753,Jack Johnson,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0763,Sophia Jones,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0764,Grace Martin,Finance Analyst,Corporate Services,3,2,66.7,Financial Modelling
+EMP-0771,William Roberts,Pharmacist,Clinical Operations,3,2,66.7,Clinical Pharmacy
+EMP-0773,Sophia Davies,Operations Administrator,Corporate Services,3,2,66.7,Scheduling
+EMP-0774,Sophia Evans,Web Designer,Digital Services,3,2,66.7,WordPress
+EMP-0776,Clara Robinson,Clinical Practitioner,Clinical Operations,3,2,66.7,Prescribing
+EMP-0777,Helen Green,Clinical Practitioner,Clinical Operations,3,2,66.7,Clinical Diagnostics
+EMP-0779,Freya Wood,Battery Design Engineer,Green Energy Projects,3,2,66.7,SolidWorks
+EMP-0781,Robert Wood,Finance Analyst,Corporate Services,3,2,66.7,Budgeting
+EMP-0784,Thomas Smith,Mechanical Engineer,Green Energy Projects,3,2,66.7,Thermodynamics
+EMP-0790,Oscar Evans,Operations Administrator,Corporate Services,3,2,66.7,Scheduling
+EMP-0009,Amelia Brown,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0037,Noah Williams,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0047,Oliver Martin,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0065,Arthur Robinson,IT Support Analyst,Digital Services,4,3,75.0,Office 365
+EMP-0080,Rachel Green,Data Engineer,Digital Services,4,3,75.0,AWS
+EMP-0083,Mia Wilson,IT Support Analyst,Digital Services,4,3,75.0,Troubleshooting
+EMP-0084,Arthur Taylor,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0090,Helen Harris,IT Support Analyst,Digital Services,4,3,75.0,Active Directory
+EMP-0098,Henry Hall,Data Engineer,Digital Services,4,3,75.0,Data Pipelines
+EMP-0144,George Jones,Data Engineer,Digital Services,4,3,75.0,SQL
+EMP-0164,Muhammad Thompson,IT Business Analyst,Digital Services,4,3,75.0,Requirements Gathering
+EMP-0179,Freya Hall,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0181,Sophia Smith,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0186,Oliver White,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0193,Grace Jones,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0199,Ivy Martin,IT Business Analyst,Digital Services,4,3,75.0,Requirements Gathering
+EMP-0220,Oscar Roberts,IT Business Analyst,Digital Services,4,3,75.0,Agile
+EMP-0231,Lily Martin,IT Business Analyst,Digital Services,4,3,75.0,Agile
+EMP-0244,Thomas Walker,IT Support Analyst,Digital Services,4,3,75.0,Troubleshooting
+EMP-0253,Noah Hall,IT Support Analyst,Digital Services,4,3,75.0,Troubleshooting
+EMP-0261,Oscar Harris,IT Support Analyst,Digital Services,4,3,75.0,Office 365
+EMP-0267,Sophia Davies,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0272,James Roberts,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0287,William Wood,IT Business Analyst,Digital Services,4,3,75.0,Agile
+EMP-0298,Muhammad Martin,IT Business Analyst,Digital Services,4,3,75.0,Business Analysis
+EMP-0300,George Hall,IT Business Analyst,Digital Services,4,3,75.0,UML
+EMP-0313,Isla White,IT Support Analyst,Digital Services,4,3,75.0,Networking
+EMP-0324,Leo Hall,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0334,Robert Robinson,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0343,Amelia Thompson,IT Support Analyst,Digital Services,4,3,75.0,Office 365
+EMP-0364,Robert Thompson,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0367,Jack Walker,IT Support Analyst,Digital Services,4,3,75.0,Networking
+EMP-0380,David Wood,IT Support Analyst,Digital Services,4,3,75.0,Troubleshooting
+EMP-0396,Freya Walker,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0416,Thomas Walker,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0435,Robert Johnson,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0465,Henry Evans,IT Business Analyst,Digital Services,4,3,75.0,Business Analysis
+EMP-0468,Henry Robinson,Data Engineer,Digital Services,4,3,75.0,AWS
+EMP-0475,Leo Wood,IT Business Analyst,Digital Services,4,3,75.0,UML
+EMP-0528,Clara Wilson,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0566,Jack Hall,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0567,Helen Williams,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0570,Rachel Wilson,IT Support Analyst,Digital Services,4,3,75.0,Active Directory
+EMP-0582,Isla Thompson,IT Business Analyst,Digital Services,4,3,75.0,Agile
+EMP-0593,George Williams,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0598,Grace Roberts,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0619,Robert Green,IT Support Analyst,Digital Services,4,3,75.0,Office 365
+EMP-0626,Robert Brown,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0665,Arthur Wood,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0676,Amelia Roberts,Data Engineer,Digital Services,4,3,75.0,Data Pipelines
+EMP-0683,Grace Thompson,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0705,Henry Jones,IT Support Analyst,Digital Services,4,3,75.0,Troubleshooting
+EMP-0714,George Brown,IT Support Analyst,Digital Services,4,3,75.0,Troubleshooting
+EMP-0718,Amelia Thompson,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0731,Amelia Davies,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0745,Amelia Evans,Data Engineer,Digital Services,4,3,75.0,Data Pipelines
+EMP-0751,Sophia Green,Data Engineer,Digital Services,4,3,75.0,SQL
+EMP-0767,Mia Evans,Data Engineer,Digital Services,4,3,75.0,SQL
+EMP-0770,Thomas Martin,IT Business Analyst,Digital Services,4,3,75.0,Agile
+EMP-0783,Emily Taylor,Data Engineer,Digital Services,4,3,75.0,SQL
+EMP-0789,Henry Harris,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0793,Ivy White,Data Engineer,Digital Services,4,3,75.0,Python
+EMP-0800,Harry Green,Software Developer,Digital Services,4,3,75.0,Javascript
+EMP-0006,Ava Wood,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0011,Sophia Hall,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0036,Muhammad Green,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0056,Sophia Smith,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0078,Rachel Walker,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0079,William Wright,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0118,Robert Martin,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0202,Robert White,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0260,Freya Martin,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0282,Ava Martin,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0348,Ivy Green,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0371,Noah Williams,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0397,George Jones,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0463,William Green,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0543,Muhammad Green,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0585,Oscar Wright,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0630,Oscar Evans,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0703,Amelia Wilson,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0712,Leo Walker,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0756,Isla Smith,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0765,Amelia Smith,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0792,Thomas Williams,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0799,Clara Walker,Staff Nurse,Clinical Operations,5,4,80.0,Administration
+EMP-0001,Thomas Brown,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0004,Clara Walker,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0005,James Wright,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0007,Amelia Thompson,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0010,Freya Robinson,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0015,Oliver Taylor,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0018,Thomas Wood,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0019,Ava Walker,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0024,Robert Wood,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0026,Mia Robinson,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0027,William Williams,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0032,Jack Jones,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0034,Florence Brown,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0035,Oscar Wilson,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0038,Harry Smith,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0039,Helen Roberts,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0040,Lily Roberts,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0041,David Wright,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0043,Grace Wright,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0044,Florence Walker,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0048,Ava Wright,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0049,Sophia Martin,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0050,Thomas Roberts,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0051,Emily Taylor,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0053,James Davies,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0058,Thomas Jones,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0060,George Wilson,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0062,Clara Robinson,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0063,David Walker,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0066,Lily Wright,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0067,Oscar Hall,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0069,Oliver Wood,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0071,Rachel White,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0072,Freya Wood,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0073,Lily Walker,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0074,Oliver Williams,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0081,Henry Jones,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0086,Freya Thompson,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0087,Amelia Wright,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0089,Freya Evans,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0092,Amelia Williams,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0093,Sarah Hall,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0095,David Brown,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0097,Sarah Evans,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0099,Rachel Wood,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0102,Ivy Jones,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0106,Thomas White,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0108,Noah Evans,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0109,Thomas Taylor,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0110,Lily Roberts,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0113,David Roberts,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0115,Harry Evans,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0119,Emily Wright,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0121,Ava Robinson,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0122,Emily Walker,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0124,Ivy Hall,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0125,William Green,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0127,Oscar Evans,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0128,Robert Wilson,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0130,Rachel Jones,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0132,Leo Wright,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0133,Helen Jones,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0134,Thomas Evans,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0138,Noah Williams,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0139,David Green,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0141,Ava Thompson,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0142,Ava Harris,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0143,Thomas Johnson,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0145,Harry Evans,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0146,William Wilson,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0148,Grace Walker,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0149,Robert Martin,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0150,Amelia Jones,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0151,Ivy Wright,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0155,Freya Thompson,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0157,Grace Wood,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0158,David Taylor,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0159,Henry Davies,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0161,Rachel Jones,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0166,Florence Hall,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0172,Arthur Walker,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0177,Jack Jones,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0178,Sophia Walker,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0182,Oscar Roberts,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0183,Grace Thompson,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0184,Robert Davies,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0187,Oliver Smith,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0188,Ivy Hall,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0190,Thomas Thompson,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0192,Sophia Wilson,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0194,Arthur Green,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0198,Jack Wright,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0200,Ivy Johnson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0201,Robert Walker,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0206,Sophia White,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0207,Grace Green,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0210,Freya Wilson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0213,Harry Wilson,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0215,Ava Roberts,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0216,Isla Davies,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0218,Ivy Wood,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0221,Rachel Taylor,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0225,Sarah Davies,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0226,Rachel White,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0229,Isla Harris,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0232,George Smith,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0233,George Wood,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0242,Thomas Smith,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0243,Amelia Williams,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0251,Henry White,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0254,Ava Smith,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0255,Isla Davies,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0259,Grace Walker,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0262,Leo Wilson,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0263,George Evans,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0268,Ava Wright,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0269,Oscar Wilson,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0273,Robert Williams,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0275,William White,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0276,Amelia Green,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0277,Sarah Roberts,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0278,Muhammad Wilson,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0280,Lily Martin,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0283,Noah Roberts,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0284,George Thompson,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0285,Helen Martin,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0286,Henry Johnson,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0289,Henry Harris,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0294,Muhammad Martin,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0297,Freya Robinson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0302,Ava Thompson,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0308,Oscar Walker,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0309,Sarah Smith,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0310,Grace Jones,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0315,Ivy Thompson,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0317,Florence Evans,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0321,Amelia Walker,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0322,Sophia Roberts,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0323,Rachel Robinson,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0327,Sophia Smith,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0328,James Wood,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0331,George Evans,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0332,Emily Williams,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0335,Jack Brown,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0337,Emily White,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0339,Robert Harris,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0340,William Harris,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0349,Clara Roberts,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0351,Thomas White,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0353,Oscar Johnson,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0354,Oscar Johnson,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0355,Sarah Williams,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0361,Jack Wilson,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0366,Florence Green,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0369,Ava Wood,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0374,Sophia Evans,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0375,Rachel Wilson,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0376,David Robinson,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0378,Lily Wood,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0379,Sarah Wright,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0383,William Wood,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0384,Freya Robinson,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0385,Lily Johnson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0386,Noah Thompson,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0389,Sophia Thompson,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0395,Freya Evans,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0401,James Harris,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0402,William Thompson,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0412,Helen Roberts,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0415,Sophia Johnson,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0419,Leo Walker,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0421,William Hall,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0422,James Thompson,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0423,Oliver Martin,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0425,Florence Johnson,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0431,David Roberts,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0433,James Roberts,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0439,Rachel Thompson,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0440,Oliver Brown,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0441,Noah Wright,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0442,Robert Thompson,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0443,Clara Jones,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0445,James Wright,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0450,Ivy Wood,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0451,Leo Wood,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0452,Clara Roberts,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0453,Harry Martin,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0457,David Harris,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0459,Freya Wright,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0461,Rachel Smith,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0466,Muhammad Martin,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0471,Ivy Williams,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0472,Arthur Walker,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0473,Muhammad White,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0476,Ivy Taylor,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0479,Amelia Robinson,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0480,Thomas Brown,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0481,Thomas Smith,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0483,Oscar Jones,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0485,Noah Smith,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0491,Ivy Walker,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0495,Mia Robinson,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0496,William Davies,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0500,Rachel Hall,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0501,Henry Davies,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0502,Helen Brown,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0504,Rachel Evans,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0505,Jack Martin,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0507,Isla Green,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0508,Arthur Green,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0509,William Roberts,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0510,Thomas Smith,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0511,Oliver Davies,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0514,Leo Harris,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0516,Sophia Green,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0520,Helen Roberts,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0521,Lily Hall,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0522,Noah Wilson,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0523,Oliver Williams,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0524,Lily Taylor,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0526,Clara Evans,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0527,Robert Wright,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0529,Harry Smith,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0535,Clara Hall,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0536,Mia Brown,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0537,Lily Brown,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0540,Ivy Walker,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0544,Leo Walker,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0547,Grace Evans,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0549,Rachel White,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0550,Florence Johnson,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0552,Henry Hall,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0553,Ivy Hall,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0555,Harry Wright,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0558,William Taylor,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0559,Robert Williams,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0560,James Thompson,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0561,Jack Roberts,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0565,James White,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0571,Muhammad White,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0573,Emily Martin,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0576,Ava Hall,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0577,Harry Green,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0579,Ava Jones,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0580,Rachel Williams,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0583,Arthur Thompson,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0586,Arthur Walker,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0588,Clara Green,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0590,Ava Wilson,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0592,Thomas Green,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0595,Arthur Green,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0596,Rachel Green,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0597,Oliver White,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0604,Rachel Johnson,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0609,William Wood,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0614,David Walker,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0615,Robert White,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0616,David Green,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0617,Amelia Wilson,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0620,Muhammad Roberts,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0624,Oliver Hall,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0625,Sophia White,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0631,Robert Williams,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0634,Robert Roberts,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0635,Clara Johnson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0636,Grace Jones,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0638,Florence Smith,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0639,Leo White,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0641,George Davies,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0642,Leo Jones,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0643,Amelia Walker,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0647,Harry Jones,Web Designer,Digital Services,3,3,100.0,None (100% Match)
+EMP-0649,Noah Johnson,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0655,Helen Johnson,Data Engineer,Digital Services,4,4,100.0,None (100% Match)
+EMP-0657,Oscar Hall,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0659,Ava Evans,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0660,Mia Evans,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0662,Sophia Robinson,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0663,Helen Walker,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0664,Muhammad Harris,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0670,Mia Walker,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0672,Oscar Martin,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0673,William Roberts,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0675,George Johnson,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0677,Clara Williams,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0682,Muhammad Brown,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0684,Mia Wright,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0694,Mia Taylor,Pharmacist,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0695,Oscar Wood,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0697,James White,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0698,Clara Evans,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0701,Jack Johnson,Finance Analyst,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0707,Oliver Roberts,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0708,Florence Green,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0710,Noah Williams,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0711,Arthur Brown,Battery Design Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0713,Leo Davies,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0716,Freya Roberts,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0722,Rachel Williams,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0730,Muhammad Wright,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0732,Jack Robinson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0733,David Evans,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0734,Freya Brown,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0735,Isla Walker,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0736,David Harris,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0737,Helen Wood,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0738,Jack Jones,Operations Administrator,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0740,George Davies,HR Advisor,Corporate Services,3,3,100.0,None (100% Match)
+EMP-0741,Muhammad Wood,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0743,Grace Brown,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0746,George Hall,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0747,Mia Wilson,Electrical Grid Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0748,Amelia Williams,Turbine Maintenance Technician,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0750,Harry Evans,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0754,Amelia Hall,Civil Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0755,Amelia Wilson,IT Business Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0757,George Brown,IT Support Analyst,Digital Services,4,4,100.0,None (100% Match)
+EMP-0758,Lily Johnson,Mechanical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0760,Amelia Johnson,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0766,Thomas Martin,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0768,Ava Wilson,Healthcare Assistant,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0780,Noah Smith,Chemical Engineer,Green Energy Projects,3,3,100.0,None (100% Match)
+EMP-0785,Florence Roberts,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0794,Sophia Wood,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0795,George Wilson,Medical Imaging Technician,Clinical Operations,2,2,100.0,None (100% Match)
+EMP-0796,Rachel Wright,Energy Plant Operator,Green Energy Projects,2,2,100.0,None (100% Match)
+EMP-0797,Jack Jones,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)
+EMP-0798,Emily Walker,Clinical Practitioner,Clinical Operations,3,3,100.0,None (100% Match)

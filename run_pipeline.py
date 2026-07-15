@@ -18,7 +18,6 @@ import generate_synthetic_hr
 import fetch_nomis
 import fetch_adzuna
 import process_data
-import generate_oracle_setup
 import generate_sqlite
 import verify_db
 import generate_docx_case_study
@@ -45,11 +44,11 @@ def execute_queries_and_export_reports() -> None:
         
     conn = sqlite3.connect(str(DB_PATH))
     
-    # Query configuration: (SQL filename, output CSV filename)
     queries_map = {
         "market_vacancy_demand.sql": "Market Vacancy Demand.csv",
         "salary_gap_analysis.sql": "Salary Gap Analysis.csv",
         "skills_mismatch_analysis.sql": "Skills Mismatch Analysis.csv",
+        "skills_gap_analysis.sql": "Detailed Skills Gap Analysis.csv",
         "succession_risk_scoring.sql": "Succession & Retirement Risk Scoring.csv"
     }
     
@@ -90,13 +89,10 @@ def main() -> None:
         # Step 3: Fetch and build Adzuna vacancy listings
         fetch_adzuna.main()
         
-        # Step 4: Process staging data into DuckDB and create analytical views
+        # Step 4: Process staging data into DuckDB, create analytical views, and export Power BI Star Schema CSVs
         process_data.main()
         
-        # Step 5: Export Star Schema CSV files and compile Oracle script
-        generate_oracle_setup.main()
-        
-        # Step 6: Load Star Schema CSVs into SQLite database
+        # Step 5: Load Star Schema CSVs into SQLite database
         generate_sqlite.main()
         
         # Step 7: Verify database integrity in DuckDB

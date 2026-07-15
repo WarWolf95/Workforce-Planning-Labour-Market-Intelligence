@@ -55,11 +55,11 @@ def extract_skills_from_jds(
     skills_vocabulary: List[str]
 ) -> List[Dict[str, Any]]:
     """
-    Performs text analysis on job descriptions.
-    Uses TF-IDF Vectorizer to extract and score skills matching the taxonomy vocabulary.
-    Falls back to regex matching if scikit-learn TF-IDF fails.
+    Scans job descriptions for matching skills in a predefined taxonomy.
+    Uses TF-IDF term-frequency weighting to score and rank keywords, falling back
+    to exact regex matching if scikit-learn vectorization is unavailable.
     """
-    logger.info("Performing text analysis on organizational job descriptions...")
+    logger.info("Matching taxonomy keywords against organizational job descriptions...")
     
     if not jd_path.exists():
         logger.error(f"Job description file not found at {jd_path}")
@@ -98,10 +98,10 @@ def extract_skills_from_jds(
                 "skills_count": len(matched_skills)
             })
             
-        logger.info(f"Successfully processed {len(extracted_skills_list)} job descriptions with TF-IDF.")
+        logger.info(f"Successfully mapped taxonomy keywords for {len(extracted_skills_list)} job descriptions.")
         return extracted_skills_list
     except Exception as e:
-        logger.warning(f"Error during TF-IDF text analysis: {e}. Falling back to regex keyword scanner.")
+        logger.warning(f"TF-IDF weighting failed: {e}. Falling back to direct regex keyword scanner.")
         # Fallback to regex word matching
         extracted_skills_list = []
         for jd in jds:

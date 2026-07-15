@@ -6,52 +6,51 @@ This project identifies skills gaps, succession/retirement risks, and internal-t
 
 ---
 
-## Data Provenance & Accuracy
+## Data Provenance & Methodology
 
-⚠️ **This project uses a 4-tier hybrid data strategy.** Every dataset is explicitly classified below. No PII is used or generated.
+⚠️ **This project uses a 4-tier hybrid data strategy.** Every dataset is explicitly classified below. No actual employee PII is used or generated.
 
 ### Tier 1: Fully Synthetic
 
 | Dataset | Source | Notes |
 |---|---|---|
-| `internal_workforce.csv` | `generate_synthetic_hr.py` (seed=42) | 800 HR roster records — ages, salaries, skills, succession flags |
-| `internal_job_descriptions.json` | `generate_synthetic_hr.py` | Template-generated role descriptions for TF-IDF extraction |
-| `extracted_jd_skills.csv` | TF-IDF parse of synthetic JDs | Keyword taxonomy mapping, not robust NLP |
+| `internal_workforce.csv` | `generate_synthetic_hr.py` (seed=42) | 800 HR roster records containing employee ages, salaries, skills, and succession flags. |
+| `internal_job_descriptions.json` | `generate_synthetic_hr.py` | Template-generated role descriptions. |
+| `extracted_jd_skills.csv` | TF-IDF scan on synthetic JDs | Predefined taxonomy keyword mapping (not AI text-mining). |
 
 ### Tier 2: Calibrated / Statistically Modelled
 
 | Dataset | Calibrated To | Accuracy Caveat |
 |---|---|---|
-| `ons_ashe_salaries.csv` | ONS ASHE 2024/2025 published medians by SOC + regional multipliers | Point estimates only. Not statistically validated against full ASHE microdata. RMSE against true distribution not measured. |
-| `ons_vacancies.csv` | ONS VACS02 vacancy volumes by SOC and region | Growth trends applied at category level (Tech, Green Energy, Healthcare). Regional breakdown uses fixed weights, not modelled distributions. |
-| `ons_labor_supply.csv` | ONS Labour Force Survey employment + graduate pipeline data | Retirement risk rates and graduate supply are approximate. Microdata-level variance not captured. |
+| `ons_ashe_salaries.csv` | ONS ASHE 2024/2025 published medians by SOC + regional multipliers | Point estimates. Not statistically validated against full ASHE microdata. |
+| `ons_vacancies.csv` | ONS VACS02 vacancy volumes by SOC and region | Growth trends applied at category level; regional breakdown uses fixed weights. |
+| `ons_labor_supply.csv` | ONS Labour Force Survey employment + graduate pipeline data | Approximate retirement risk rates and graduate supply. |
 
 ### Tier 3: Real (Live API)
 
 | Dataset | Source | Status |
 |---|---|---|
-| `nomis_region_wage_index.json` | Nomis API (NM_99_1) | Fetched live at runtime. Falls back to cached values if API unavailable. |
+| `nomis_region_wage_index.json` | Nomis API (NM_99_1) | Fetched live at runtime. Falls back to cached values if API is offline. |
 
 ### Tier 4: Hybrid (Real API + Mock Fallback)
 
 | Dataset | Source | Status |
 |---|---|---|
-| `adzuna_vacancies.csv` | Adzuna API (via `ADZUNA_APP_ID` / `ADZUNA_APP_KEY` env vars) | Currently mock (credentials not set). Falls back to 3,000 seeded synthetic postings with realistic sector/region distributions. |
+| `adzuna_vacancies.csv` | Adzuna API (via `ADZUNA_APP_ID` / `ADZUNA_APP_KEY`) | Fetched live if API credentials are provided. Falls back to 3,000 seeded synthetic postings. |
 
 ### Benchmark KPI Targets
-
-Key metrics (e.g., -26.3% salary gap for Software Developers in London, 41.0% retirement risk for Battery Design Engineers) are hardcoded in verification scripts (`verify_db.py`, `tests/test_data_quality.py`) to enable deterministic assertion checks across DuckDB, SQLite, Oracle, and PowerBI environments. These reflect the synthetic data parameters, not real-world measured values.
+Key metrics (e.g., **-26.3%** London Software Developer salary gap, **41.0%** Battery Design Engineer retirement risk) are targeted in verification scripts (`verify_db.py`, `tests/test_data_quality.py`) to enable deterministic validation across DuckDB, SQLite, and PowerBI.
 
 ---
 
 ## Technical Stack & Architecture
 
 - **Language**: Python 3.10+ (Type annotated, PEP 8 structured, centralized logging)
-- **Data Ingestion**: Polars & HTTPX (for performant structured file operations and API calls)
-- **Text Mining**: Scikit-Learn TF-IDF vectorization (extracting skills requirements from unstructured job descriptions)
-- **Analytical Storage**: DuckDB (for locally staging data and generating complex reporting views)
-- **Enterprise DB Integration**: SQLite (for offline reporting) and Oracle DDL/DML compilation (for LiveSQL schema generation)
+- **Data Ingestion & ETL**: Pandas (for utility data handling) and DuckDB (as the high-performance local OLAP query engine to stage and run views)
+- **Taxonomy Mapping**: Scikit-Learn TF-IDF vectorization (relevance scoring of skills requirements in job descriptions)
+- **BI Storage**: SQLite (serving as the relational database layer for Power BI integration)
 - **Visualization**: Power BI Star Schema representation
+- **Database Migration Utilities**: Oracle DDL/DML setup generator (available for C-Suite LiveSQL review)
 
 ---
 
@@ -65,19 +64,19 @@ Key metrics (e.g., -26.3% salary gap for Software Developers in London, 41.0% re
 │       ├── workforce_intelligence.db      # Compiled DuckDB database
 │       └── workforce_intelligence.sqlite  # Compiled SQLite database
 ├── powerbi/                      # Completed Power BI (.pbix) dashboard and PDF report
-├── queries/                      # SQL query scripts (market demand, salary gaps, succession risk, skills mismatch)
+├── queries/                      # SQL query scripts (market demand, salary gaps, skills mismatch, detailed skills gap, succession risk)
 ├── reports/                      # Generated CSV reports, Oracle setup, Power BI guide, and Executive Briefing
 ├── scripts/                      # Modular Python processing components
 │   ├── config.py                 # Centralized configuration mappings and taxonomies
-│   ├── utils.py                  # Shared utilities (casing, TF-IDF skill parser, centralized logger)
+│   ├── utils.py                  # Shared utilities (casing, TF-IDF taxonomy keyword matcher, logging)
 │   ├── generate_synthetic_hr.py  # Produces synthetic corporate HR lists and JDs (fixed seed for reproducibility)
 │   ├── fetch_nomis.py            # Acquires ONS ASHE, vacancy, and labor supply datasets
 │   ├── fetch_adzuna.py           # Contacts Adzuna API (or falls back to seeded mock job postings generation)
-│   ├── process_data.py           # Loads staged files to DuckDB and compiles analytical views
-│   ├── generate_oracle_setup.py  # Generates Oracle LiveSQL setup DDL/DML script and downsamples vacancy data
+│   ├── process_data.py           # Ingests raw data to DuckDB, builds views, and exports Star Schema CSVs
+│   ├── generate_oracle_setup.py  # Standalone utility to compile Oracle LiveSQL setup DDL/DML scripts
 │   ├── generate_sqlite.py        # Compiles SQLite database tables from processed CSV outputs
 │   └── verify_db.py              # Executes diagnostic assertions against analytical views
-├── requirements.txt              # Standard package requirements (Polars, DuckDB, Pandas, Scikit-Learn, HTTPX, xlsxwriter)
+├── requirements.txt              # Standard package requirements (DuckDB, Pandas, Scikit-Learn, HTTPX, xlsxwriter)
 ├── run_pipeline.py               # Main pipeline orchestrator script
 └── workforce_intelligence.sqbpro # SQLite database project file
 ```

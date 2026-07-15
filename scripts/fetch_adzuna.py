@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import httpx
-import polars as pl
+import pandas as pd
 
 from config import REGIONS, SKILLS_BY_SOC
 from utils import setup_logging
@@ -192,8 +192,8 @@ def main() -> None:
         logger.info("Adzuna API credentials not found in environment (ADZUNA_APP_ID, ADZUNA_APP_KEY).")
         results = generate_mock_adzuna(count=3000, seed=42)
         
-    df = pl.DataFrame(results)
-    df.write_csv(ADZUNA_FILE)
+    df = pd.DataFrame(results)
+    df.to_csv(ADZUNA_FILE, index=False)
     logger.info(f"Successfully saved {len(results)} vacancy records to {ADZUNA_FILE}.")
     logger.info("=========================================")
     logger.info("ADZUNA DATA INGESTION COMPLETED")

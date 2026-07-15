@@ -4,10 +4,10 @@ for reporting and visualization in Power BI.
 """
 
 from pathlib import Path
-import polars as pl
+import pandas as pd
 import duckdb
 
-from config import SKILLS_VOCABULARY
+from config import SKILLS_VOCABULARY, ROLE_TEMPLATES, CORPORATE_ROLES
 from utils import setup_logging, extract_skills_from_jds
 
 # Configure logger
@@ -53,9 +53,9 @@ def load_data_to_duckdb(extracted_skills: list) -> None:
     con.execute(f"CREATE OR REPLACE TABLE stg_adzuna_vacancies AS SELECT * FROM read_csv_auto('{adzuna_csv.as_posix()}')")
     
     # Extracted JD skills (load from list of dicts)
-    extracted_df = pl.DataFrame(extracted_skills)
+    extracted_df = pd.DataFrame(extracted_skills)
     jd_skills_csv = RAW_DIR / "extracted_jd_skills.csv"
-    extracted_df.write_csv(jd_skills_csv)
+    extracted_df.to_csv(jd_skills_csv, index=False)
     con.execute(f"CREATE OR REPLACE TABLE stg_extracted_skills AS SELECT * FROM read_csv_auto('{jd_skills_csv.as_posix()}')")
     
     # 2. Build Analytical Views for Reporting
@@ -142,6 +142,52 @@ def load_data_to_duckdb(extracted_skills: list) -> None:
     con.close()
     logger.info("DuckDB database compilation complete.")
 
+def export_star_schema() -> None:
+    """Exports clean dimensional Star Schema CSV files for Power BI and SQLite ingestion."""
+    logger.info("Exporting Star Schema CSVs for Power BI...")
+    pbi_dir = PROCESSED_DIR / "powerbi"
+    pbi_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 1. Load raw dataframes
+    df_workforce = pd.read_csv(RAW_DIR / "internal_workforce.csv")
+    df_ashe = pd.read_csv(RAW_DIR / "ons_ashe_salaries.csv")
+    df_vacancies = pd.read_csv(RAW_DIR / "adzuna_vacancies.csv")
+    df_supply = pd.read_csv(RAW_DIR / "ons_labor_supply.csv")
+    df_skills = pd.read_csv(RAW_DIR / "extracted_jd_skills.csv")
+    
+    # 2. Build dim_soc_taxonomy
+    soc_records = []
+    for soc, template in ROLE_TEMPLATES.items():
+        cat = "Tech" if soc.startswith("213") or soc == "3131" else ("Green Energy" if soc.startswith("212") or soc in ["3112", "8124"] else "Healthcare")
+        soc_records.append({
+            "soc_code": str(soc),
+            "soc_title": template["title"],
+            "category": cat
+        })
+    for r in CORPORATE_ROLES:
+        soc_records.append({
+            "soc_code": str(r["soc"]),
+            "soc_title": r["title"],
+            "category": "Corporate"
+        })
+    df_soc = pd.DataFrame(soc_records)
+    
+    # 3. Build dim_regions
+    regions_list = ["London", "South East", "West Midlands", "North West", "Scotland", "Wales", "East of England", "South West", "United Kingdom"]
+    regions_records = [{"region": r, "country": "Scotland" if r == "Scotland" else ("Wales" if r == "Wales" else "England")} for r in regions_list]
+    df_regions = pd.DataFrame(regions_records)
+    
+    # 4. Save tables to powerbi directory
+    df_soc.to_csv(pbi_dir / "dim_soc_taxonomy.csv", index=False)
+    df_ashe.to_csv(pbi_dir / "dim_ashe_salary.csv", index=False)
+    df_supply.to_csv(pbi_dir / "dim_labor_supply.csv", index=False)
+    df_skills.to_csv(pbi_dir / "dim_extracted_skills.csv", index=False)
+    df_workforce.to_csv(pbi_dir / "fact_employees.csv", index=False)
+    df_vacancies.to_csv(pbi_dir / "fact_market_vacancies.csv", index=False)
+    df_regions.to_csv(pbi_dir / "dim_regions.csv", index=False)
+    
+    logger.info(f"Power BI Star Schema CSVs exported successfully to: {pbi_dir}")
+
 def main() -> None:
     logger.info("=========================================")
     logger.info("STARTING DATA PROCESSING & DUCKDB LOAD")
@@ -150,6 +196,9 @@ def main() -> None:
     jd_json_path = RAW_DIR / "internal_job_descriptions.json"
     extracted_skills = extract_skills_from_jds(jd_json_path, SKILLS_VOCABULARY)
     load_data_to_duckdb(extracted_skills)
+    
+    # Export Star Schema CSVs for SQLite/Power BI
+    export_star_schema()
     
     logger.info("=========================================")
     logger.info("DATA PROCESSING COMPLETED SUCCESSFULLY")
