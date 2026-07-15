@@ -27,10 +27,7 @@ VACANCY_FILE = RAW_DIR / "ons_vacancies.csv"
 SUPPLY_FILE = RAW_DIR / "ons_labor_supply.csv"
 
 def fetch_nomis_geography_data() -> None:
-    """
-    Queries Nomis API for regional earnings index as reference.
-    Saves index payload to raw folder for lineage tracking.
-    """
+    """Queries Nomis API for regional earnings index. Falls back to local index on failure."""
     logger.info("Initiating Nomis API queries...")
     try:
         # Querying NM_99_1 (ASHE Workplace) to get average regional weekly earnings
@@ -51,10 +48,7 @@ def fetch_nomis_geography_data() -> None:
         logger.warning(f"Nomis API connection note: Regional wage index fetch skipped/failed ({e}). Using local fallback index.")
 
 def generate_ashe_data() -> None:
-    """
-    Generates ONS ASHE aligned earnings benchmarks.
-    Values are calibrated to the ONS ASHE 2024/2025 release reports.
-    """
+    """Calibrated to ONS ASHE 2024/2025 public releases."""
     logger.info("Generating ONS-aligned ASHE earnings benchmarks...")
     
     # Base salaries for United Kingdom
@@ -122,10 +116,7 @@ def generate_ashe_data() -> None:
     logger.info(f"Successfully wrote ASHE benchmarks to {ASHE_FILE} ({len(records)} rows).")
 
 def generate_vacancy_data() -> None:
-    """
-    Generates ONS vacancy data aligned with ONS Labour Market releases.
-    Vacancies are broken down by 4-digit SOC and Region.
-    """
+    """Vacancy volumes by SOC and region, calibrated to ONS VACS02."""
     logger.info("Generating ONS-aligned vacancy benchmarks...")
     
     # Annual vacancy volumes by SOC (calibrated to ONS VACS02 and Adzuna indexes)
@@ -201,10 +192,7 @@ def generate_vacancy_data() -> None:
     logger.info(f"Successfully wrote vacancy data to {VACANCY_FILE} ({len(records)} rows).")
 
 def generate_labor_supply_data() -> None:
-    """
-    Generates Labour Force Survey aligned supply data by SOC 2020.
-    Includes active workforce, unemployment, retirement risks, and pipeline supply.
-    """
+    """Workforce supply, retirement risk, and graduate pipeline by SOC and region."""
     logger.info("Generating ONS-aligned labour supply benchmarks...")
     
     # Active employment by SOC (national)

@@ -49,10 +49,7 @@ def compile_oracle_script(
     df_supply: pd.DataFrame,
     df_skills: pd.DataFrame
 ) -> None:
-    """
-    Compiles schemas, constraints, DDL and DML insert queries into reports/oracle_schema_setup.sql.
-    Also downsamples vacancies to 600 records to align with LiveSQL limits.
-    """
+    # Downsampled to 600 records for Oracle LiveSQL 5MB limit
     logger.info(f"Compiling Oracle schema script to {OUTPUT_SQL_FILE}...")
     
     # Downsample vacancies (keep ONS macro trends, but downsample raw postings to 600)

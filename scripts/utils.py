@@ -11,9 +11,6 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 def setup_logging(logger_name: str = "workforce_planning") -> logging.Logger:
-    """
-    Configures and returns a consistent logger for the codebase.
-    """
     logger = logging.getLogger(logger_name)
     if not logger.handlers:
         logger.setLevel(logging.INFO)
@@ -29,9 +26,6 @@ def setup_logging(logger_name: str = "workforce_planning") -> logging.Logger:
 logger = setup_logging("utils")
 
 def clean_skill_casing(skill: str) -> str:
-    """
-    Cleans up the casing of the skill keyword using a predefined acronym and casing mapping.
-    """
     acronyms = {
         "uml": "UML", "html": "HTML", "css": "CSS", "ui": "UI", "ux": "UX", "aws": "AWS",
         "plc": "PLC", "matlab": "MATLAB", "aspen": "ASPEN", "fea": "FEA",

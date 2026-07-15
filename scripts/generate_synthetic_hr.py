@@ -24,9 +24,6 @@ WORKFORCE_FILE = RAW_DIR / "internal_workforce.csv"
 JDS_FILE = RAW_DIR / "internal_job_descriptions.json"
 
 def generate_workforce(count: int = 800) -> None:
-    """
-    Generates synthetic employee dataset.
-    """
     logger.info(f"Generating synthetic employee dataset ({count} records)...")
     random.seed(42)  # Ensure reproducibility of the organization roster
     
@@ -136,10 +133,6 @@ def generate_workforce(count: int = 800) -> None:
     logger.info(f"Successfully saved {len(records)} workforce records to {WORKFORCE_FILE}.")
 
 def generate_job_descriptions() -> None:
-    """
-    Generates text-heavy job descriptions in JSON to test 
-    keyword/skills extraction script (basic text analysis).
-    """
     logger.info("Generating organizational job descriptions...")
     
     jds: List[Dict[str, str]] = []

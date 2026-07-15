@@ -20,9 +20,7 @@ PBI_DIR = PROCESSED_DIR / "powerbi"
 DB_PATH = PROCESSED_DIR / "workforce_intelligence.sqlite"
 
 def compile_sqlite_db() -> None:
-    logger.info("=========================================")
     logger.info("STARTING LOCAL SQLITE DATABASE COMPILATION")
-    logger.info("=========================================")
     
     logger.info(f"Connecting to SQLite database at: {DB_PATH}")
     conn = sqlite3.connect(str(DB_PATH))

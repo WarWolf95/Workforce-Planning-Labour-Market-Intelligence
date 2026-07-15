@@ -20,7 +20,6 @@ REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 DOCX_FILE = REPORTS_DIR / "Workforce_Planning_Case_Study.docx"
 
 def set_cell_background(cell, fill_hex):
-    """Sets background color of a table cell."""
     tcPr = cell._tc.get_or_add_tcPr()
     shd = parse_xml(f'<w:shd {nsdecls("w")} w:fill="{fill_hex}"/>')
     tcPr.append(shd)

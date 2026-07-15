@@ -6,6 +6,19 @@ This project identifies skills gaps, succession/retirement risks, and internal-t
 
 ---
 
+## Data Provenance & Synthetic Data Notice
+
+⚠️ **Important:** This project uses a hybrid data strategy:
+
+- **Internal workforce & job descriptions**: Synthetically generated (seeded for reproducibility). Not real employee data.
+- **ONS ASHE earnings, vacancy volumes, labour supply**: **Calibrated to** published ONS/NOMIS public reports (2024/2025 releases) but generated locally — not live API pulls. The NOMIS API call in `fetch_nomis.py` is a reference implementation that falls back to calibrated values when offline.
+- **Adzuna job postings**: Generated mock data calibrated to real UK market distributions by sector and region. Supports real Adzuna API via `ADZUNA_APP_ID` / `ADZUNA_APP_KEY` environment variables.
+- **Benchmark values** (e.g., -26.3% salary gap, 41.0% retirement risk) are hardcoded targets to enable deterministic KPI verification across DuckDB, SQLite, Oracle, and PowerBI.
+
+All synthetic data is explicitly flagged in source code. No PII is used or generated.
+
+---
+
 ## Technical Stack & Architecture
 
 - **Language**: Python 3.10+ (Type annotated, PEP 8 structured, centralized logging)
