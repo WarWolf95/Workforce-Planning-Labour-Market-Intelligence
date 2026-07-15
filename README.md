@@ -6,16 +6,41 @@ This project identifies skills gaps, succession/retirement risks, and internal-t
 
 ---
 
-## Data Provenance & Synthetic Data Notice
+## Data Provenance & Accuracy
 
-⚠️ **Important:** This project uses a hybrid data strategy:
+⚠️ **This project uses a 4-tier hybrid data strategy.** Every dataset is explicitly classified below. No PII is used or generated.
 
-- **Internal workforce & job descriptions**: Synthetically generated (seeded for reproducibility). Not real employee data.
-- **ONS ASHE earnings, vacancy volumes, labour supply**: **Calibrated to** published ONS/NOMIS public reports (2024/2025 releases) but generated locally — not live API pulls. The NOMIS API call in `fetch_nomis.py` is a reference implementation that falls back to calibrated values when offline.
-- **Adzuna job postings**: Generated mock data calibrated to real UK market distributions by sector and region. Supports real Adzuna API via `ADZUNA_APP_ID` / `ADZUNA_APP_KEY` environment variables.
-- **Benchmark values** (e.g., -26.3% salary gap, 41.0% retirement risk) are hardcoded targets to enable deterministic KPI verification across DuckDB, SQLite, Oracle, and PowerBI.
+### Tier 1: Fully Synthetic
 
-All synthetic data is explicitly flagged in source code. No PII is used or generated.
+| Dataset | Source | Notes |
+|---|---|---|
+| `internal_workforce.csv` | `generate_synthetic_hr.py` (seed=42) | 800 HR roster records — ages, salaries, skills, succession flags |
+| `internal_job_descriptions.json` | `generate_synthetic_hr.py` | Template-generated role descriptions for TF-IDF extraction |
+| `extracted_jd_skills.csv` | TF-IDF parse of synthetic JDs | Keyword taxonomy mapping, not robust NLP |
+
+### Tier 2: Calibrated / Statistically Modelled
+
+| Dataset | Calibrated To | Accuracy Caveat |
+|---|---|---|
+| `ons_ashe_salaries.csv` | ONS ASHE 2024/2025 published medians by SOC + regional multipliers | Point estimates only. Not statistically validated against full ASHE microdata. RMSE against true distribution not measured. |
+| `ons_vacancies.csv` | ONS VACS02 vacancy volumes by SOC and region | Growth trends applied at category level (Tech, Green Energy, Healthcare). Regional breakdown uses fixed weights, not modelled distributions. |
+| `ons_labor_supply.csv` | ONS Labour Force Survey employment + graduate pipeline data | Retirement risk rates and graduate supply are approximate. Microdata-level variance not captured. |
+
+### Tier 3: Real (Live API)
+
+| Dataset | Source | Status |
+|---|---|---|
+| `nomis_region_wage_index.json` | Nomis API (NM_99_1) | Fetched live at runtime. Falls back to cached values if API unavailable. |
+
+### Tier 4: Hybrid (Real API + Mock Fallback)
+
+| Dataset | Source | Status |
+|---|---|---|
+| `adzuna_vacancies.csv` | Adzuna API (via `ADZUNA_APP_ID` / `ADZUNA_APP_KEY` env vars) | Currently mock (credentials not set). Falls back to 3,000 seeded synthetic postings with realistic sector/region distributions. |
+
+### Benchmark KPI Targets
+
+Key metrics (e.g., -26.3% salary gap for Software Developers in London, 41.0% retirement risk for Battery Design Engineers) are hardcoded in verification scripts (`verify_db.py`, `tests/test_data_quality.py`) to enable deterministic assertion checks across DuckDB, SQLite, Oracle, and PowerBI environments. These reflect the synthetic data parameters, not real-world measured values.
 
 ---
 
