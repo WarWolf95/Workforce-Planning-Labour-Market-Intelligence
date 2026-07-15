@@ -1,0 +1,21 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python execution caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases (binary files)
+data/processed/workforce_intelligence.db
+data/processed/workforce_intelligence.sqlite
+
+# System and IDE configuration files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,801 @@
+employee_id,name,age,department,job_title,salary,region,soc_code,skills,tenure_years,performance_rating,retirement_risk,succession_readiness
+EMP-0001,Thomas Brown,33,Digital Services,Web Designer,30310,West Midlands,2137,WordPress;HTML;UI/UX;CSS,2.0,3,Low,Not Applicable
+EMP-0002,Muhammad Martin,36,Digital Services,Software Developer,41854,West Midlands,2136,Git;Python;JavaScript,5.7,3,Low,Not Applicable
+EMP-0003,Leo Robinson,38,Digital Services,Web Designer,32766,South East,2137,WordPress;UI/UX,4.2,2,Low,Not Applicable
+EMP-0004,Clara Walker,37,Digital Services,Web Designer,33156,West Midlands,2137,CSS;UI/UX;HTML;WordPress,6.6,3,Low,Not Applicable
+EMP-0005,James Wright,46,Corporate Services,HR Advisor,34205,Scotland,3562,Employee Relations;Recruitment;Employment Law,6.6,3,Low,Not Applicable
+EMP-0006,Ava Wood,42,Clinical Operations,Staff Nurse,42675,South East,2231,Medication Administration;NMC Pin;CPR;Patient Assessment,5.7,3,Low,Not Applicable
+EMP-0007,Amelia Thompson,54,Green Energy Projects,Civil Engineer,57085,South East,2121,Project Management;Structural Analysis;AutoCAD,13.1,3,Medium,Ready Now
+EMP-0008,Sarah Wood,67,Green Energy Projects,Turbine Maintenance Technician,36962,Wales,3112,Electrical Testing;Maintenance,13.5,2,High,No Successor
+EMP-0009,Amelia Brown,34,Digital Services,Software Developer,44462,South East,2136,Git;JavaScript;Python;SQL,1.9,3,Low,Not Applicable
+EMP-0010,Freya Robinson,29,Clinical Operations,Pharmacist,44732,South East,2237,Patient Counselling;Medicines Management;Clinical Pharmacy,1.5,4,Low,Not Applicable
+EMP-0011,Sophia Hall,45,Clinical Operations,Staff Nurse,42394,South West,2231,NMC Pin;Medication Administration;Patient Assessment;CPR,10.4,4,Low,Not Applicable
+EMP-0012,William Wright,35,Digital Services,Software Developer,41011,South West,2136,Python;Git;JavaScript,6.2,2,Low,Not Applicable
+EMP-0013,Lily Wood,38,Digital Services,IT Support Analyst,28573,North West,3131,Office 365;Networking,3.3,5,Low,Not Applicable
+EMP-0014,Thomas Evans,42,Green Energy Projects,Battery Design Engineer,47124,South East,2126,Prototyping;Product Design,5.7,3,Low,Not Applicable
+EMP-0015,Oliver Taylor,42,Clinical Operations,Clinical Practitioner,106317,London,2211,Clinical Diagnostics;Prescribing;Patient Care,8.6,3,Low,Not Applicable
+EMP-0016,Lily White,48,Digital Services,IT Business Analyst,55114,South East,2135,Business Analysis;Requirements Gathering,8.9,3,Low,Not Applicable
+EMP-0017,Leo Brown,29,Digital Services,Software Developer,40989,North West,2136,JavaScript;Git,1.7,2,Low,Not Applicable
+EMP-0018,Thomas Wood,38,Clinical Operations,Clinical Practitioner,88873,Scotland,2211,Patient Care;Clinical Diagnostics;Prescribing,7.6,4,Low,Not Applicable
+EMP-0019,Ava Walker,31,Digital Services,Data Engineer,43100,South East,2139,AWS;SQL;Data Pipelines;Python,3.1,3,Low,Not Applicable
+EMP-0020,Amelia Harris,57,Clinical Operations,Clinical Practitioner,115280,London,2211,Clinical Diagnostics;Prescribing,12.7,4,Medium,Ready Now
+EMP-0021,Ivy Taylor,31,Clinical Operations,Staff Nurse,35973,North West,2231,CPR;NMC Pin,3.5,3,Low,Not Applicable
+EMP-0022,Muhammad Thompson,53,Corporate Services,HR Advisor,38925,South East,3562,Employment Law;Recruitment,10.5,3,Medium,Ready Now
+EMP-0023,Oliver Roberts,52,Clinical Operations,Healthcare Assistant,26426,South East,6141,Personal Care;Patient Mobility,5.6,3,Medium,Ready 1-2 Years
+EMP-0024,Robert Wood,48,Clinical Operations,Healthcare Assistant,25976,Scotland,6141,Vital Signs;Personal Care;Patient Mobility,11.9,3,Low,Not Applicable
+EMP-0025,William Brown,47,Clinical Operations,Staff Nurse,43674,South East,2231,CPR;Medication Administration;Patient Assessment,9.1,2,Low,Not Applicable
+EMP-0026,Mia Robinson,42,Digital Services,Web Designer,32214,West Midlands,2137,WordPress;UI/UX;CSS;HTML,8.0,2,Low,Not Applicable
+EMP-0027,William Williams,41,Green Energy Projects,Energy Plant Operator,40081,London,8124,SCADA;Plant Operations,5.3,3,Low,Not Applicable
+EMP-0028,Florence Brown,57,Green Energy Projects,Battery Design Engineer,55089,South East,2126,Product Design;Prototyping,14.2,5,Medium,Ready Now
+EMP-0029,William White,34,Digital Services,Web Designer,30799,West Midlands,2137,HTML;CSS,4.8,4,Low,Not Applicable
+EMP-0030,Rachel Green,25,Digital Services,Data Engineer,38986,Scotland,2139,SQL;Data Pipelines,1.4,3,Low,Not Applicable
+EMP-0031,Leo Robinson,32,Clinical Operations,Pharmacist,43037,Scotland,2237,Medicines Management;Clinical Pharmacy,4.3,3,Low,Not Applicable
+EMP-0032,Jack Jones,39,Digital Services,Data Engineer,39274,Scotland,2139,SQL;Python;AWS;Data Pipelines,4.3,1,Low,Not Applicable
+EMP-0033,Mia Smith,35,Green Energy Projects,Energy Plant Operator,34250,West Midlands,8124,Health & Safety;SCADA,5.5,3,Low,Not Applicable
+EMP-0034,Florence Brown,36,Clinical Operations,Pharmacist,43141,West Midlands,2237,Patient Counselling;Medicines Management;Clinical Pharmacy,4.5,3,Low,Not Applicable
+EMP-0035,Oscar Wilson,24,Clinical Operations,Pharmacist,45655,South East,2237,Clinical Pharmacy;Patient Counselling;Medicines Management,1.1,3,Low,Not Applicable
+EMP-0036,Muhammad Green,58,Clinical Operations,Staff Nurse,45394,South East,2231,NMC Pin;Patient Assessment;CPR;Medication Administration,11.9,3,High,No Successor
+EMP-0037,Noah Williams,42,Digital Services,Software Developer,44747,North West,2136,SQL;Git;JavaScript;Python,7.9,3,Low,Not Applicable
+EMP-0038,Harry Smith,38,Clinical Operations,Clinical Practitioner,98999,South East,2211,Clinical Diagnostics;Prescribing;Patient Care,6.7,3,Low,Not Applicable
+EMP-0039,Helen Roberts,30,Clinical Operations,Healthcare Assistant,23853,West Midlands,6141,Vital Signs;Patient Mobility;Personal Care,4.4,3,Low,Not Applicable
+EMP-0040,Lily Roberts,36,Green Energy Projects,Mechanical Engineer,50326,South East,2122,Mechanical Design;CAD;Thermodynamics,6.3,3,Low,Not Applicable
+EMP-0041,David Wright,29,Digital Services,Web Designer,32669,South East,2137,CSS;HTML;WordPress;UI/UX,1.6,3,Low,Not Applicable
+EMP-0042,Arthur White,40,Digital Services,Data Engineer,41171,Scotland,2139,AWS;Python,4.8,1,Low,Not Applicable
+EMP-0043,Grace Wright,24,Clinical Operations,Medical Imaging Technician,30858,Wales,3211,MRI;X-Ray;Medical Imaging,2.0,3,Low,Not Applicable
+EMP-0044,Florence Walker,36,Clinical Operations,Medical Imaging Technician,33136,South West,3211,X-Ray;Medical Imaging;MRI,6.8,3,Low,Not Applicable
+EMP-0045,Harry Roberts,29,Digital Services,Web Designer,29996,Scotland,2137,UI/UX;HTML;CSS,2.2,1,Low,Not Applicable
+EMP-0046,Freya Jones,44,Corporate Services,Finance Analyst,54362,London,2424,Financial Modelling;Budgeting,4.3,3,Low,Not Applicable
+EMP-0047,Oliver Martin,29,Digital Services,Software Developer,40448,North West,2136,SQL;Git;Python,4.2,4,Low,Not Applicable
+EMP-0048,Ava Wright,33,Digital Services,IT Business Analyst,51234,North West,2135,Jira;UML;Business Analysis;Agile;Requirements Gathering,5.7,3,Low,Not Applicable
+EMP-0049,Sophia Martin,50,Clinical Operations,Healthcare Assistant,26154,South East,6141,Personal Care;Patient Mobility;Vital Signs,7.3,2,Medium,Ready 1-2 Years
+EMP-0050,Thomas Roberts,30,Clinical Operations,Medical Imaging Technician,31168,North West,3211,MRI;X-Ray;Medical Imaging,1.8,3,Low,Not Applicable
+EMP-0051,Emily Taylor,49,Green Energy Projects,Chemical Engineer,58333,South East,2125,Chemical Process;ASPEN;Mass Balance,8.8,3,Low,Not Applicable
+EMP-0052,Jack Thompson,59,Green Energy Projects,Battery Design Engineer,51452,South East,2126,Product Design;Prototyping,12.7,3,High,No Successor
+EMP-0053,James Davies,38,Clinical Operations,Medical Imaging Technician,33263,South East,3211,MRI;X-Ray;Medical Imaging,3.8,5,Low,Not Applicable
+EMP-0054,Freya Thompson,49,Green Energy Projects,Chemical Engineer,56286,South East,2125,ASPEN;Chemical Process,5.6,3,Low,Not Applicable
+EMP-0055,James Wilson,31,Digital Services,Data Engineer,40992,North West,2139,Data Pipelines;SQL,4.3,3,Low,Not Applicable
+EMP-0056,Sophia Smith,60,Clinical Operations,Staff Nurse,39753,South West,2231,Medication Administration;NMC Pin;CPR;Patient Assessment,7.7,4,High,No Successor
+EMP-0057,Henry Wright,36,Green Energy Projects,Chemical Engineer,50761,Scotland,2125,ASPEN;Mass Balance,3.2,2,Low,Not Applicable
+EMP-0058,Thomas Jones,48,Digital Services,IT Support Analyst,36042,London,3131,Active Directory;Office 365;Troubleshooting;Networking,11.5,3,Low,Not Applicable
+EMP-0059,Arthur Wright,35,Clinical Operations,Medical Imaging Technician,33298,West Midlands,3211,X-Ray;Medical Imaging,4.8,3,Low,Not Applicable
+EMP-0060,George Wilson,42,Digital Services,IT Support Analyst,32607,London,3131,Active Directory;Networking;Troubleshooting;Office 365,2.9,3,Low,Not Applicable
+EMP-0061,Sophia Roberts,43,Digital Services,Software Developer,44491,West Midlands,2136,Python;Git;JavaScript,7.2,3,Low,Not Applicable
+EMP-0062,Clara Robinson,31,Clinical Operations,Clinical Practitioner,84448,Scotland,2211,Patient Care;Clinical Diagnostics;Prescribing,1.5,3,Low,Not Applicable
+EMP-0063,David Walker,29,Corporate Services,Operations Administrator,25577,Wales,4159,Administration;Customer Service;Scheduling,3.1,5,Low,Not Applicable
+EMP-0064,Robert Harris,46,Green Energy Projects,Civil Engineer,50424,West Midlands,2121,AutoCAD;Structural Analysis,11.2,3,Low,Not Applicable
+EMP-0065,Arthur Robinson,21,Digital Services,IT Support Analyst,27016,North West,3131,Troubleshooting;Active Directory;Networking,1.2,3,Low,Not Applicable
+EMP-0066,Lily Wright,47,Clinical Operations,Medical Imaging Technician,34361,North West,3211,MRI;X-Ray;Medical Imaging,10.0,5,Low,Not Applicable
+EMP-0067,Oscar Hall,33,Clinical Operations,Clinical Practitioner,99973,London,2211,Prescribing;Patient Care;Clinical Diagnostics,3.4,3,Low,Not Applicable
+EMP-0068,Freya Williams,29,Corporate Services,Finance Analyst,42824,North West,2424,Budgeting;Financial Modelling,4.0,3,Low,Not Applicable
+EMP-0069,Oliver Wood,67,Green Energy Projects,Mechanical Engineer,59450,London,2122,Mechanical Design;Thermodynamics;CAD,11.7,3,High,No Successor
+EMP-0070,Lily Davies,48,Green Energy Projects,Mechanical Engineer,46106,South West,2122,CAD;Thermodynamics,6.5,4,Low,Not Applicable
+EMP-0071,Rachel White,32,Green Energy Projects,Energy Plant Operator,35856,South East,8124,Plant Operations;SCADA;Health & Safety,2.6,3,Low,Not Applicable
+EMP-0072,Freya Wood,48,Green Energy Projects,Electrical Grid Engineer,51176,South West,2123,Power Systems;Grid Connections;HV Electrical,10.8,3,Low,Not Applicable
+EMP-0073,Lily Walker,52,Green Energy Projects,Turbine Maintenance Technician,32315,South West,3112,Electrical Testing;Maintenance;Instrumentation,5.0,3,Medium,Ready 1-2 Years
+EMP-0074,Oliver Williams,36,Green Energy Projects,Turbine Maintenance Technician,41086,London,3112,Maintenance;Instrumentation;Electrical Testing,7.0,4,Low,Not Applicable
+EMP-0075,Rachel Wood,35,Green Energy Projects,Electrical Grid Engineer,48265,North West,2123,HV Electrical;Grid Connections,4.2,5,Low,Not Applicable
+EMP-0076,Sarah Taylor,35,Green Energy Projects,Civil Engineer,46153,West Midlands,2121,Project Management;Structural Analysis,5.6,4,Low,Not Applicable
+EMP-0077,Amelia Thompson,33,Clinical Operations,Pharmacist,46287,South East,2237,Medicines Management;Patient Counselling,2.6,2,Low,Not Applicable
+EMP-0078,Rachel Walker,56,Clinical Operations,Staff Nurse,39673,North West,2231,NMC Pin;Medication Administration;CPR;Patient Assessment,9.5,4,Medium,Ready 1-2 Years
+EMP-0079,William Wright,67,Clinical Operations,Staff Nurse,50898,South East,2231,NMC Pin;Medication Administration;CPR;Patient Assessment,19.4,5,High,No Successor
+EMP-0080,Rachel Green,40,Digital Services,Data Engineer,42013,North West,2139,SQL;Data Pipelines;Python,6.0,3,Low,Not Applicable
+EMP-0081,Henry Jones,18,Corporate Services,Operations Administrator,24377,Scotland,4159,Administration;Customer Service;Scheduling,0.5,3,Low,Not Applicable
+EMP-0082,Sarah Williams,40,Clinical Operations,Clinical Practitioner,93949,South East,2211,Clinical Diagnostics;Patient Care,4.2,3,Low,Not Applicable
+EMP-0083,Mia Wilson,37,Digital Services,IT Support Analyst,29882,South East,3131,Office 365;Active Directory;Networking,4.8,4,Low,Not Applicable
+EMP-0084,Arthur Taylor,28,Digital Services,Software Developer,42474,West Midlands,2136,Git;Python;SQL;JavaScript,3.6,3,Low,Not Applicable
+EMP-0085,Isla Roberts,43,Green Energy Projects,Turbine Maintenance Technician,33933,South West,3112,Maintenance;Electrical Testing,8.7,3,Low,Not Applicable
+EMP-0086,Freya Thompson,28,Corporate Services,HR Advisor,33283,West Midlands,3562,Employment Law;Recruitment;Employee Relations,2.9,2,Low,Not Applicable
+EMP-0087,Amelia Wright,57,Corporate Services,HR Advisor,35098,North West,3562,Employment Law;Employee Relations;Recruitment,5.5,3,Medium,Ready 1-2 Years
+EMP-0088,Ivy White,51,Corporate Services,Finance Analyst,47196,South East,2424,Excel;Financial Modelling,3.6,5,Medium,Ready 1-2 Years
+EMP-0089,Freya Evans,34,Digital Services,Web Designer,32243,North West,2137,HTML;WordPress;CSS;UI/UX,5.7,5,Low,Not Applicable
+EMP-0090,Helen Harris,36,Digital Services,IT Support Analyst,30774,South East,3131,Networking;Office 365;Troubleshooting,2.9,3,Low,Not Applicable
+EMP-0091,Harry Williams,55,Green Energy Projects,Energy Plant Operator,40711,London,8124,Health & Safety;SCADA,4.0,1,Medium,Ready 1-2 Years
+EMP-0092,Amelia Williams,60,Clinical Operations,Healthcare Assistant,27857,London,6141,Vital Signs;Personal Care;Patient Mobility,5.6,3,High,Ready 1-2 Years
+EMP-0093,Sarah Hall,52,Green Energy Projects,Turbine Maintenance Technician,37890,South East,3112,Instrumentation;Maintenance;Electrical Testing,8.3,4,Medium,Ready 1-2 Years
+EMP-0094,Ivy Williams,32,Digital Services,Web Designer,31608,North West,2137,UI/UX;CSS;WordPress,4.0,2,Low,Not Applicable
+EMP-0095,David Brown,47,Clinical Operations,Healthcare Assistant,25630,South East,6141,Patient Mobility;Vital Signs;Personal Care,6.8,3,Low,Not Applicable
+EMP-0096,Leo Robinson,42,Green Energy Projects,Mechanical Engineer,45057,North West,2122,CAD;Thermodynamics,7.3,2,Low,Not Applicable
+EMP-0097,Sarah Evans,67,Clinical Operations,Healthcare Assistant,26157,West Midlands,6141,Vital Signs;Personal Care;Patient Mobility,13.2,3,High,No Successor
+EMP-0098,Henry Hall,39,Digital Services,Data Engineer,47066,London,2139,SQL;Python;AWS,3.5,4,Low,Not Applicable
+EMP-0099,Rachel Wood,29,Corporate Services,Operations Administrator,25065,South West,4159,Administration;Customer Service;Scheduling,1.2,3,Low,Not Applicable
+EMP-0100,Sophia Thompson,40,Green Energy Projects,Mechanical Engineer,46585,North West,2122,Mechanical Design;CAD,7.9,2,Low,Not Applicable
+EMP-0101,Muhammad Johnson,44,Green Energy Projects,Chemical Engineer,56431,Scotland,2125,Chemical Process;Mass Balance,8.2,3,Low,Not Applicable
+EMP-0102,Ivy Jones,48,Clinical Operations,Pharmacist,48937,South East,2237,Clinical Pharmacy;Medicines Management;Patient Counselling,7.0,3,Low,Not Applicable
+EMP-0103,Isla Wright,35,Clinical Operations,Healthcare Assistant,24426,South East,6141,Personal Care;Patient Mobility,1.9,4,Low,Not Applicable
+EMP-0104,James Williams,41,Clinical Operations,Pharmacist,52427,London,2237,Medicines Management;Clinical Pharmacy,4.6,3,Low,Not Applicable
+EMP-0105,Emily Hall,50,Green Energy Projects,Turbine Maintenance Technician,40994,London,3112,Maintenance;Instrumentation,11.5,3,Medium,No Successor
+EMP-0106,Thomas White,45,Green Energy Projects,Chemical Engineer,57226,South East,2125,Mass Balance;ASPEN;Chemical Process,2.9,3,Low,Not Applicable
+EMP-0107,Isla Davies,40,Green Energy Projects,Chemical Engineer,56163,South East,2125,Chemical Process;Mass Balance,4.2,3,Low,Not Applicable
+EMP-0108,Noah Evans,47,Green Energy Projects,Energy Plant Operator,40977,London,8124,Plant Operations;Health & Safety;SCADA,8.5,4,Low,Not Applicable
+EMP-0109,Thomas Taylor,24,Digital Services,Data Engineer,39133,West Midlands,2139,Data Pipelines;AWS;Python;SQL,1.6,3,Low,Not Applicable
+EMP-0110,Lily Roberts,42,Clinical Operations,Pharmacist,46677,South East,2237,Clinical Pharmacy;Medicines Management;Patient Counselling,6.7,3,Low,Not Applicable
+EMP-0111,Sophia Taylor,31,Clinical Operations,Clinical Practitioner,87781,North West,2211,Patient Care;Clinical Diagnostics,3.1,3,Low,Not Applicable
+EMP-0112,Lily Hall,27,Digital Services,IT Business Analyst,48419,Scotland,2135,Requirements Gathering;UML,2.1,1,Low,Not Applicable
+EMP-0113,David Roberts,34,Corporate Services,Operations Administrator,26817,South East,4159,Customer Service;Administration;Scheduling,3.4,2,Low,Not Applicable
+EMP-0114,Isla Wood,39,Clinical Operations,Pharmacist,44865,Scotland,2237,Clinical Pharmacy;Medicines Management,3.7,3,Low,Not Applicable
+EMP-0115,Harry Evans,46,Green Energy Projects,Turbine Maintenance Technician,34085,South West,3112,Instrumentation;Maintenance;Electrical Testing,7.8,3,Low,Not Applicable
+EMP-0116,Robert Hall,26,Digital Services,Data Engineer,44136,London,2139,Data Pipelines;Python,2.0,3,Low,Not Applicable
+EMP-0117,Harry Williams,24,Digital Services,IT Business Analyst,47618,North West,2135,Requirements Gathering;Jira;Business Analysis,1.9,3,Low,Not Applicable
+EMP-0118,Robert Martin,48,Clinical Operations,Staff Nurse,47058,London,2231,Medication Administration;CPR;NMC Pin;Patient Assessment,9.5,3,Low,Not Applicable
+EMP-0119,Emily Wright,45,Corporate Services,Finance Analyst,46923,North West,2424,Excel;Budgeting;Financial Modelling,8.2,4,Low,Not Applicable
+EMP-0120,Helen Martin,30,Digital Services,Web Designer,29628,North West,2137,HTML;CSS,1.4,2,Low,Not Applicable
+EMP-0121,Ava Robinson,54,Green Energy Projects,Battery Design Engineer,54081,South East,2126,Product Design;SolidWorks;Prototyping,13.8,3,Medium,Ready 1-2 Years
+EMP-0122,Emily Walker,48,Corporate Services,Finance Analyst,46804,South East,2424,Financial Modelling;Budgeting;Excel,5.0,3,Low,Not Applicable
+EMP-0123,Robert Green,49,Clinical Operations,Staff Nurse,38624,Wales,2231,Medication Administration;NMC Pin,8.8,4,Low,Not Applicable
+EMP-0124,Ivy Hall,38,Green Energy Projects,Energy Plant Operator,34865,South East,8124,Health & Safety;SCADA;Plant Operations,3.7,2,Low,Not Applicable
+EMP-0125,William Green,41,Green Energy Projects,Civil Engineer,50199,South East,2121,AutoCAD;Structural Analysis;Project Management,7.3,3,Low,Not Applicable
+EMP-0126,George Hall,30,Corporate Services,HR Advisor,34977,North West,3562,Recruitment;Employment Law,4.6,1,Low,Not Applicable
+EMP-0127,Oscar Evans,46,Green Energy Projects,Civil Engineer,45654,West Midlands,2121,AutoCAD;Project Management;Structural Analysis,4.8,3,Low,Not Applicable
+EMP-0128,Robert Wilson,42,Clinical Operations,Medical Imaging Technician,33390,North West,3211,Medical Imaging;MRI,9.5,1,Low,Not Applicable
+EMP-0129,Noah Jones,36,Clinical Operations,Clinical Practitioner,86700,Scotland,2211,Prescribing;Clinical Diagnostics,4.0,3,Low,Not Applicable
+EMP-0130,Rachel Jones,47,Clinical Operations,Pharmacist,44018,Scotland,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,5.3,3,Low,Not Applicable
+EMP-0131,Ava Green,50,Clinical Operations,Pharmacist,46078,West Midlands,2237,Patient Counselling;Clinical Pharmacy,10.9,3,Medium,Ready Now
+EMP-0132,Leo Wright,44,Green Energy Projects,Battery Design Engineer,55077,London,2126,Product Design;SolidWorks;Prototyping,8.2,3,Low,Not Applicable
+EMP-0133,Helen Jones,24,Digital Services,Data Engineer,36996,South West,2139,AWS;SQL;Data Pipelines;Python,1.8,3,Low,Not Applicable
+EMP-0134,Thomas Evans,61,Green Energy Projects,Battery Design Engineer,52527,London,2126,SolidWorks;Prototyping;Product Design,4.7,3,High,No Successor
+EMP-0135,Oscar Thompson,50,Clinical Operations,Staff Nurse,39409,North West,2231,NMC Pin;Medication Administration,5.0,3,Medium,Ready Now
+EMP-0136,Ivy Wright,39,Clinical Operations,Medical Imaging Technician,35724,London,3211,X-Ray;MRI,3.4,5,Low,Not Applicable
+EMP-0137,Helen Thompson,32,Clinical Operations,Clinical Practitioner,101759,London,2211,Patient Care;Clinical Diagnostics,2.7,2,Low,Not Applicable
+EMP-0138,Noah Williams,31,Digital Services,Data Engineer,37464,North West,2139,Python;Data Pipelines;SQL;AWS,1.4,3,Low,Not Applicable
+EMP-0139,David Green,39,Green Energy Projects,Energy Plant Operator,34544,South East,8124,Health & Safety;SCADA;Plant Operations,2.9,4,Low,Not Applicable
+EMP-0140,James Wood,55,Clinical Operations,Staff Nurse,49273,London,2231,Patient Assessment;NMC Pin,12.2,3,Medium,Ready Now
+EMP-0141,Ava Thompson,26,Corporate Services,HR Advisor,32712,Scotland,3562,Employee Relations;Recruitment;Employment Law,2.9,3,Low,Not Applicable
+EMP-0142,Ava Harris,59,Corporate Services,HR Advisor,36086,West Midlands,3562,Employment Law;Employee Relations;Recruitment,6.2,2,High,Ready 3+ Years
+EMP-0143,Thomas Johnson,38,Clinical Operations,Medical Imaging Technician,33649,North West,3211,MRI;Medical Imaging;X-Ray,7.3,3,Low,Not Applicable
+EMP-0144,George Jones,31,Digital Services,Data Engineer,41994,South East,2139,Data Pipelines;AWS;Python,3.2,5,Low,Not Applicable
+EMP-0145,Harry Evans,44,Green Energy Projects,Civil Engineer,48819,South East,2121,Structural Analysis;Project Management;AutoCAD,4.7,5,Low,Not Applicable
+EMP-0146,William Wilson,58,Clinical Operations,Healthcare Assistant,29884,London,6141,Patient Mobility;Vital Signs;Personal Care,12.7,1,High,Ready 3+ Years
+EMP-0147,Emily Johnson,58,Green Energy Projects,Civil Engineer,53488,West Midlands,2121,AutoCAD;Structural Analysis,14.6,2,High,No Successor
+EMP-0148,Grace Walker,52,Green Energy Projects,Chemical Engineer,52321,North West,2125,Chemical Process;ASPEN;Mass Balance,3.9,4,Medium,Ready 1-2 Years
+EMP-0149,Robert Martin,43,Clinical Operations,Clinical Practitioner,88892,South West,2211,Clinical Diagnostics;Prescribing;Patient Care,5.3,3,Low,Not Applicable
+EMP-0150,Amelia Jones,35,Digital Services,Web Designer,30977,North West,2137,CSS;WordPress;UI/UX;HTML,5.8,3,Low,Not Applicable
+EMP-0151,Ivy Wright,54,Green Energy Projects,Battery Design Engineer,53935,South East,2126,SolidWorks;Product Design;Prototyping,11.3,3,Medium,No Successor
+EMP-0152,Rachel Smith,39,Green Energy Projects,Electrical Grid Engineer,51630,Scotland,2123,HV Electrical;Power Systems,8.2,3,Low,Not Applicable
+EMP-0153,Ava Hall,50,Clinical Operations,Healthcare Assistant,27644,South East,6141,Personal Care;Vital Signs,11.1,3,Medium,Ready 1-2 Years
+EMP-0154,Harry White,30,Clinical Operations,Medical Imaging Technician,31266,West Midlands,3211,X-Ray;Medical Imaging,3.0,3,Low,Not Applicable
+EMP-0155,Freya Thompson,31,Corporate Services,Finance Analyst,42697,Wales,2424,Budgeting;Excel;Financial Modelling,2.0,3,Low,Not Applicable
+EMP-0156,Emily Robinson,47,Green Energy Projects,Mechanical Engineer,50035,South West,2122,Mechanical Design;Thermodynamics,11.1,3,Low,Not Applicable
+EMP-0157,Grace Wood,39,Corporate Services,Operations Administrator,29253,South East,4159,Administration;Scheduling;Customer Service,6.4,3,Low,Not Applicable
+EMP-0158,David Taylor,53,Green Energy Projects,Chemical Engineer,56454,West Midlands,2125,Mass Balance;ASPEN;Chemical Process,10.4,2,Medium,No Successor
+EMP-0159,Henry Davies,33,Digital Services,IT Support Analyst,29438,South East,3131,Networking;Troubleshooting;Office 365;Active Directory,2.0,3,Low,Not Applicable
+EMP-0160,William Green,55,Green Energy Projects,Mechanical Engineer,52233,South East,2122,CAD;Mechanical Design,12.1,3,Medium,No Successor
+EMP-0161,Rachel Jones,23,Corporate Services,HR Advisor,39644,London,3562,Employee Relations;Recruitment;Employment Law,1.9,1,Low,Not Applicable
+EMP-0162,Henry Martin,39,Digital Services,Web Designer,31144,South West,2137,CSS;UI/UX;WordPress,3.9,3,Low,Not Applicable
+EMP-0163,Helen Brown,42,Green Energy Projects,Turbine Maintenance Technician,33468,West Midlands,3112,Electrical Testing;Maintenance,3.7,4,Low,Not Applicable
+EMP-0164,Muhammad Thompson,34,Digital Services,IT Business Analyst,54862,London,2135,Business Analysis;Agile;UML,2.5,3,Low,Not Applicable
+EMP-0165,James Robinson,28,Corporate Services,Finance Analyst,45221,South East,2424,Excel;Budgeting,1.8,3,Low,Not Applicable
+EMP-0166,Florence Hall,33,Corporate Services,Operations Administrator,26075,West Midlands,4159,Scheduling;Administration;Customer Service,5.0,5,Low,Not Applicable
+EMP-0167,Lily Williams,39,Green Energy Projects,Battery Design Engineer,48092,Scotland,2126,Product Design;Prototyping,7.9,3,Low,Not Applicable
+EMP-0168,Muhammad Evans,40,Digital Services,IT Support Analyst,28796,Scotland,3131,Networking;Troubleshooting,2.9,3,Low,Not Applicable
+EMP-0169,Muhammad Roberts,31,Digital Services,Software Developer,42989,South East,2136,JavaScript;SQL,4.8,3,Low,Not Applicable
+EMP-0170,Freya Roberts,28,Clinical Operations,Pharmacist,47183,South East,2237,Patient Counselling;Medicines Management,3.2,1,Low,Not Applicable
+EMP-0171,Grace Taylor,52,Green Energy Projects,Civil Engineer,61149,London,2121,Project Management;Structural Analysis,12.9,3,Medium,Ready 1-2 Years
+EMP-0172,Arthur Walker,47,Green Energy Projects,Turbine Maintenance Technician,35175,Wales,3112,Electrical Testing;Instrumentation;Maintenance,11.3,3,Low,Not Applicable
+EMP-0173,Sarah Davies,51,Clinical Operations,Clinical Practitioner,100541,South East,2211,Clinical Diagnostics;Patient Care,10.4,3,Medium,Ready 1-2 Years
+EMP-0174,Noah Brown,31,Digital Services,Data Engineer,40359,South West,2139,Python;SQL,3.7,2,Low,Not Applicable
+EMP-0175,Amelia Roberts,53,Green Energy Projects,Turbine Maintenance Technician,35305,South East,3112,Electrical Testing;Maintenance,4.0,3,Medium,No Successor
+EMP-0176,Henry Thompson,44,Green Energy Projects,Energy Plant Operator,37674,South East,8124,Health & Safety;Plant Operations,7.8,3,Low,Not Applicable
+EMP-0177,Jack Jones,63,Green Energy Projects,Battery Design Engineer,53734,South East,2126,Prototyping;SolidWorks;Product Design,13.0,3,High,No Successor
+EMP-0178,Sophia Walker,22,Digital Services,IT Support Analyst,26702,Scotland,3131,Networking;Active Directory;Troubleshooting;Office 365,1.0,5,Low,Not Applicable
+EMP-0179,Freya Hall,32,Digital Services,Software Developer,42200,South East,2136,SQL;Python;JavaScript;Git,1.7,3,Low,Not Applicable
+EMP-0180,Ivy Jones,57,Clinical Operations,Staff Nurse,43149,North West,2231,CPR;Patient Assessment,13.3,4,Medium,Ready 1-2 Years
+EMP-0181,Sophia Smith,36,Digital Services,Software Developer,42113,North West,2136,SQL;JavaScript;Python;Git,7.2,4,Low,Not Applicable
+EMP-0182,Oscar Roberts,47,Green Energy Projects,Electrical Grid Engineer,53843,South East,2123,Power Systems;Grid Connections;HV Electrical,5.6,4,Low,Not Applicable
+EMP-0183,Grace Thompson,58,Green Energy Projects,Battery Design Engineer,44928,North West,2126,SolidWorks;Product Design;Prototyping,4.2,3,High,No Successor
+EMP-0184,Robert Davies,37,Green Energy Projects,Turbine Maintenance Technician,37612,South East,3112,Instrumentation;Maintenance;Electrical Testing,7.3,3,Low,Not Applicable
+EMP-0185,Helen Evans,21,Digital Services,IT Support Analyst,26100,West Midlands,3131,Troubleshooting;Office 365,0.8,1,Low,Not Applicable
+EMP-0186,Oliver White,34,Digital Services,Software Developer,45783,London,2136,Git;Python;SQL,1.9,3,Low,Not Applicable
+EMP-0187,Oliver Smith,60,Green Energy Projects,Chemical Engineer,53599,South West,2125,Chemical Process;Mass Balance;ASPEN,7.7,3,High,No Successor
+EMP-0188,Ivy Hall,49,Green Energy Projects,Electrical Grid Engineer,51712,South East,2123,Grid Connections;Power Systems;HV Electrical,5.6,3,Low,Not Applicable
+EMP-0189,Robert Taylor,48,Clinical Operations,Clinical Practitioner,103500,London,2211,Clinical Diagnostics;Patient Care,8.0,4,Low,Not Applicable
+EMP-0190,Thomas Thompson,53,Green Energy Projects,Energy Plant Operator,39853,Wales,8124,Plant Operations;SCADA,13.7,3,Medium,Ready Now
+EMP-0191,Florence Robinson,45,Clinical Operations,Healthcare Assistant,28830,London,6141,Vital Signs;Patient Mobility,9.6,4,Low,Not Applicable
+EMP-0192,Sophia Wilson,44,Green Energy Projects,Battery Design Engineer,52743,South East,2126,SolidWorks;Product Design;Prototyping,9.1,3,Low,Not Applicable
+EMP-0193,Grace Jones,36,Digital Services,Software Developer,41951,South West,2136,Python;Git;SQL,6.0,4,Low,Not Applicable
+EMP-0194,Arthur Green,27,Digital Services,IT Support Analyst,30537,South East,3131,Active Directory;Troubleshooting;Networking;Office 365,3.4,3,Low,Not Applicable
+EMP-0195,George Robinson,32,Digital Services,Software Developer,46052,London,2136,Git;Python;JavaScript,1.8,2,Low,Not Applicable
+EMP-0196,Mia Roberts,41,Green Energy Projects,Battery Design Engineer,52415,London,2126,Prototyping;SolidWorks,5.1,4,Low,Not Applicable
+EMP-0197,Oliver Wright,65,Green Energy Projects,Energy Plant Operator,40616,South West,8124,Health & Safety;SCADA,17.5,3,High,No Successor
+EMP-0198,Jack Wright,58,Green Energy Projects,Mechanical Engineer,47916,South East,2122,CAD;Thermodynamics;Mechanical Design,4.8,4,High,Ready 3+ Years
+EMP-0199,Ivy Martin,33,Digital Services,IT Business Analyst,47508,Scotland,2135,Jira;Agile;UML;Business Analysis,3.3,3,Low,Not Applicable
+EMP-0200,Ivy Johnson,49,Green Energy Projects,Mechanical Engineer,48775,South West,2122,Mechanical Design;CAD;Thermodynamics,12.1,3,Low,Not Applicable
+EMP-0201,Robert Walker,58,Green Energy Projects,Battery Design Engineer,44150,Scotland,2126,Prototyping;Product Design;SolidWorks,6.2,4,High,Ready 1-2 Years
+EMP-0202,Robert White,67,Clinical Operations,Staff Nurse,46704,South East,2231,CPR;Medication Administration;Patient Assessment;NMC Pin,14.2,5,High,No Successor
+EMP-0203,Lily Harris,65,Green Energy Projects,Battery Design Engineer,59239,London,2126,Product Design;Prototyping,10.6,3,High,No Successor
+EMP-0204,Thomas Martin,26,Digital Services,Data Engineer,42564,South East,2139,SQL;AWS,3.1,3,Low,Not Applicable
+EMP-0205,Muhammad Hall,40,Green Energy Projects,Turbine Maintenance Technician,33454,Scotland,3112,Maintenance;Electrical Testing,4.8,3,Low,Not Applicable
+EMP-0206,Sophia White,35,Corporate Services,HR Advisor,32142,South West,3562,Recruitment;Employment Law;Employee Relations,2.3,3,Low,Not Applicable
+EMP-0207,Grace Green,30,Digital Services,Data Engineer,47482,London,2139,SQL;Data Pipelines;AWS;Python,4.1,3,Low,Not Applicable
+EMP-0208,Freya Wilson,55,Green Energy Projects,Chemical Engineer,64542,South East,2125,Chemical Process;ASPEN,14.3,3,Medium,No Successor
+EMP-0209,Ivy Johnson,38,Green Energy Projects,Chemical Engineer,53672,Scotland,2125,Mass Balance;Chemical Process,3.2,4,Low,Not Applicable
+EMP-0210,Freya Wilson,58,Green Energy Projects,Mechanical Engineer,52882,South East,2122,Mechanical Design;Thermodynamics;CAD,9.5,3,High,No Successor
+EMP-0211,Rachel Roberts,51,Clinical Operations,Pharmacist,49441,South East,2237,Medicines Management;Clinical Pharmacy,10.0,3,Medium,No Successor
+EMP-0212,Oscar White,43,Green Energy Projects,Battery Design Engineer,53833,London,2126,Prototyping;Product Design,5.4,3,Low,Not Applicable
+EMP-0213,Harry Wilson,35,Green Energy Projects,Chemical Engineer,53588,North West,2125,Mass Balance;ASPEN;Chemical Process,6.6,3,Low,Not Applicable
+EMP-0214,Mia Roberts,36,Green Energy Projects,Civil Engineer,46159,Scotland,2121,Structural Analysis;AutoCAD,4.9,3,Low,Not Applicable
+EMP-0215,Ava Roberts,50,Green Energy Projects,Energy Plant Operator,40836,London,8124,Health & Safety;Plant Operations;SCADA,4.3,3,Medium,Ready 1-2 Years
+EMP-0216,Isla Davies,37,Green Energy Projects,Civil Engineer,51579,South East,2121,AutoCAD;Project Management;Structural Analysis,4.5,4,Low,Not Applicable
+EMP-0217,Henry Evans,45,Clinical Operations,Healthcare Assistant,24321,South East,6141,Vital Signs;Patient Mobility,3.8,3,Low,Not Applicable
+EMP-0218,Ivy Wood,29,Digital Services,Web Designer,33333,South East,2137,HTML;WordPress;CSS;UI/UX,2.1,5,Low,Not Applicable
+EMP-0219,Rachel Williams,49,Clinical Operations,Staff Nurse,41815,Scotland,2231,Medication Administration;NMC Pin;CPR,10.8,3,Low,Not Applicable
+EMP-0220,Oscar Roberts,44,Digital Services,IT Business Analyst,50387,West Midlands,2135,Jira;Requirements Gathering;UML;Business Analysis,5.7,4,Low,Not Applicable
+EMP-0221,Rachel Taylor,29,Clinical Operations,Medical Imaging Technician,31482,Scotland,3211,Medical Imaging;MRI;X-Ray,3.9,3,Low,Not Applicable
+EMP-0222,Sophia Thompson,38,Green Energy Projects,Mechanical Engineer,44816,North West,2122,CAD;Mechanical Design,5.4,3,Low,Not Applicable
+EMP-0223,Robert Roberts,32,Digital Services,Software Developer,45626,South East,2136,Git;Python,5.4,4,Low,Not Applicable
+EMP-0224,William Robinson,33,Digital Services,Web Designer,33695,South East,2137,HTML;CSS,2.6,3,Low,Not Applicable
+EMP-0225,Sarah Davies,48,Green Energy Projects,Civil Engineer,56009,London,2121,AutoCAD;Project Management;Structural Analysis,7.3,4,Low,Not Applicable
+EMP-0226,Rachel White,39,Clinical Operations,Medical Imaging Technician,33950,South East,3211,Medical Imaging;MRI,2.5,3,Low,Not Applicable
+EMP-0227,Sophia Williams,49,Green Energy Projects,Energy Plant Operator,44569,London,8124,Health & Safety;Plant Operations,12.3,3,Low,Not Applicable
+EMP-0228,Sarah Johnson,44,Clinical Operations,Staff Nurse,40514,West Midlands,2231,Patient Assessment;CPR,9.8,2,Low,Not Applicable
+EMP-0229,Isla Harris,48,Clinical Operations,Pharmacist,45188,South East,2237,Patient Counselling;Medicines Management;Clinical Pharmacy,4.3,3,Low,Not Applicable
+EMP-0230,Ivy Hall,31,Digital Services,Data Engineer,46585,London,2139,AWS;Python,2.5,2,Low,Not Applicable
+EMP-0231,Lily Martin,49,Digital Services,IT Business Analyst,48921,Scotland,2135,Requirements Gathering;UML;Jira;Business Analysis,4.3,1,Low,Not Applicable
+EMP-0232,George Smith,47,Green Energy Projects,Civil Engineer,50755,South West,2121,Project Management;Structural Analysis;AutoCAD,10.9,3,Low,Not Applicable
+EMP-0233,George Wood,47,Green Energy Projects,Mechanical Engineer,51137,South East,2122,Thermodynamics;CAD;Mechanical Design,7.3,3,Low,Not Applicable
+EMP-0234,Sarah Davies,38,Digital Services,IT Business Analyst,60206,London,2135,Agile;UML,7.5,2,Low,Not Applicable
+EMP-0235,David Williams,40,Clinical Operations,Staff Nurse,37725,Scotland,2231,Medication Administration;NMC Pin;CPR,5.6,3,Low,Not Applicable
+EMP-0236,Isla Smith,49,Green Energy Projects,Chemical Engineer,64656,London,2125,ASPEN;Mass Balance,5.6,3,Low,Not Applicable
+EMP-0237,Amelia Green,44,Clinical Operations,Staff Nurse,37960,North West,2231,Patient Assessment;CPR,3.4,4,Low,Not Applicable
+EMP-0238,Oliver Davies,36,Digital Services,Web Designer,37677,London,2137,WordPress;HTML,3.9,3,Low,Not Applicable
+EMP-0239,Mia Thompson,44,Green Energy Projects,Civil Engineer,56449,London,2121,Structural Analysis;AutoCAD,7.9,4,Low,Not Applicable
+EMP-0240,Rachel Wright,37,Clinical Operations,Pharmacist,41614,North West,2237,Clinical Pharmacy;Patient Counselling,3.8,3,Low,Not Applicable
+EMP-0241,Emily Roberts,64,Green Energy Projects,Chemical Engineer,62444,North West,2125,Chemical Process;ASPEN,14.7,1,High,No Successor
+EMP-0242,Thomas Smith,39,Corporate Services,HR Advisor,38539,South East,3562,Employee Relations;Employment Law;Recruitment,6.9,3,Low,Not Applicable
+EMP-0243,Amelia Williams,46,Clinical Operations,Clinical Practitioner,104055,South East,2211,Prescribing;Clinical Diagnostics;Patient Care,9.9,3,Low,Not Applicable
+EMP-0244,Thomas Walker,34,Digital Services,IT Support Analyst,26683,West Midlands,3131,Office 365;Networking;Active Directory,1.9,3,Low,Not Applicable
+EMP-0245,Sarah Thompson,51,Green Energy Projects,Electrical Grid Engineer,46581,Scotland,2123,Power Systems;Grid Connections,4.6,3,Medium,Ready 1-2 Years
+EMP-0246,Isla Wood,67,Green Energy Projects,Energy Plant Operator,37663,South East,8124,Plant Operations;Health & Safety,8.0,4,High,No Successor
+EMP-0247,Sophia Martin,39,Digital Services,Web Designer,34007,South East,2137,UI/UX;HTML;WordPress,8.2,5,Low,Not Applicable
+EMP-0248,Rachel Roberts,60,Green Energy Projects,Battery Design Engineer,47712,North West,2126,Product Design;Prototyping,7.3,2,High,Ready 1-2 Years
+EMP-0249,Harry Johnson,30,Clinical Operations,Pharmacist,43305,North West,2237,Medicines Management;Patient Counselling,1.5,3,Low,Not Applicable
+EMP-0250,Thomas Roberts,18,Clinical Operations,Clinical Practitioner,81469,Scotland,2211,Patient Care;Clinical Diagnostics,0.5,3,Low,Not Applicable
+EMP-0251,Henry White,30,Clinical Operations,Medical Imaging Technician,34523,South East,3211,MRI;X-Ray;Medical Imaging,2.7,1,Low,Not Applicable
+EMP-0252,Ivy Martin,33,Digital Services,Web Designer,30897,Wales,2137,UI/UX;CSS,3.7,2,Low,Not Applicable
+EMP-0253,Noah Hall,38,Digital Services,IT Support Analyst,31634,South East,3131,Office 365;Active Directory;Networking,6.7,3,Low,Not Applicable
+EMP-0254,Ava Smith,22,Green Energy Projects,Mechanical Engineer,41556,Scotland,2122,Mechanical Design;Thermodynamics;CAD,0.5,5,Low,Not Applicable
+EMP-0255,Isla Davies,22,Clinical Operations,Pharmacist,43279,Scotland,2237,Clinical Pharmacy;Medicines Management;Patient Counselling,1.3,3,Low,Not Applicable
+EMP-0256,Leo Evans,36,Corporate Services,HR Advisor,37351,South East,3562,Employment Law;Employee Relations,5.6,4,Low,Not Applicable
+EMP-0257,Helen Green,45,Green Energy Projects,Mechanical Engineer,48187,South East,2122,Thermodynamics;CAD,4.6,4,Low,Not Applicable
+EMP-0258,Leo Wilson,40,Corporate Services,Finance Analyst,52025,London,2424,Financial Modelling;Excel,2.6,5,Low,Not Applicable
+EMP-0259,Grace Walker,47,Green Energy Projects,Electrical Grid Engineer,49001,South West,2123,HV Electrical;Grid Connections;Power Systems,4.3,3,Low,Not Applicable
+EMP-0260,Freya Martin,53,Clinical Operations,Staff Nurse,40675,Scotland,2231,NMC Pin;Patient Assessment;CPR;Medication Administration,10.5,4,Medium,No Successor
+EMP-0261,Oscar Harris,27,Digital Services,IT Support Analyst,26897,West Midlands,3131,Networking;Active Directory;Troubleshooting,2.6,3,Low,Not Applicable
+EMP-0262,Leo Wilson,56,Clinical Operations,Clinical Practitioner,99997,West Midlands,2211,Patient Care;Clinical Diagnostics;Prescribing,13.2,3,Medium,No Successor
+EMP-0263,George Evans,48,Green Energy Projects,Civil Engineer,50613,South East,2121,Structural Analysis;Project Management;AutoCAD,6.9,3,Low,Not Applicable
+EMP-0264,Isla Green,46,Clinical Operations,Healthcare Assistant,24061,West Midlands,6141,Personal Care;Patient Mobility,8.3,1,Low,Not Applicable
+EMP-0265,Jack Brown,36,Digital Services,Software Developer,41621,South West,2136,JavaScript;Git;Python,2.2,3,Low,Not Applicable
+EMP-0266,Thomas Wilson,36,Clinical Operations,Medical Imaging Technician,35701,London,3211,MRI;X-Ray,2.6,3,Low,Not Applicable
+EMP-0267,Sophia Davies,21,Digital Services,Data Engineer,39798,South East,2139,AWS;SQL;Data Pipelines,0.5,1,Low,Not Applicable
+EMP-0268,Ava Wright,31,Corporate Services,Finance Analyst,47691,South East,2424,Budgeting;Excel;Financial Modelling,4.6,3,Low,Not Applicable
+EMP-0269,Oscar Wilson,42,Green Energy Projects,Chemical Engineer,52038,North West,2125,Mass Balance;Chemical Process;ASPEN,4.3,4,Low,Not Applicable
+EMP-0270,Florence Brown,38,Digital Services,Web Designer,35330,South East,2137,HTML;CSS,6.8,4,Low,Not Applicable
+EMP-0271,Mia Wood,33,Clinical Operations,Medical Imaging Technician,34427,South East,3211,X-Ray;Medical Imaging,2.8,2,Low,Not Applicable
+EMP-0272,James Roberts,30,Digital Services,Software Developer,40301,Scotland,2136,Python;Git;SQL,4.7,3,Low,Not Applicable
+EMP-0273,Robert Williams,33,Clinical Operations,Pharmacist,52005,London,2237,Clinical Pharmacy;Patient Counselling;Medicines Management,5.1,4,Low,Not Applicable
+EMP-0274,Ivy Harris,62,Green Energy Projects,Chemical Engineer,64180,London,2125,Chemical Process;Mass Balance,5.9,4,High,Ready 3+ Years
+EMP-0275,William White,36,Green Energy Projects,Turbine Maintenance Technician,33222,South East,3112,Electrical Testing;Maintenance;Instrumentation,2.0,3,Low,Not Applicable
+EMP-0276,Amelia Green,41,Corporate Services,Finance Analyst,42809,Scotland,2424,Excel;Financial Modelling;Budgeting,2.4,2,Low,Not Applicable
+EMP-0277,Sarah Roberts,38,Clinical Operations,Pharmacist,51140,London,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,5.9,4,Low,Not Applicable
+EMP-0278,Muhammad Wilson,40,Digital Services,IT Support Analyst,28755,Scotland,3131,Troubleshooting;Active Directory;Office 365;Networking,4.9,4,Low,Not Applicable
+EMP-0279,Emily Jones,46,Green Energy Projects,Electrical Grid Engineer,52085,North West,2123,HV Electrical;Power Systems,9.7,3,Low,Not Applicable
+EMP-0280,Lily Martin,42,Green Energy Projects,Energy Plant Operator,34336,North West,8124,Health & Safety;Plant Operations;SCADA,5.8,1,Low,Not Applicable
+EMP-0281,Amelia Wilson,57,Clinical Operations,Staff Nurse,44426,South East,2231,Patient Assessment;Medication Administration,11.8,4,Medium,No Successor
+EMP-0282,Ava Martin,38,Clinical Operations,Staff Nurse,36767,Scotland,2231,NMC Pin;Medication Administration;CPR;Patient Assessment,3.5,3,Low,Not Applicable
+EMP-0283,Noah Roberts,53,Green Energy Projects,Battery Design Engineer,45462,North West,2126,Prototyping;SolidWorks;Product Design,4.6,3,Medium,Ready 1-2 Years
+EMP-0284,George Thompson,31,Corporate Services,Operations Administrator,27040,South East,4159,Administration;Customer Service;Scheduling,2.6,4,Low,Not Applicable
+EMP-0285,Helen Martin,42,Green Energy Projects,Electrical Grid Engineer,48814,South West,2123,Grid Connections;HV Electrical;Power Systems,7.1,3,Low,Not Applicable
+EMP-0286,Henry Johnson,35,Green Energy Projects,Turbine Maintenance Technician,33025,North West,3112,Instrumentation;Maintenance;Electrical Testing,2.8,4,Low,Not Applicable
+EMP-0287,William Wood,21,Digital Services,IT Business Analyst,47924,North West,2135,Business Analysis;UML;Jira;Requirements Gathering,1.0,3,Low,Not Applicable
+EMP-0288,Sophia White,43,Clinical Operations,Pharmacist,44113,North West,2237,Clinical Pharmacy;Medicines Management,5.3,4,Low,Not Applicable
+EMP-0289,Henry Harris,33,Corporate Services,HR Advisor,33025,West Midlands,3562,Employee Relations;Employment Law;Recruitment,2.0,5,Low,Not Applicable
+EMP-0290,Leo White,41,Corporate Services,Finance Analyst,42934,Scotland,2424,Excel;Budgeting,3.3,3,Low,Not Applicable
+EMP-0291,Ava Thompson,33,Clinical Operations,Clinical Practitioner,85706,North West,2211,Clinical Diagnostics;Patient Care,5.0,3,Low,Not Applicable
+EMP-0292,Oscar White,42,Corporate Services,Finance Analyst,44297,North West,2424,Excel;Financial Modelling,2.4,1,Low,Not Applicable
+EMP-0293,Oliver Davies,31,Digital Services,Web Designer,31824,South East,2137,UI/UX;CSS,3.3,3,Low,Not Applicable
+EMP-0294,Muhammad Martin,52,Green Energy Projects,Chemical Engineer,58604,South West,2125,ASPEN;Chemical Process;Mass Balance,12.5,4,Medium,Ready 1-2 Years
+EMP-0295,Oliver Davies,33,Digital Services,Software Developer,48948,London,2136,JavaScript;Git,3.8,3,Low,Not Applicable
+EMP-0296,Freya Martin,34,Digital Services,IT Business Analyst,47115,West Midlands,2135,Jira;Requirements Gathering,4.8,3,Low,Not Applicable
+EMP-0297,Freya Robinson,52,Green Energy Projects,Mechanical Engineer,45832,South East,2122,Mechanical Design;CAD;Thermodynamics,3.5,4,Medium,Ready Now
+EMP-0298,Muhammad Martin,43,Digital Services,IT Business Analyst,51915,North West,2135,Requirements Gathering;UML;Jira;Agile,8.4,3,Low,Not Applicable
+EMP-0299,Amelia Wood,45,Green Energy Projects,Mechanical Engineer,50933,London,2122,Mechanical Design;Thermodynamics,4.6,2,Low,Not Applicable
+EMP-0300,George Hall,25,Digital Services,IT Business Analyst,47325,West Midlands,2135,Agile;Jira;Business Analysis;Requirements Gathering,2.6,4,Low,Not Applicable
+EMP-0301,Rachel Jones,42,Clinical Operations,Pharmacist,54755,London,2237,Medicines Management;Patient Counselling,7.7,3,Low,Not Applicable
+EMP-0302,Ava Thompson,41,Green Energy Projects,Chemical Engineer,61830,South East,2125,ASPEN;Chemical Process;Mass Balance,8.9,3,Low,Not Applicable
+EMP-0303,Arthur Robinson,44,Clinical Operations,Medical Imaging Technician,40460,London,3211,Medical Imaging;X-Ray,8.8,3,Low,Not Applicable
+EMP-0304,Henry Green,26,Clinical Operations,Medical Imaging Technician,32338,South East,3211,X-Ray;Medical Imaging,1.2,3,Low,Not Applicable
+EMP-0305,Lily Brown,47,Clinical Operations,Medical Imaging Technician,32969,West Midlands,3211,X-Ray;MRI,5.6,3,Low,Not Applicable
+EMP-0306,David Martin,34,Digital Services,Software Developer,41542,West Midlands,2136,Python;JavaScript,3.9,3,Low,Not Applicable
+EMP-0307,Ava Hall,42,Clinical Operations,Medical Imaging Technician,36288,South East,3211,X-Ray;Medical Imaging,5.9,3,Low,Not Applicable
+EMP-0308,Oscar Walker,37,Clinical Operations,Clinical Practitioner,87136,Scotland,2211,Patient Care;Prescribing;Clinical Diagnostics,4.5,5,Low,Not Applicable
+EMP-0309,Sarah Smith,41,Digital Services,Data Engineer,43072,Scotland,2139,Data Pipelines;AWS;SQL;Python,8.0,5,Low,Not Applicable
+EMP-0310,Grace Jones,42,Clinical Operations,Medical Imaging Technician,32404,Scotland,3211,X-Ray;MRI;Medical Imaging,4.8,2,Low,Not Applicable
+EMP-0311,Florence Davies,41,Digital Services,Web Designer,31717,North West,2137,CSS;WordPress,4.3,2,Low,Not Applicable
+EMP-0312,David White,21,Digital Services,IT Support Analyst,32497,London,3131,Active Directory;Troubleshooting,0.5,3,Low,Not Applicable
+EMP-0313,Isla White,43,Digital Services,IT Support Analyst,29110,North West,3131,Troubleshooting;Office 365;Active Directory,5.9,3,Low,Not Applicable
+EMP-0314,Mia Harris,62,Green Energy Projects,Battery Design Engineer,52026,Wales,2126,Prototyping;Product Design,14.7,2,High,No Successor
+EMP-0315,Ivy Thompson,38,Green Energy Projects,Chemical Engineer,58051,South East,2125,ASPEN;Mass Balance;Chemical Process,6.2,2,Low,Not Applicable
+EMP-0316,Ivy Hall,55,Green Energy Projects,Turbine Maintenance Technician,38803,South East,3112,Electrical Testing;Instrumentation,9.8,3,Medium,Ready 1-2 Years
+EMP-0317,Florence Evans,54,Corporate Services,HR Advisor,39257,North West,3562,Employment Law;Employee Relations;Recruitment,13.9,3,Medium,No Successor
+EMP-0318,Henry White,47,Clinical Operations,Healthcare Assistant,24358,Scotland,6141,Personal Care;Patient Mobility,5.4,2,Low,Not Applicable
+EMP-0319,Florence Jones,43,Digital Services,Software Developer,49091,London,2136,Python;SQL,3.6,4,Low,Not Applicable
+EMP-0320,Isla Martin,47,Clinical Operations,Healthcare Assistant,25546,West Midlands,6141,Vital Signs;Patient Mobility,10.4,3,Low,Not Applicable
+EMP-0321,Amelia Walker,56,Green Energy Projects,Energy Plant Operator,42362,London,8124,Plant Operations;SCADA;Health & Safety,10.1,4,Medium,Ready Now
+EMP-0322,Sophia Roberts,32,Digital Services,IT Business Analyst,55467,London,2135,Business Analysis;Jira;UML;Agile;Requirements Gathering,2.2,3,Low,Not Applicable
+EMP-0323,Rachel Robinson,31,Digital Services,Data Engineer,39396,South East,2139,Data Pipelines;Python;AWS;SQL,1.9,4,Low,Not Applicable
+EMP-0324,Leo Hall,29,Digital Services,Software Developer,39335,Scotland,2136,JavaScript;Python;SQL;Git,2.8,4,Low,Not Applicable
+EMP-0325,Florence Thompson,51,Green Energy Projects,Electrical Grid Engineer,52099,South West,2123,Power Systems;Grid Connections,8.6,3,Medium,No Successor
+EMP-0326,Ivy Martin,44,Digital Services,IT Business Analyst,56597,South East,2135,Jira;Agile,7.9,3,Low,Not Applicable
+EMP-0327,Sophia Smith,28,Corporate Services,Finance Analyst,47234,South East,2424,Budgeting;Financial Modelling;Excel,2.5,3,Low,Not Applicable
+EMP-0328,James Wood,48,Green Energy Projects,Turbine Maintenance Technician,33375,West Midlands,3112,Electrical Testing;Instrumentation;Maintenance,3.6,3,Low,Not Applicable
+EMP-0329,George Williams,35,Digital Services,Web Designer,31519,South East,2137,UI/UX;CSS,2.6,3,Low,Not Applicable
+EMP-0330,Thomas Walker,49,Green Energy Projects,Civil Engineer,54553,London,2121,Project Management;AutoCAD,6.7,3,Low,Not Applicable
+EMP-0331,George Evans,36,Corporate Services,HR Advisor,38153,South East,3562,Recruitment;Employee Relations;Employment Law,5.1,3,Low,Not Applicable
+EMP-0332,Emily Williams,62,Clinical Operations,Healthcare Assistant,24329,West Midlands,6141,Personal Care;Vital Signs;Patient Mobility,8.3,1,High,No Successor
+EMP-0333,Oscar Wood,43,Green Energy Projects,Civil Engineer,53322,South East,2121,AutoCAD;Project Management,9.3,3,Low,Not Applicable
+EMP-0334,Robert Robinson,43,Digital Services,Software Developer,41634,North West,2136,JavaScript;Git;Python;SQL,7.5,3,Low,Not Applicable
+EMP-0335,Jack Brown,26,Digital Services,IT Support Analyst,26305,West Midlands,3131,Troubleshooting;Active Directory;Networking;Office 365,1.1,3,Low,Not Applicable
+EMP-0336,Ivy Wright,49,Clinical Operations,Staff Nurse,42182,South East,2231,Medication Administration;Patient Assessment;CPR,8.4,3,Low,Not Applicable
+EMP-0337,Emily White,58,Green Energy Projects,Electrical Grid Engineer,54146,North West,2123,Grid Connections;Power Systems;HV Electrical,14.5,3,High,No Successor
+EMP-0338,Jack Williams,59,Clinical Operations,Staff Nurse,38037,Wales,2231,Patient Assessment;NMC Pin,7.3,3,High,No Successor
+EMP-0339,Robert Harris,32,Green Energy Projects,Energy Plant Operator,35109,North West,8124,Health & Safety;Plant Operations;SCADA,3.7,3,Low,Not Applicable
+EMP-0340,William Harris,28,Clinical Operations,Pharmacist,40473,North West,2237,Patient Counselling;Medicines Management;Clinical Pharmacy,1.4,4,Low,Not Applicable
+EMP-0341,Helen Martin,52,Clinical Operations,Healthcare Assistant,25771,North West,6141,Vital Signs;Patient Mobility,9.2,4,Medium,Ready Now
+EMP-0342,Emily Green,36,Digital Services,Web Designer,35516,London,2137,WordPress;CSS;UI/UX,3.8,4,Low,Not Applicable
+EMP-0343,Amelia Thompson,29,Digital Services,IT Support Analyst,28295,North West,3131,Active Directory;Networking;Troubleshooting,3.5,3,Low,Not Applicable
+EMP-0344,Oscar Davies,43,Green Energy Projects,Electrical Grid Engineer,55686,South East,2123,HV Electrical;Power Systems,8.6,3,Low,Not Applicable
+EMP-0345,Emily Taylor,50,Green Energy Projects,Electrical Grid Engineer,47991,West Midlands,2123,Grid Connections;HV Electrical,6.7,3,Medium,Ready 1-2 Years
+EMP-0346,Florence Green,54,Green Energy Projects,Battery Design Engineer,43589,Scotland,2126,Product Design;Prototyping,5.3,2,Medium,No Successor
+EMP-0347,Amelia Harris,32,Digital Services,Software Developer,42164,North West,2136,Git;Python,5.4,3,Low,Not Applicable
+EMP-0348,Ivy Green,54,Clinical Operations,Staff Nurse,40257,South East,2231,Medication Administration;NMC Pin;CPR;Patient Assessment,6.0,3,Medium,Ready 1-2 Years
+EMP-0349,Clara Roberts,50,Green Energy Projects,Civil Engineer,51533,South East,2121,AutoCAD;Project Management;Structural Analysis,4.2,3,Medium,No Successor
+EMP-0350,Ivy Jones,57,Clinical Operations,Healthcare Assistant,29557,London,6141,Vital Signs;Personal Care,9.8,4,Medium,No Successor
+EMP-0351,Thomas White,58,Green Energy Projects,Electrical Grid Engineer,51048,South West,2123,Grid Connections;Power Systems;HV Electrical,9.1,2,High,No Successor
+EMP-0352,Emily Taylor,39,Green Energy Projects,Battery Design Engineer,53621,London,2126,Prototyping;Product Design,4.7,3,Low,Not Applicable
+EMP-0353,Oscar Johnson,36,Clinical Operations,Pharmacist,42673,North West,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,4.1,5,Low,Not Applicable
+EMP-0354,Oscar Johnson,51,Green Energy Projects,Energy Plant Operator,42691,London,8124,SCADA;Health & Safety;Plant Operations,8.8,4,Medium,Ready 1-2 Years
+EMP-0355,Sarah Williams,39,Clinical Operations,Clinical Practitioner,103152,London,2211,Patient Care;Clinical Diagnostics;Prescribing,6.5,3,Low,Not Applicable
+EMP-0356,Thomas Smith,39,Clinical Operations,Staff Nurse,36941,West Midlands,2231,Medication Administration;CPR;Patient Assessment,5.1,3,Low,Not Applicable
+EMP-0357,Sarah Walker,30,Corporate Services,Finance Analyst,45958,North West,2424,Budgeting;Excel,3.8,3,Low,Not Applicable
+EMP-0358,Noah Hall,41,Green Energy Projects,Civil Engineer,49841,North West,2121,Project Management;AutoCAD,7.7,3,Low,Not Applicable
+EMP-0359,Thomas Smith,57,Corporate Services,HR Advisor,38648,South East,3562,Employment Law;Employee Relations,8.0,4,Medium,No Successor
+EMP-0360,Sophia Wood,39,Corporate Services,Finance Analyst,43712,Scotland,2424,Excel;Budgeting,4.3,3,Low,Not Applicable
+EMP-0361,Jack Wilson,39,Green Energy Projects,Civil Engineer,54921,London,2121,Project Management;Structural Analysis;AutoCAD,4.2,5,Low,Not Applicable
+EMP-0362,Henry Green,35,Clinical Operations,Pharmacist,44899,North West,2237,Clinical Pharmacy;Medicines Management,6.6,3,Low,Not Applicable
+EMP-0363,Oscar Davies,51,Clinical Operations,Staff Nurse,39733,North West,2231,Medication Administration;CPR;Patient Assessment,6.8,3,Medium,No Successor
+EMP-0364,Robert Thompson,26,Digital Services,Software Developer,44114,South East,2136,SQL;Git;Python,1.9,3,Low,Not Applicable
+EMP-0365,Noah Davies,41,Clinical Operations,Pharmacist,42247,West Midlands,2237,Medicines Management;Patient Counselling,4.0,3,Low,Not Applicable
+EMP-0366,Florence Green,54,Clinical Operations,Healthcare Assistant,26302,Scotland,6141,Patient Mobility;Vital Signs;Personal Care,13.9,3,Medium,No Successor
+EMP-0367,Jack Walker,38,Digital Services,IT Support Analyst,27471,South West,3131,Active Directory;Office 365;Troubleshooting,4.5,3,Low,Not Applicable
+EMP-0368,Isla Hall,56,Green Energy Projects,Turbine Maintenance Technician,32483,West Midlands,3112,Maintenance;Instrumentation,3.9,3,Medium,Ready 1-2 Years
+EMP-0369,Ava Wood,36,Green Energy Projects,Electrical Grid Engineer,46444,North West,2123,Grid Connections;HV Electrical;Power Systems,3.8,3,Low,Not Applicable
+EMP-0370,Henry Williams,42,Corporate Services,Operations Administrator,29291,London,4159,Customer Service;Scheduling,4.0,4,Low,Not Applicable
+EMP-0371,Noah Williams,47,Clinical Operations,Staff Nurse,47203,London,2231,NMC Pin;Medication Administration;CPR;Patient Assessment,6.6,3,Low,Not Applicable
+EMP-0372,Henry Jones,49,Green Energy Projects,Turbine Maintenance Technician,34794,South East,3112,Maintenance;Instrumentation,4.6,3,Low,Not Applicable
+EMP-0373,Grace Wood,48,Green Energy Projects,Energy Plant Operator,35212,Scotland,8124,Health & Safety;Plant Operations,4.1,5,Low,Not Applicable
+EMP-0374,Sophia Evans,50,Green Energy Projects,Battery Design Engineer,48421,West Midlands,2126,Prototyping;SolidWorks;Product Design,7.9,3,Medium,Ready Now
+EMP-0375,Rachel Wilson,27,Clinical Operations,Pharmacist,40791,Wales,2237,Medicines Management;Clinical Pharmacy;Patient Counselling,2.0,3,Low,Not Applicable
+EMP-0376,David Robinson,46,Clinical Operations,Medical Imaging Technician,35591,South East,3211,X-Ray;MRI;Medical Imaging,5.1,3,Low,Not Applicable
+EMP-0377,Rachel Smith,24,Digital Services,Software Developer,45589,London,2136,Python;JavaScript,1.9,4,Low,Not Applicable
+EMP-0378,Lily Wood,21,Digital Services,Data Engineer,36339,South West,2139,Python;SQL;AWS;Data Pipelines,0.8,3,Low,Not Applicable
+EMP-0379,Sarah Wright,60,Green Energy Projects,Mechanical Engineer,46173,West Midlands,2122,Thermodynamics;Mechanical Design;CAD,4.6,3,High,No Successor
+EMP-0380,David Wood,42,Digital Services,IT Support Analyst,29896,West Midlands,3131,Office 365;Networking;Active Directory,5.7,3,Low,Not Applicable
+EMP-0381,Helen Taylor,44,Green Energy Projects,Electrical Grid Engineer,47770,North West,2123,Grid Connections;HV Electrical,2.7,3,Low,Not Applicable
+EMP-0382,Oliver Green,43,Corporate Services,Finance Analyst,46014,Scotland,2424,Financial Modelling;Excel,4.7,3,Low,Not Applicable
+EMP-0383,William Wood,56,Green Energy Projects,Mechanical Engineer,49556,South East,2122,Mechanical Design;CAD;Thermodynamics,8.2,3,Medium,No Successor
+EMP-0384,Freya Robinson,61,Green Energy Projects,Energy Plant Operator,39202,London,8124,Health & Safety;SCADA;Plant Operations,5.2,3,High,No Successor
+EMP-0385,Lily Johnson,59,Green Energy Projects,Mechanical Engineer,52998,London,2122,Mechanical Design;CAD;Thermodynamics,6.4,2,High,No Successor
+EMP-0386,Noah Thompson,52,Green Energy Projects,Energy Plant Operator,37443,South West,8124,SCADA;Plant Operations,11.6,4,Medium,Ready Now
+EMP-0387,Amelia Robinson,33,Clinical Operations,Clinical Practitioner,94166,South East,2211,Clinical Diagnostics;Prescribing,5.5,3,Low,Not Applicable
+EMP-0388,Arthur Davies,38,Clinical Operations,Clinical Practitioner,83111,West Midlands,2211,Patient Care;Prescribing,3.2,3,Low,Not Applicable
+EMP-0389,Sophia Thompson,32,Digital Services,IT Business Analyst,46253,North West,2135,Business Analysis;UML;Requirements Gathering;Agile,1.9,3,Low,Not Applicable
+EMP-0390,Leo Smith,24,Digital Services,Web Designer,31554,South East,2137,WordPress;UI/UX,1.7,3,Low,Not Applicable
+EMP-0391,Grace Taylor,41,Digital Services,Data Engineer,42342,South West,2139,Data Pipelines;AWS,8.7,3,Low,Not Applicable
+EMP-0392,Freya Brown,38,Digital Services,Software Developer,41553,North West,2136,JavaScript;Git;Python,3.9,1,Low,Not Applicable
+EMP-0393,Oscar Evans,49,Clinical Operations,Pharmacist,49420,South East,2237,Patient Counselling;Medicines Management,7.2,3,Low,Not Applicable
+EMP-0394,Leo Roberts,42,Green Energy Projects,Energy Plant Operator,34245,Scotland,8124,SCADA;Health & Safety,6.7,4,Low,Not Applicable
+EMP-0395,Freya Evans,43,Green Energy Projects,Energy Plant Operator,40866,London,8124,SCADA;Plant Operations,3.9,3,Low,Not Applicable
+EMP-0396,Freya Walker,27,Digital Services,Data Engineer,44685,London,2139,Data Pipelines;SQL;AWS,3.0,3,Low,Not Applicable
+EMP-0397,George Jones,49,Clinical Operations,Staff Nurse,42546,London,2231,CPR;NMC Pin;Medication Administration;Patient Assessment,4.1,1,Low,Not Applicable
+EMP-0398,Emily Martin,42,Clinical Operations,Clinical Practitioner,99741,South East,2211,Patient Care;Clinical Diagnostics,9.1,3,Low,Not Applicable
+EMP-0399,Sarah White,43,Clinical Operations,Clinical Practitioner,98653,London,2211,Prescribing;Clinical Diagnostics,2.8,2,Low,Not Applicable
+EMP-0400,Emily Wood,42,Green Energy Projects,Mechanical Engineer,49658,South East,2122,Mechanical Design;Thermodynamics,6.2,3,Low,Not Applicable
+EMP-0401,James Harris,46,Green Energy Projects,Chemical Engineer,52964,Scotland,2125,Mass Balance;Chemical Process;ASPEN,3.7,4,Low,Not Applicable
+EMP-0402,William Thompson,39,Green Energy Projects,Electrical Grid Engineer,54115,South East,2123,HV Electrical;Power Systems;Grid Connections,7.4,3,Low,Not Applicable
+EMP-0403,Freya Robinson,40,Green Energy Projects,Chemical Engineer,55651,South West,2125,ASPEN;Chemical Process,7.0,3,Low,Not Applicable
+EMP-0404,Emily Johnson,43,Clinical Operations,Clinical Practitioner,94548,South West,2211,Clinical Diagnostics;Prescribing,8.3,3,Low,Not Applicable
+EMP-0405,Harry Williams,49,Green Energy Projects,Battery Design Engineer,45951,North West,2126,Prototyping;Product Design,5.9,3,Low,Not Applicable
+EMP-0406,Helen Green,38,Digital Services,IT Support Analyst,35012,London,3131,Active Directory;Troubleshooting,6.9,4,Low,Not Applicable
+EMP-0407,Clara Thompson,29,Green Energy Projects,Energy Plant Operator,33354,Scotland,8124,Health & Safety;SCADA,1.5,2,Low,Not Applicable
+EMP-0408,Muhammad Jones,57,Green Energy Projects,Battery Design Engineer,44554,North West,2126,Prototyping;SolidWorks,5.7,5,Medium,No Successor
+EMP-0409,Henry Hall,31,Digital Services,Data Engineer,44946,London,2139,AWS;Python,1.8,2,Low,Not Applicable
+EMP-0410,Muhammad White,57,Clinical Operations,Staff Nurse,41277,North West,2231,Medication Administration;NMC Pin;Patient Assessment,12.8,3,Medium,Ready 1-2 Years
+EMP-0411,James White,60,Green Energy Projects,Battery Design Engineer,50654,South East,2126,SolidWorks;Product Design,9.5,5,High,No Successor
+EMP-0412,Helen Roberts,47,Clinical Operations,Medical Imaging Technician,30716,Scotland,3211,Medical Imaging;X-Ray;MRI,3.3,3,Low,Not Applicable
+EMP-0413,Emily Martin,55,Corporate Services,Finance Analyst,43348,North West,2424,Budgeting;Financial Modelling,4.9,3,Medium,No Successor
+EMP-0414,James Robinson,50,Green Energy Projects,Battery Design Engineer,57706,London,2126,SolidWorks;Product Design,10.2,3,Medium,Ready Now
+EMP-0415,Sophia Johnson,47,Clinical Operations,Healthcare Assistant,30488,London,6141,Personal Care;Vital Signs;Patient Mobility,11.1,4,Low,Not Applicable
+EMP-0416,Thomas Walker,40,Digital Services,Data Engineer,41496,West Midlands,2139,SQL;AWS;Data Pipelines,5.6,3,Low,Not Applicable
+EMP-0417,Arthur Wood,61,Corporate Services,HR Advisor,36623,North West,3562,Recruitment;Employment Law,8.2,3,High,No Successor
+EMP-0418,Muhammad Robinson,45,Clinical Operations,Pharmacist,48192,Wales,2237,Patient Counselling;Clinical Pharmacy,9.8,3,Low,Not Applicable
+EMP-0419,Leo Walker,38,Clinical Operations,Clinical Practitioner,90802,Wales,2211,Clinical Diagnostics;Prescribing;Patient Care,6.1,5,Low,Not Applicable
+EMP-0420,Clara Martin,38,Green Energy Projects,Battery Design Engineer,44030,West Midlands,2126,Product Design;SolidWorks,2.8,3,Low,Not Applicable
+EMP-0421,William Hall,65,Corporate Services,Finance Analyst,47744,South West,2424,Financial Modelling;Budgeting;Excel,6.7,3,High,Ready 1-2 Years
+EMP-0422,James Thompson,39,Clinical Operations,Medical Imaging Technician,36790,South East,3211,Medical Imaging;X-Ray;MRI,8.2,2,Low,Not Applicable
+EMP-0423,Oliver Martin,43,Clinical Operations,Healthcare Assistant,23113,West Midlands,6141,Personal Care;Patient Mobility;Vital Signs,4.2,3,Low,Not Applicable
+EMP-0424,Oscar Green,46,Green Energy Projects,Mechanical Engineer,53628,London,2122,Thermodynamics;Mechanical Design,4.4,3,Low,Not Applicable
+EMP-0425,Florence Johnson,51,Clinical Operations,Clinical Practitioner,92683,West Midlands,2211,Clinical Diagnostics;Patient Care;Prescribing,7.6,4,Medium,No Successor
+EMP-0426,Sarah Walker,62,Clinical Operations,Medical Imaging Technician,35877,West Midlands,3211,X-Ray;Medical Imaging,12.5,3,High,Ready 1-2 Years
+EMP-0427,William Davies,51,Green Energy Projects,Chemical Engineer,57349,Scotland,2125,ASPEN;Mass Balance,7.1,3,Medium,Ready 1-2 Years
+EMP-0428,James Wright,48,Green Energy Projects,Chemical Engineer,55001,Wales,2125,ASPEN;Mass Balance,5.6,2,Low,Not Applicable
+EMP-0429,Muhammad Brown,42,Digital Services,IT Support Analyst,29986,South East,3131,Active Directory;Office 365,3.4,4,Low,Not Applicable
+EMP-0430,William Johnson,34,Clinical Operations,Clinical Practitioner,88191,West Midlands,2211,Prescribing;Clinical Diagnostics,2.8,2,Low,Not Applicable
+EMP-0431,David Roberts,30,Clinical Operations,Clinical Practitioner,90011,North West,2211,Prescribing;Patient Care;Clinical Diagnostics,4.0,4,Low,Not Applicable
+EMP-0432,Clara Thompson,47,Green Energy Projects,Turbine Maintenance Technician,40840,London,3112,Maintenance;Instrumentation,10.4,3,Low,Not Applicable
+EMP-0433,James Roberts,52,Green Energy Projects,Mechanical Engineer,44549,West Midlands,2122,Thermodynamics;Mechanical Design;CAD,5.5,3,Medium,Ready 1-2 Years
+EMP-0434,Emily Johnson,52,Green Energy Projects,Chemical Engineer,60461,South East,2125,Chemical Process;ASPEN,8.0,3,Medium,No Successor
+EMP-0435,Robert Johnson,39,Digital Services,Software Developer,47886,London,2136,Git;SQL;Python;JavaScript,3.0,2,Low,Not Applicable
+EMP-0436,Ava Wilson,51,Clinical Operations,Healthcare Assistant,25369,West Midlands,6141,Patient Mobility;Vital Signs,9.8,4,Medium,Ready Now
+EMP-0437,James Wright,55,Green Energy Projects,Chemical Engineer,70010,London,2125,Mass Balance;ASPEN,13.1,3,Medium,Ready 1-2 Years
+EMP-0438,Muhammad Johnson,35,Clinical Operations,Healthcare Assistant,23519,North West,6141,Patient Mobility;Vital Signs,2.0,3,Low,Not Applicable
+EMP-0439,Rachel Thompson,57,Green Energy Projects,Battery Design Engineer,45455,North West,2126,SolidWorks;Product Design;Prototyping,5.4,3,Medium,Ready Now
+EMP-0440,Oliver Brown,32,Digital Services,IT Business Analyst,52759,South East,2135,Jira;Business Analysis;UML;Agile;Requirements Gathering,4.5,1,Low,Not Applicable
+EMP-0441,Noah Wright,45,Green Energy Projects,Civil Engineer,56543,London,2121,Structural Analysis;AutoCAD;Project Management,5.3,3,Low,Not Applicable
+EMP-0442,Robert Thompson,51,Corporate Services,Finance Analyst,50372,Scotland,2424,Financial Modelling;Excel;Budgeting,12.4,3,Medium,Ready 1-2 Years
+EMP-0443,Clara Jones,26,Clinical Operations,Pharmacist,49915,London,2237,Clinical Pharmacy;Medicines Management;Patient Counselling,2.1,3,Low,Not Applicable
+EMP-0444,Oliver Thompson,34,Corporate Services,Operations Administrator,30178,London,4159,Customer Service;Administration,4.2,4,Low,Not Applicable
+EMP-0445,James Wright,38,Clinical Operations,Pharmacist,42083,Wales,2237,Medicines Management;Clinical Pharmacy;Patient Counselling,2.5,2,Low,Not Applicable
+EMP-0446,Helen Jones,32,Clinical Operations,Clinical Practitioner,100807,London,2211,Clinical Diagnostics;Patient Care,3.3,4,Low,Not Applicable
+EMP-0447,Sarah Hall,60,Green Energy Projects,Electrical Grid Engineer,55608,South West,2123,Power Systems;HV Electrical,14.6,3,High,Ready 1-2 Years
+EMP-0448,Oliver Wright,55,Corporate Services,Operations Administrator,28321,Wales,4159,Administration;Scheduling,13.1,1,Medium,Ready 1-2 Years
+EMP-0449,Thomas Johnson,46,Green Energy Projects,Mechanical Engineer,46969,West Midlands,2122,Thermodynamics;CAD,9.3,1,Low,Not Applicable
+EMP-0450,Ivy Wood,59,Green Energy Projects,Mechanical Engineer,47890,North West,2122,Mechanical Design;CAD;Thermodynamics,10.8,2,High,No Successor
+EMP-0451,Leo Wood,67,Green Energy Projects,Mechanical Engineer,47146,South East,2122,CAD;Thermodynamics;Mechanical Design,5.6,3,High,Ready 1-2 Years
+EMP-0452,Clara Roberts,52,Green Energy Projects,Civil Engineer,51570,Wales,2121,Structural Analysis;Project Management;AutoCAD,11.7,3,Medium,Ready Now
+EMP-0453,Harry Martin,38,Green Energy Projects,Electrical Grid Engineer,50530,Scotland,2123,Grid Connections;Power Systems;HV Electrical,6.0,3,Low,Not Applicable
+EMP-0454,Grace Green,57,Green Energy Projects,Mechanical Engineer,50137,South East,2122,Thermodynamics;CAD,7.2,3,Medium,No Successor
+EMP-0455,George Wright,43,Green Energy Projects,Chemical Engineer,62344,London,2125,ASPEN;Chemical Process,4.3,4,Low,Not Applicable
+EMP-0456,Henry White,36,Clinical Operations,Medical Imaging Technician,35027,South East,3211,X-Ray;Medical Imaging,4.9,3,Low,Not Applicable
+EMP-0457,David Harris,30,Clinical Operations,Clinical Practitioner,83676,Scotland,2211,Clinical Diagnostics;Prescribing;Patient Care,3.2,3,Low,Not Applicable
+EMP-0458,Thomas Jones,28,Digital Services,Software Developer,41407,Wales,2136,SQL;Git,3.7,2,Low,Not Applicable
+EMP-0459,Freya Wright,43,Green Energy Projects,Battery Design Engineer,52325,South East,2126,SolidWorks;Prototyping;Product Design,9.1,3,Low,Not Applicable
+EMP-0460,Ivy Hall,50,Green Energy Projects,Mechanical Engineer,59541,London,2122,CAD;Thermodynamics,11.4,2,Medium,Ready 1-2 Years
+EMP-0461,Rachel Smith,28,Digital Services,IT Support Analyst,29652,South East,3131,Networking;Active Directory;Troubleshooting;Office 365,2.1,3,Low,Not Applicable
+EMP-0462,Robert Evans,53,Clinical Operations,Staff Nurse,37779,Wales,2231,Patient Assessment;NMC Pin,6.5,1,Medium,No Successor
+EMP-0463,William Green,60,Clinical Operations,Staff Nurse,41425,North West,2231,CPR;NMC Pin;Patient Assessment;Medication Administration,9.4,3,High,No Successor
+EMP-0464,Freya Roberts,55,Green Energy Projects,Mechanical Engineer,45920,West Midlands,2122,Mechanical Design;Thermodynamics,5.8,3,Medium,No Successor
+EMP-0465,Henry Evans,23,Digital Services,IT Business Analyst,46891,North West,2135,Requirements Gathering;Agile;UML,0.7,3,Low,Not Applicable
+EMP-0466,Muhammad Martin,28,Digital Services,Data Engineer,39218,West Midlands,2139,Data Pipelines;AWS;SQL;Python,2.9,3,Low,Not Applicable
+EMP-0467,Oliver Green,41,Green Energy Projects,Chemical Engineer,52624,South West,2125,Chemical Process;ASPEN,4.7,3,Low,Not Applicable
+EMP-0468,Henry Robinson,30,Digital Services,Data Engineer,39405,North West,2139,SQL;Python;Data Pipelines,3.3,2,Low,Not Applicable
+EMP-0469,Muhammad Taylor,39,Clinical Operations,Pharmacist,47310,South East,2237,Patient Counselling;Medicines Management,3.8,3,Low,Not Applicable
+EMP-0470,Grace Wilson,61,Green Energy Projects,Turbine Maintenance Technician,40433,London,3112,Maintenance;Electrical Testing,7.3,5,High,No Successor
+EMP-0471,Ivy Williams,40,Clinical Operations,Medical Imaging Technician,31535,West Midlands,3211,Medical Imaging;MRI;X-Ray,5.1,2,Low,Not Applicable
+EMP-0472,Arthur Walker,42,Green Energy Projects,Chemical Engineer,55972,Scotland,2125,Mass Balance;ASPEN;Chemical Process,7.8,3,Low,Not Applicable
+EMP-0473,Muhammad White,28,Digital Services,Data Engineer,37288,South West,2139,Data Pipelines;Python;AWS;SQL,2.6,3,Low,Not Applicable
+EMP-0474,Helen Brown,54,Green Energy Projects,Battery Design Engineer,47829,Scotland,2126,Prototyping;SolidWorks,7.8,3,Medium,Ready Now
+EMP-0475,Leo Wood,33,Digital Services,IT Business Analyst,54926,London,2135,Agile;Requirements Gathering;Business Analysis,1.9,1,Low,Not Applicable
+EMP-0476,Ivy Taylor,32,Digital Services,IT Support Analyst,29442,Scotland,3131,Troubleshooting;Office 365;Active Directory;Networking,4.2,4,Low,Not Applicable
+EMP-0477,Harry Walker,50,Clinical Operations,Healthcare Assistant,27019,London,6141,Vital Signs;Patient Mobility,4.3,4,Medium,Ready 1-2 Years
+EMP-0478,James White,33,Clinical Operations,Pharmacist,41883,Scotland,2237,Clinical Pharmacy;Patient Counselling,2.7,3,Low,Not Applicable
+EMP-0479,Amelia Robinson,41,Corporate Services,Finance Analyst,50682,South East,2424,Financial Modelling;Budgeting;Excel,9.1,3,Low,Not Applicable
+EMP-0480,Thomas Brown,43,Corporate Services,Operations Administrator,28978,London,4159,Scheduling;Administration;Customer Service,4.4,2,Low,Not Applicable
+EMP-0481,Thomas Smith,35,Corporate Services,Operations Administrator,25942,South East,4159,Scheduling;Customer Service;Administration,3.4,4,Low,Not Applicable
+EMP-0482,James Taylor,52,Green Energy Projects,Civil Engineer,49890,West Midlands,2121,Project Management;Structural Analysis,7.3,3,Medium,Ready 1-2 Years
+EMP-0483,Oscar Jones,27,Clinical Operations,Clinical Practitioner,85934,Scotland,2211,Prescribing;Clinical Diagnostics;Patient Care,1.8,3,Low,Not Applicable
+EMP-0484,Oscar Johnson,62,Green Energy Projects,Chemical Engineer,61425,West Midlands,2125,Mass Balance;ASPEN,16.2,3,High,No Successor
+EMP-0485,Noah Smith,49,Clinical Operations,Healthcare Assistant,25454,West Midlands,6141,Personal Care;Vital Signs;Patient Mobility,10.5,2,Low,Not Applicable
+EMP-0486,Helen Jones,57,Green Energy Projects,Mechanical Engineer,50191,West Midlands,2122,Mechanical Design;CAD,13.3,4,Medium,Ready Now
+EMP-0487,Sarah Williams,29,Green Energy Projects,Civil Engineer,43514,West Midlands,2121,Project Management;AutoCAD,1.3,4,Low,Not Applicable
+EMP-0488,Robert Brown,52,Green Energy Projects,Mechanical Engineer,59534,London,2122,Thermodynamics;CAD,11.9,2,Medium,Ready Now
+EMP-0489,Mia Thompson,27,Clinical Operations,Medical Imaging Technician,37492,London,3211,Medical Imaging;X-Ray,2.5,3,Low,Not Applicable
+EMP-0490,Isla Robinson,50,Digital Services,Data Engineer,41451,South East,2139,SQL;AWS,4.8,2,Medium,No Successor
+EMP-0491,Ivy Walker,42,Clinical Operations,Clinical Practitioner,86447,South West,2211,Patient Care;Prescribing;Clinical Diagnostics,2.5,3,Low,Not Applicable
+EMP-0492,Thomas Robinson,46,Green Energy Projects,Chemical Engineer,63836,London,2125,Mass Balance;ASPEN,4.8,3,Low,Not Applicable
+EMP-0493,George Wright,43,Green Energy Projects,Civil Engineer,50994,South West,2121,Structural Analysis;AutoCAD,9.9,3,Low,Not Applicable
+EMP-0494,Noah Brown,37,Clinical Operations,Medical Imaging Technician,38944,London,3211,X-Ray;MRI,4.7,3,Low,Not Applicable
+EMP-0495,Mia Robinson,56,Green Energy Projects,Energy Plant Operator,40471,London,8124,Plant Operations;SCADA,5.0,3,Medium,Ready Now
+EMP-0496,William Davies,42,Clinical Operations,Healthcare Assistant,26406,South East,6141,Personal Care;Vital Signs;Patient Mobility,6.6,3,Low,Not Applicable
+EMP-0497,Emily White,43,Clinical Operations,Medical Imaging Technician,38632,London,3211,X-Ray;MRI,6.9,3,Low,Not Applicable
+EMP-0498,Grace Williams,46,Green Energy Projects,Mechanical Engineer,45962,South West,2122,CAD;Mechanical Design,8.1,3,Low,Not Applicable
+EMP-0499,Isla Roberts,49,Green Energy Projects,Mechanical Engineer,54814,London,2122,Mechanical Design;CAD,5.8,2,Low,Not Applicable
+EMP-0500,Rachel Hall,42,Green Energy Projects,Mechanical Engineer,45386,Scotland,2122,Mechanical Design;CAD;Thermodynamics,6.7,3,Low,Not Applicable
+EMP-0501,Henry Davies,67,Clinical Operations,Healthcare Assistant,28866,South East,6141,Vital Signs;Personal Care;Patient Mobility,18.1,3,High,No Successor
+EMP-0502,Helen Brown,42,Green Energy Projects,Mechanical Engineer,44550,Scotland,2122,CAD;Mechanical Design;Thermodynamics,3.0,3,Low,Not Applicable
+EMP-0503,Thomas Taylor,37,Digital Services,Web Designer,32813,North West,2137,CSS;UI/UX;WordPress,5.2,3,Low,Not Applicable
+EMP-0504,Rachel Evans,49,Clinical Operations,Clinical Practitioner,115732,London,2211,Prescribing;Clinical Diagnostics;Patient Care,11.1,3,Low,Not Applicable
+EMP-0505,Jack Martin,52,Green Energy Projects,Energy Plant Operator,40616,South East,8124,Plant Operations;Health & Safety;SCADA,9.7,3,Medium,No Successor
+EMP-0506,Amelia Evans,62,Green Energy Projects,Turbine Maintenance Technician,43516,London,3112,Electrical Testing;Maintenance,11.8,3,High,No Successor
+EMP-0507,Isla Green,58,Clinical Operations,Healthcare Assistant,25902,Scotland,6141,Vital Signs;Patient Mobility;Personal Care,13.0,2,High,No Successor
+EMP-0508,Arthur Green,38,Green Energy Projects,Energy Plant Operator,33757,West Midlands,8124,SCADA;Health & Safety;Plant Operations,2.7,3,Low,Not Applicable
+EMP-0509,William Roberts,37,Digital Services,Data Engineer,47479,London,2139,Python;AWS;SQL;Data Pipelines,7.4,3,Low,Not Applicable
+EMP-0510,Thomas Smith,44,Green Energy Projects,Turbine Maintenance Technician,39580,London,3112,Instrumentation;Electrical Testing;Maintenance,6.8,3,Low,Not Applicable
+EMP-0511,Oliver Davies,43,Clinical Operations,Healthcare Assistant,23344,West Midlands,6141,Patient Mobility;Vital Signs;Personal Care,5.1,4,Low,Not Applicable
+EMP-0512,Sophia Wilson,41,Clinical Operations,Staff Nurse,39296,South West,2231,Medication Administration;CPR,5.6,3,Low,Not Applicable
+EMP-0513,Ava Martin,33,Corporate Services,Operations Administrator,25621,West Midlands,4159,Administration;Customer Service,2.3,2,Low,Not Applicable
+EMP-0514,Leo Harris,32,Digital Services,Web Designer,33373,South East,2137,UI/UX;CSS;HTML;WordPress,3.0,3,Low,Not Applicable
+EMP-0515,Ava Wood,40,Green Energy Projects,Civil Engineer,45430,North West,2121,Project Management;Structural Analysis,3.2,3,Low,Not Applicable
+EMP-0516,Sophia Green,54,Clinical Operations,Healthcare Assistant,26020,Scotland,6141,Patient Mobility;Personal Care;Vital Signs,10.8,4,Medium,Ready Now
+EMP-0517,Florence Wood,22,Digital Services,IT Business Analyst,52425,London,2135,Requirements Gathering;UML;Jira,0.9,3,Low,Not Applicable
+EMP-0518,George Wood,51,Clinical Operations,Clinical Practitioner,104867,South East,2211,Prescribing;Patient Care,13.0,3,Medium,No Successor
+EMP-0519,Rachel White,57,Green Energy Projects,Electrical Grid Engineer,53878,South East,2123,HV Electrical;Grid Connections,7.5,3,Medium,Ready 1-2 Years
+EMP-0520,Helen Roberts,49,Green Energy Projects,Energy Plant Operator,37409,Wales,8124,Plant Operations;Health & Safety;SCADA,9.9,3,Low,Not Applicable
+EMP-0521,Lily Hall,52,Corporate Services,HR Advisor,42051,London,3562,Recruitment;Employee Relations;Employment Law,7.2,3,Medium,Ready Now
+EMP-0522,Noah Wilson,34,Clinical Operations,Pharmacist,52531,London,2237,Clinical Pharmacy;Patient Counselling;Medicines Management,4.3,1,Low,Not Applicable
+EMP-0523,Oliver Williams,54,Green Energy Projects,Turbine Maintenance Technician,35722,Wales,3112,Instrumentation;Electrical Testing;Maintenance,10.7,2,Medium,Ready 1-2 Years
+EMP-0524,Lily Taylor,40,Green Energy Projects,Electrical Grid Engineer,50475,North West,2123,HV Electrical;Power Systems;Grid Connections,6.0,3,Low,Not Applicable
+EMP-0525,Henry Smith,44,Clinical Operations,Staff Nurse,38343,West Midlands,2231,NMC Pin;Medication Administration,6.2,3,Low,Not Applicable
+EMP-0526,Clara Evans,31,Digital Services,Web Designer,30851,South West,2137,CSS;HTML;UI/UX;WordPress,3.4,4,Low,Not Applicable
+EMP-0527,Robert Wright,47,Green Energy Projects,Turbine Maintenance Technician,33309,Scotland,3112,Maintenance;Instrumentation;Electrical Testing,7.9,3,Low,Not Applicable
+EMP-0528,Clara Wilson,30,Digital Services,Software Developer,41511,Scotland,2136,Python;SQL;Git;JavaScript,3.0,2,Low,Not Applicable
+EMP-0529,Harry Smith,47,Green Energy Projects,Electrical Grid Engineer,49594,South West,2123,Power Systems;Grid Connections;HV Electrical,6.7,3,Low,Not Applicable
+EMP-0530,Isla Davies,29,Digital Services,Software Developer,42686,South East,2136,JavaScript;Git,3.4,4,Low,Not Applicable
+EMP-0531,Isla Taylor,33,Digital Services,Data Engineer,38236,Scotland,2139,AWS;SQL,2.0,4,Low,Not Applicable
+EMP-0532,Amelia Taylor,46,Green Energy Projects,Civil Engineer,51665,Scotland,2121,Project Management;AutoCAD,9.1,3,Low,Not Applicable
+EMP-0533,Grace Smith,39,Digital Services,Web Designer,31246,North West,2137,HTML;WordPress,3.1,4,Low,Not Applicable
+EMP-0534,James Smith,46,Green Energy Projects,Turbine Maintenance Technician,36529,South East,3112,Instrumentation;Electrical Testing,4.4,4,Low,Not Applicable
+EMP-0535,Clara Hall,31,Clinical Operations,Medical Imaging Technician,30537,South West,3211,MRI;X-Ray;Medical Imaging,3.0,3,Low,Not Applicable
+EMP-0536,Mia Brown,49,Clinical Operations,Pharmacist,49633,London,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,4.2,2,Low,Not Applicable
+EMP-0537,Lily Brown,42,Green Energy Projects,Chemical Engineer,61364,South East,2125,ASPEN;Chemical Process;Mass Balance,9.4,4,Low,Not Applicable
+EMP-0538,Helen Green,34,Corporate Services,Finance Analyst,43528,South West,2424,Excel;Budgeting,2.5,3,Low,Not Applicable
+EMP-0539,Florence Taylor,25,Digital Services,Data Engineer,39020,South West,2139,Data Pipelines;SQL,0.9,3,Low,Not Applicable
+EMP-0540,Ivy Walker,38,Digital Services,Data Engineer,44290,South East,2139,Data Pipelines;AWS;Python;SQL,6.4,3,Low,Not Applicable
+EMP-0541,Ivy Walker,36,Corporate Services,Operations Administrator,26623,South East,4159,Administration;Customer Service,2.4,3,Low,Not Applicable
+EMP-0542,Robert Taylor,64,Green Energy Projects,Civil Engineer,60705,South East,2121,Structural Analysis;AutoCAD,18.0,4,High,No Successor
+EMP-0543,Muhammad Green,46,Clinical Operations,Staff Nurse,40182,North West,2231,Patient Assessment;CPR;Medication Administration;NMC Pin,7.0,3,Low,Not Applicable
+EMP-0544,Leo Walker,59,Green Energy Projects,Civil Engineer,48304,North West,2121,Project Management;AutoCAD;Structural Analysis,4.5,3,High,No Successor
+EMP-0545,Oscar Green,42,Clinical Operations,Healthcare Assistant,24352,North West,6141,Vital Signs;Personal Care,7.3,3,Low,Not Applicable
+EMP-0546,Lily Harris,26,Corporate Services,Operations Administrator,24425,Scotland,4159,Administration;Customer Service,2.4,2,Low,Not Applicable
+EMP-0547,Grace Evans,67,Clinical Operations,Healthcare Assistant,29271,London,6141,Patient Mobility;Vital Signs;Personal Care,9.9,3,High,No Successor
+EMP-0548,Thomas Wright,52,Green Energy Projects,Turbine Maintenance Technician,34784,South East,3112,Instrumentation;Maintenance,4.1,1,Medium,No Successor
+EMP-0549,Rachel White,47,Green Energy Projects,Chemical Engineer,55430,South West,2125,ASPEN;Chemical Process;Mass Balance,8.0,2,Low,Not Applicable
+EMP-0550,Florence Johnson,62,Green Energy Projects,Battery Design Engineer,50119,West Midlands,2126,SolidWorks;Prototyping;Product Design,15.1,3,High,Ready 1-2 Years
+EMP-0551,Robert Wood,55,Digital Services,Web Designer,35965,South East,2137,HTML;UI/UX,8.2,3,Medium,Ready Now
+EMP-0552,Henry Hall,57,Green Energy Projects,Mechanical Engineer,56606,London,2122,Thermodynamics;Mechanical Design;CAD,8.0,3,Medium,Ready 1-2 Years
+EMP-0553,Ivy Hall,31,Green Energy Projects,Energy Plant Operator,32915,North West,8124,Plant Operations;SCADA;Health & Safety,3.7,4,Low,Not Applicable
+EMP-0554,Freya Martin,33,Clinical Operations,Medical Imaging Technician,31405,West Midlands,3211,MRI;X-Ray,5.7,2,Low,Not Applicable
+EMP-0555,Harry Wright,32,Clinical Operations,Medical Imaging Technician,32718,South East,3211,X-Ray;Medical Imaging;MRI,1.7,3,Low,Not Applicable
+EMP-0556,Emily Walker,44,Digital Services,Software Developer,45292,South East,2136,JavaScript;Git;SQL,4.1,3,Low,Not Applicable
+EMP-0557,William Jones,36,Digital Services,Web Designer,31174,West Midlands,2137,WordPress;HTML,6.1,2,Low,Not Applicable
+EMP-0558,William Taylor,54,Green Energy Projects,Electrical Grid Engineer,53353,Wales,2123,HV Electrical;Power Systems;Grid Connections,13.0,4,Medium,No Successor
+EMP-0559,Robert Williams,31,Digital Services,IT Support Analyst,29067,Scotland,3131,Office 365;Networking;Troubleshooting;Active Directory,3.3,3,Low,Not Applicable
+EMP-0560,James Thompson,28,Green Energy Projects,Battery Design Engineer,44857,Scotland,2126,Product Design;Prototyping;SolidWorks,3.2,3,Low,Not Applicable
+EMP-0561,Jack Roberts,40,Green Energy Projects,Energy Plant Operator,33739,South West,8124,SCADA;Plant Operations;Health & Safety,4.7,4,Low,Not Applicable
+EMP-0562,Clara Williams,43,Green Energy Projects,Turbine Maintenance Technician,36257,South East,3112,Instrumentation;Electrical Testing,5.3,3,Low,Not Applicable
+EMP-0563,Helen Davies,40,Green Energy Projects,Chemical Engineer,51813,Scotland,2125,ASPEN;Mass Balance,4.6,1,Low,Not Applicable
+EMP-0564,Oscar Robinson,67,Green Energy Projects,Energy Plant Operator,43719,South East,8124,SCADA;Health & Safety,16.0,4,High,No Successor
+EMP-0565,James White,52,Clinical Operations,Pharmacist,48634,North West,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,13.0,4,Medium,No Successor
+EMP-0566,Jack Hall,23,Digital Services,Data Engineer,38582,Scotland,2139,SQL;AWS;Data Pipelines,1.4,3,Low,Not Applicable
+EMP-0567,Helen Williams,28,Digital Services,Software Developer,46420,London,2136,SQL;Git;JavaScript;Python,1.2,3,Low,Not Applicable
+EMP-0568,Rachel Williams,43,Green Energy Projects,Turbine Maintenance Technician,35997,South East,3112,Maintenance;Instrumentation,6.9,3,Low,Not Applicable
+EMP-0569,William Walker,43,Corporate Services,Operations Administrator,27650,West Midlands,4159,Scheduling;Administration,9.4,3,Low,Not Applicable
+EMP-0570,Rachel Wilson,49,Digital Services,IT Support Analyst,30652,South East,3131,Networking;Office 365;Troubleshooting,7.1,1,Low,Not Applicable
+EMP-0571,Muhammad White,45,Clinical Operations,Medical Imaging Technician,35522,South East,3211,MRI;X-Ray;Medical Imaging,4.5,2,Low,Not Applicable
+EMP-0572,Rachel Johnson,29,Clinical Operations,Pharmacist,49323,London,2237,Medicines Management;Clinical Pharmacy,3.5,5,Low,Not Applicable
+EMP-0573,Emily Martin,39,Green Energy Projects,Mechanical Engineer,51406,London,2122,Mechanical Design;Thermodynamics;CAD,5.0,3,Low,Not Applicable
+EMP-0574,David White,51,Clinical Operations,Pharmacist,41886,North West,2237,Clinical Pharmacy;Patient Counselling,4.0,5,Medium,No Successor
+EMP-0575,Helen Martin,51,Clinical Operations,Clinical Practitioner,91939,South West,2211,Prescribing;Clinical Diagnostics,7.1,3,Medium,Ready 1-2 Years
+EMP-0576,Ava Hall,49,Green Energy Projects,Electrical Grid Engineer,60829,London,2123,Power Systems;Grid Connections;HV Electrical,11.3,3,Low,Not Applicable
+EMP-0577,Harry Green,39,Clinical Operations,Pharmacist,43773,Wales,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,3.9,4,Low,Not Applicable
+EMP-0578,Leo Green,28,Clinical Operations,Staff Nurse,37326,South West,2231,Patient Assessment;CPR;NMC Pin,2.7,2,Low,Not Applicable
+EMP-0579,Ava Jones,46,Green Energy Projects,Mechanical Engineer,47234,South West,2122,Mechanical Design;Thermodynamics;CAD,11.2,3,Low,Not Applicable
+EMP-0580,Rachel Williams,25,Digital Services,IT Business Analyst,51113,South East,2135,Requirements Gathering;UML;Agile;Business Analysis,1.1,3,Low,Not Applicable
+EMP-0581,Henry Wilson,49,Green Energy Projects,Civil Engineer,49089,South East,2121,Structural Analysis;Project Management,4.0,3,Low,Not Applicable
+EMP-0582,Isla Thompson,41,Digital Services,IT Business Analyst,49398,West Midlands,2135,Requirements Gathering;Business Analysis;UML;Jira,5.5,3,Low,Not Applicable
+EMP-0583,Arthur Thompson,54,Corporate Services,Operations Administrator,26411,Scotland,4159,Scheduling;Administration;Customer Service,5.0,3,Medium,No Successor
+EMP-0584,Oscar Taylor,40,Green Energy Projects,Mechanical Engineer,44017,Scotland,2122,CAD;Mechanical Design,3.8,3,Low,Not Applicable
+EMP-0585,Oscar Wright,56,Clinical Operations,Staff Nurse,39507,Scotland,2231,Medication Administration;CPR;Patient Assessment;NMC Pin,8.7,3,Medium,Ready 1-2 Years
+EMP-0586,Arthur Walker,56,Green Energy Projects,Battery Design Engineer,56745,London,2126,Prototyping;Product Design;SolidWorks,10.6,3,Medium,Ready Now
+EMP-0587,Amelia Hall,43,Green Energy Projects,Chemical Engineer,56024,South West,2125,ASPEN;Mass Balance,7.9,3,Low,Not Applicable
+EMP-0588,Clara Green,37,Green Energy Projects,Mechanical Engineer,47912,South East,2122,Thermodynamics;CAD;Mechanical Design,5.8,4,Low,Not Applicable
+EMP-0589,Muhammad Brown,59,Green Energy Projects,Chemical Engineer,61241,South East,2125,Mass Balance;Chemical Process,11.1,2,High,No Successor
+EMP-0590,Ava Wilson,48,Clinical Operations,Clinical Practitioner,85115,Wales,2211,Prescribing;Patient Care;Clinical Diagnostics,3.7,3,Low,Not Applicable
+EMP-0591,Clara Wilson,32,Digital Services,IT Business Analyst,57897,London,2135,Jira;Business Analysis,5.1,1,Low,Not Applicable
+EMP-0592,Thomas Green,36,Green Energy Projects,Chemical Engineer,55300,South West,2125,ASPEN;Mass Balance;Chemical Process,6.5,4,Low,Not Applicable
+EMP-0593,George Williams,33,Digital Services,Software Developer,41259,Scotland,2136,SQL;Git;Python;JavaScript,5.9,4,Low,Not Applicable
+EMP-0594,Rachel Wood,33,Digital Services,Web Designer,36757,London,2137,CSS;HTML,5.0,3,Low,Not Applicable
+EMP-0595,Arthur Green,42,Green Energy Projects,Energy Plant Operator,33850,Scotland,8124,Plant Operations;Health & Safety;SCADA,4.5,5,Low,Not Applicable
+EMP-0596,Rachel Green,51,Clinical Operations,Healthcare Assistant,24512,South West,6141,Patient Mobility;Vital Signs;Personal Care,10.5,3,Medium,No Successor
+EMP-0597,Oliver White,66,Green Energy Projects,Battery Design Engineer,48764,North West,2126,SolidWorks;Prototyping;Product Design,10.8,3,High,Ready 3+ Years
+EMP-0598,Grace Roberts,38,Digital Services,Software Developer,43427,West Midlands,2136,JavaScript;Python;SQL;Git,5.5,5,Low,Not Applicable
+EMP-0599,Robert Evans,43,Clinical Operations,Staff Nurse,38616,West Midlands,2231,Medication Administration;NMC Pin,8.1,3,Low,Not Applicable
+EMP-0600,Helen White,34,Corporate Services,Finance Analyst,45367,South East,2424,Excel;Budgeting,3.1,3,Low,Not Applicable
+EMP-0601,Ava Wilson,52,Clinical Operations,Healthcare Assistant,23818,West Midlands,6141,Patient Mobility;Vital Signs,7.8,5,Medium,Ready 1-2 Years
+EMP-0602,James Jones,49,Clinical Operations,Healthcare Assistant,28399,London,6141,Vital Signs;Personal Care,5.6,4,Low,Not Applicable
+EMP-0603,Arthur Roberts,57,Corporate Services,HR Advisor,36078,Scotland,3562,Employment Law;Employee Relations,11.0,3,Medium,Ready Now
+EMP-0604,Rachel Johnson,37,Corporate Services,HR Advisor,35645,West Midlands,3562,Employment Law;Employee Relations;Recruitment,6.1,3,Low,Not Applicable
+EMP-0605,Leo Williams,26,Digital Services,Software Developer,44270,South East,2136,Git;JavaScript;Python,2.6,2,Low,Not Applicable
+EMP-0606,Grace White,52,Green Energy Projects,Turbine Maintenance Technician,33810,Scotland,3112,Electrical Testing;Maintenance,5.9,3,Medium,Ready 1-2 Years
+EMP-0607,William Roberts,42,Corporate Services,Operations Administrator,28103,London,4159,Administration;Scheduling,2.6,3,Low,Not Applicable
+EMP-0608,James Wilson,40,Green Energy Projects,Chemical Engineer,56004,West Midlands,2125,Mass Balance;ASPEN,7.2,3,Low,Not Applicable
+EMP-0609,William Wood,41,Clinical Operations,Pharmacist,45030,North West,2237,Clinical Pharmacy;Medicines Management;Patient Counselling,4.2,3,Low,Not Applicable
+EMP-0610,William Walker,39,Clinical Operations,Pharmacist,42207,North West,2237,Patient Counselling;Clinical Pharmacy,2.6,3,Low,Not Applicable
+EMP-0611,Muhammad Wood,49,Green Energy Projects,Electrical Grid Engineer,47625,Scotland,2123,Grid Connections;HV Electrical,3.4,5,Low,Not Applicable
+EMP-0612,Isla Jones,34,Clinical Operations,Pharmacist,45242,South East,2237,Clinical Pharmacy;Patient Counselling,4.6,3,Low,Not Applicable
+EMP-0613,Oliver Roberts,58,Green Energy Projects,Mechanical Engineer,49283,Wales,2122,Thermodynamics;Mechanical Design,10.8,3,High,Ready 1-2 Years
+EMP-0614,David Walker,23,Green Energy Projects,Mechanical Engineer,41380,North West,2122,Thermodynamics;CAD;Mechanical Design,0.7,3,Low,Not Applicable
+EMP-0615,Robert White,29,Digital Services,IT Business Analyst,55863,London,2135,Requirements Gathering;Jira;UML;Agile;Business Analysis,1.8,5,Low,Not Applicable
+EMP-0616,David Green,42,Clinical Operations,Medical Imaging Technician,38390,London,3211,Medical Imaging;X-Ray;MRI,8.3,3,Low,Not Applicable
+EMP-0617,Amelia Wilson,44,Corporate Services,Finance Analyst,55479,London,2424,Financial Modelling;Budgeting;Excel,9.2,3,Low,Not Applicable
+EMP-0618,Grace Wright,46,Green Energy Projects,Civil Engineer,59311,London,2121,Structural Analysis;Project Management,9.4,3,Low,Not Applicable
+EMP-0619,Robert Green,24,Digital Services,IT Support Analyst,27439,North West,3131,Active Directory;Networking;Troubleshooting,1.4,4,Low,Not Applicable
+EMP-0620,Muhammad Roberts,56,Clinical Operations,Medical Imaging Technician,31395,West Midlands,3211,MRI;Medical Imaging;X-Ray,5.5,3,Medium,Ready Now
+EMP-0621,Florence Roberts,50,Clinical Operations,Clinical Practitioner,94201,Scotland,2211,Prescribing;Clinical Diagnostics,8.7,3,Medium,No Successor
+EMP-0622,Freya Harris,38,Clinical Operations,Healthcare Assistant,23678,Scotland,6141,Personal Care;Vital Signs,5.1,5,Low,Not Applicable
+EMP-0623,Jack Johnson,21,Digital Services,IT Support Analyst,27932,South East,3131,Office 365;Networking,0.8,3,Low,Not Applicable
+EMP-0624,Oliver Hall,54,Green Energy Projects,Electrical Grid Engineer,48246,South West,2123,Power Systems;HV Electrical;Grid Connections,4.6,4,Medium,Ready Now
+EMP-0625,Sophia White,33,Clinical Operations,Clinical Practitioner,97627,London,2211,Clinical Diagnostics;Patient Care;Prescribing,1.6,3,Low,Not Applicable
+EMP-0626,Robert Brown,28,Digital Services,Software Developer,40706,North West,2136,JavaScript;Python;SQL;Git,3.3,3,Low,Not Applicable
+EMP-0627,Freya White,28,Digital Services,IT Business Analyst,53606,South East,2135,UML;Requirements Gathering,3.7,3,Low,Not Applicable
+EMP-0628,Mia Roberts,35,Digital Services,IT Support Analyst,27535,South West,3131,Networking;Office 365,2.7,5,Low,Not Applicable
+EMP-0629,Clara Wood,57,Green Energy Projects,Civil Engineer,50004,West Midlands,2121,Structural Analysis;Project Management,11.2,3,Medium,No Successor
+EMP-0630,Oscar Evans,27,Clinical Operations,Staff Nurse,35477,North West,2231,Patient Assessment;Medication Administration;CPR;NMC Pin,2.5,3,Low,Not Applicable
+EMP-0631,Robert Williams,44,Clinical Operations,Pharmacist,46361,Scotland,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,6.5,3,Low,Not Applicable
+EMP-0632,Florence Thompson,44,Green Energy Projects,Chemical Engineer,63705,South East,2125,Mass Balance;Chemical Process,10.1,3,Low,Not Applicable
+EMP-0633,Oliver Smith,25,Clinical Operations,Medical Imaging Technician,31845,South East,3211,X-Ray;Medical Imaging,1.7,4,Low,Not Applicable
+EMP-0634,Robert Roberts,34,Clinical Operations,Pharmacist,48450,South East,2237,Medicines Management;Patient Counselling;Clinical Pharmacy,6.3,3,Low,Not Applicable
+EMP-0635,Clara Johnson,48,Green Energy Projects,Mechanical Engineer,46536,West Midlands,2122,Mechanical Design;CAD;Thermodynamics,9.1,5,Low,Not Applicable
+EMP-0636,Grace Jones,33,Green Energy Projects,Turbine Maintenance Technician,34677,South East,3112,Electrical Testing;Maintenance;Instrumentation,4.7,3,Low,Not Applicable
+EMP-0637,Noah Harris,45,Clinical Operations,Healthcare Assistant,26714,London,6141,Vital Signs;Patient Mobility,3.7,3,Low,Not Applicable
+EMP-0638,Florence Smith,38,Corporate Services,Operations Administrator,26564,West Midlands,4159,Administration;Scheduling;Customer Service,6.1,4,Low,Not Applicable
+EMP-0639,Leo White,37,Clinical Operations,Medical Imaging Technician,35058,South East,3211,Medical Imaging;MRI,4.6,4,Low,Not Applicable
+EMP-0640,Freya Roberts,62,Green Energy Projects,Chemical Engineer,65180,London,2125,Mass Balance;Chemical Process,7.0,5,High,No Successor
+EMP-0641,George Davies,29,Digital Services,Web Designer,30675,North West,2137,UI/UX;CSS;HTML;WordPress,1.4,3,Low,Not Applicable
+EMP-0642,Leo Jones,60,Clinical Operations,Healthcare Assistant,27263,South West,6141,Personal Care;Patient Mobility;Vital Signs,14.2,2,High,No Successor
+EMP-0643,Amelia Walker,43,Green Energy Projects,Energy Plant Operator,32236,Scotland,8124,Plant Operations;Health & Safety;SCADA,3.0,3,Low,Not Applicable
+EMP-0644,Sophia Walker,34,Green Energy Projects,Battery Design Engineer,48876,South East,2126,SolidWorks;Prototyping,5.2,3,Low,Not Applicable
+EMP-0645,Mia Martin,31,Clinical Operations,Pharmacist,42138,North West,2237,Medicines Management;Patient Counselling,1.4,3,Low,Not Applicable
+EMP-0646,George Harris,38,Clinical Operations,Staff Nurse,46296,London,2231,CPR;Medication Administration;NMC Pin,7.4,3,Low,Not Applicable
+EMP-0647,Harry Jones,25,Digital Services,Web Designer,32622,South East,2137,CSS;HTML;WordPress;UI/UX,2.1,3,Low,Not Applicable
+EMP-0648,Sophia Evans,33,Corporate Services,Operations Administrator,24563,West Midlands,4159,Scheduling;Customer Service,4.1,3,Low,Not Applicable
+EMP-0649,Noah Johnson,44,Clinical Operations,Pharmacist,46608,North West,2237,Patient Counselling;Clinical Pharmacy;Medicines Management,8.0,3,Low,Not Applicable
+EMP-0650,Isla Roberts,50,Clinical Operations,Clinical Practitioner,92822,Wales,2211,Patient Care;Clinical Diagnostics,8.0,3,Medium,No Successor
+EMP-0651,James Thompson,41,Clinical Operations,Medical Imaging Technician,35270,South East,3211,X-Ray;Medical Imaging,9.1,2,Low,Not Applicable
+EMP-0652,Arthur Johnson,46,Clinical Operations,Pharmacist,49183,London,2237,Medicines Management;Clinical Pharmacy,3.2,3,Low,Not Applicable
+EMP-0653,Leo Wood,46,Digital Services,Software Developer,53391,London,2136,Python;SQL;JavaScript,10.4,3,Low,Not Applicable
+EMP-0654,Emily Evans,51,Clinical Operations,Staff Nurse,43872,South West,2231,Patient Assessment;CPR;NMC Pin,12.6,4,Medium,Ready Now
+EMP-0655,Helen Johnson,30,Digital Services,Data Engineer,39884,West Midlands,2139,Python;Data Pipelines;AWS;SQL,2.7,3,Low,Not Applicable
+EMP-0656,Amelia Robinson,41,Clinical Operations,Healthcare Assistant,24379,Wales,6141,Patient Mobility;Personal Care,9.0,3,Low,Not Applicable
+EMP-0657,Oscar Hall,41,Green Energy Projects,Battery Design Engineer,45846,West Midlands,2126,SolidWorks;Prototyping;Product Design,4.9,3,Low,Not Applicable
+EMP-0658,Helen Harris,50,Clinical Operations,Staff Nurse,42235,South East,2231,Medication Administration;CPR;NMC Pin,5.3,4,Medium,No Successor
+EMP-0659,Ava Evans,51,Green Energy Projects,Civil Engineer,52919,South East,2121,Project Management;Structural Analysis;AutoCAD,7.7,3,Medium,Ready 1-2 Years
+EMP-0660,Mia Evans,43,Clinical Operations,Pharmacist,51099,London,2237,Patient Counselling;Medicines Management;Clinical Pharmacy,4.5,4,Low,Not Applicable
+EMP-0661,Sophia Hall,55,Green Energy Projects,Turbine Maintenance Technician,39300,London,3112,Maintenance;Electrical Testing,6.2,3,Medium,Ready 1-2 Years
+EMP-0662,Sophia Robinson,35,Digital Services,IT Support Analyst,30056,South West,3131,Office 365;Troubleshooting;Networking;Active Directory,6.8,4,Low,Not Applicable
+EMP-0663,Helen Walker,40,Corporate Services,Operations Administrator,27280,South West,4159,Administration;Customer Service;Scheduling,6.5,3,Low,Not Applicable
+EMP-0664,Muhammad Harris,38,Clinical Operations,Medical Imaging Technician,33588,North West,3211,Medical Imaging;MRI;X-Ray,6.3,3,Low,Not Applicable
+EMP-0665,Arthur Wood,29,Digital Services,Software Developer,49611,London,2136,Git;Python;SQL,4.2,3,Low,Not Applicable
+EMP-0666,James Walker,46,Clinical Operations,Healthcare Assistant,23867,North West,6141,Personal Care;Vital Signs,5.3,5,Low,Not Applicable
+EMP-0667,Leo Harris,59,Clinical Operations,Healthcare Assistant,27666,South East,6141,Vital Signs;Patient Mobility,8.9,3,High,No Successor
+EMP-0668,Henry Roberts,33,Clinical Operations,Pharmacist,49673,London,2237,Patient Counselling;Clinical Pharmacy,1.9,1,Low,Not Applicable
+EMP-0669,Noah Taylor,38,Corporate Services,Finance Analyst,51798,London,2424,Financial Modelling;Excel,6.0,4,Low,Not Applicable
+EMP-0670,Mia Walker,37,Digital Services,IT Business Analyst,51871,South East,2135,UML;Requirements Gathering;Business Analysis;Jira;Agile,2.6,4,Low,Not Applicable
+EMP-0671,Florence Green,41,Digital Services,IT Support Analyst,28538,West Midlands,3131,Networking;Active Directory,5.8,2,Low,Not Applicable
+EMP-0672,Oscar Martin,44,Clinical Operations,Healthcare Assistant,23689,North West,6141,Vital Signs;Personal Care;Patient Mobility,5.2,3,Low,Not Applicable
+EMP-0673,William Roberts,47,Green Energy Projects,Energy Plant Operator,34988,Scotland,8124,Plant Operations;SCADA,8.2,3,Low,Not Applicable
+EMP-0674,Clara Wilson,31,Clinical Operations,Clinical Practitioner,83631,South West,2211,Patient Care;Prescribing,2.8,3,Low,Not Applicable
+EMP-0675,George Johnson,52,Corporate Services,Finance Analyst,57442,London,2424,Excel;Budgeting;Financial Modelling,13.6,3,Medium,No Successor
+EMP-0676,Amelia Roberts,32,Digital Services,Data Engineer,39854,West Midlands,2139,SQL;AWS;Python,3.0,2,Low,Not Applicable
+EMP-0677,Clara Williams,39,Green Energy Projects,Turbine Maintenance Technician,32746,West Midlands,3112,Electrical Testing;Maintenance;Instrumentation,2.6,4,Low,Not Applicable
+EMP-0678,Ava Smith,51,Clinical Operations,Staff Nurse,38447,North West,2231,Patient Assessment;NMC Pin,6.2,3,Medium,Ready 1-2 Years
+EMP-0679,Grace Wilson,39,Digital Services,IT Business Analyst,58199,London,2135,Jira;Agile,4.9,3,Low,Not Applicable
+EMP-0680,Ivy Smith,27,Digital Services,Data Engineer,38363,South West,2139,Python;SQL,3.0,1,Low,Not Applicable
+EMP-0681,Oliver Smith,47,Green Energy Projects,Mechanical Engineer,59086,London,2122,Mechanical Design;CAD,11.2,1,Low,Not Applicable
+EMP-0682,Muhammad Brown,36,Clinical Operations,Pharmacist,50347,London,2237,Clinical Pharmacy;Medicines Management;Patient Counselling,4.8,3,Low,Not Applicable
+EMP-0683,Grace Thompson,32,Digital Services,Data Engineer,41622,South East,2139,Data Pipelines;SQL;AWS,2.3,4,Low,Not Applicable
+EMP-0684,Mia Wright,38,Clinical Operations,Medical Imaging Technician,39473,London,3211,MRI;Medical Imaging,7.9,3,Low,Not Applicable
+EMP-0685,Thomas Walker,42,Clinical Operations,Staff Nurse,44249,South East,2231,Patient Assessment;Medication Administration;CPR,8.8,3,Low,Not Applicable
+EMP-0686,Henry Roberts,60,Green Energy Projects,Turbine Maintenance Technician,37872,North West,3112,Electrical Testing;Instrumentation,13.5,3,High,No Successor
+EMP-0687,William Brown,42,Green Energy Projects,Turbine Maintenance Technician,37995,London,3112,Electrical Testing;Maintenance,3.0,3,Low,Not Applicable
+EMP-0688,Amelia Davies,43,Corporate Services,Operations Administrator,30412,South East,4159,Scheduling;Customer Service,9.9,3,Low,Not Applicable
+EMP-0689,James Jones,44,Green Energy Projects,Chemical Engineer,51376,Scotland,2125,Chemical Process;Mass Balance,2.8,4,Low,Not Applicable
+EMP-0690,Florence Davies,43,Clinical Operations,Staff Nurse,41469,South East,2231,Patient Assessment;CPR;Medication Administration,7.1,2,Low,Not Applicable
+EMP-0691,Noah Jones,53,Clinical Operations,Staff Nurse,39211,North West,2231,Medication Administration;NMC Pin,5.3,2,Medium,No Successor
+EMP-0692,Arthur Wright,31,Digital Services,Software Developer,46165,London,2136,JavaScript;Git;Python,2.3,3,Low,Not Applicable
+EMP-0693,Helen Green,29,Digital Services,Web Designer,31037,North West,2137,WordPress;HTML,2.6,4,Low,Not Applicable
+EMP-0694,Mia Taylor,43,Clinical Operations,Pharmacist,54106,London,2237,Clinical Pharmacy;Patient Counselling;Medicines Management,7.0,3,Low,Not Applicable
+EMP-0695,Oscar Wood,32,Clinical Operations,Clinical Practitioner,81313,Wales,2211,Patient Care;Prescribing;Clinical Diagnostics,2.2,4,Low,Not Applicable
+EMP-0696,Sarah Evans,61,Green Energy Projects,Electrical Grid Engineer,53093,North West,2123,Power Systems;Grid Connections,12.6,4,High,No Successor
+EMP-0697,James White,30,Corporate Services,Operations Administrator,26096,South East,4159,Scheduling;Administration;Customer Service,3.5,3,Low,Not Applicable
+EMP-0698,Clara Evans,52,Clinical Operations,Clinical Practitioner,93065,West Midlands,2211,Prescribing;Clinical Diagnostics;Patient Care,10.5,3,Medium,No Successor
+EMP-0699,Florence Wilson,23,Digital Services,IT Business Analyst,47951,North West,2135,Jira;UML;Requirements Gathering,1.1,3,Low,Not Applicable
+EMP-0700,Sophia Hall,22,Corporate Services,Operations Administrator,24989,North West,4159,Administration;Scheduling,1.5,4,Low,Not Applicable
+EMP-0701,Jack Johnson,39,Corporate Services,Finance Analyst,42579,North West,2424,Budgeting;Excel;Financial Modelling,3.2,3,Low,Not Applicable
+EMP-0702,Ava Wilson,48,Green Energy Projects,Turbine Maintenance Technician,32946,North West,3112,Maintenance;Electrical Testing,4.2,3,Low,Not Applicable
+EMP-0703,Amelia Wilson,47,Clinical Operations,Staff Nurse,39333,West Midlands,2231,Medication Administration;Patient Assessment;CPR;NMC Pin,6.5,3,Low,Not Applicable
+EMP-0704,Jack Taylor,67,Green Energy Projects,Battery Design Engineer,48258,North West,2126,Product Design;SolidWorks,8.4,4,High,No Successor
+EMP-0705,Henry Jones,34,Digital Services,IT Support Analyst,27846,South West,3131,Active Directory;Networking;Office 365,4.1,3,Low,Not Applicable
+EMP-0706,Florence Thompson,30,Corporate Services,HR Advisor,33861,West Midlands,3562,Recruitment;Employment Law,4.6,4,Low,Not Applicable
+EMP-0707,Oliver Roberts,36,Clinical Operations,Medical Imaging Technician,32031,West Midlands,3211,X-Ray;Medical Imaging;MRI,2.5,3,Low,Not Applicable
+EMP-0708,Florence Green,30,Green Energy Projects,Turbine Maintenance Technician,33037,South West,3112,Electrical Testing;Maintenance;Instrumentation,1.9,5,Low,Not Applicable
+EMP-0709,Sarah Thompson,41,Clinical Operations,Staff Nurse,45437,London,2231,Patient Assessment;NMC Pin;Medication Administration,6.5,3,Low,Not Applicable
+EMP-0710,Noah Williams,43,Clinical Operations,Healthcare Assistant,23834,West Midlands,6141,Personal Care;Patient Mobility;Vital Signs,8.4,3,Low,Not Applicable
+EMP-0711,Arthur Brown,49,Green Energy Projects,Battery Design Engineer,46755,West Midlands,2126,Prototyping;Product Design;SolidWorks,10.1,4,Low,Not Applicable
+EMP-0712,Leo Walker,55,Clinical Operations,Staff Nurse,43220,West Midlands,2231,Patient Assessment;NMC Pin;CPR;Medication Administration,11.7,2,Medium,No Successor
+EMP-0713,Leo Davies,48,Corporate Services,Operations Administrator,28525,West Midlands,4159,Administration;Customer Service;Scheduling,11.2,2,Low,Not Applicable
+EMP-0714,George Brown,35,Digital Services,IT Support Analyst,28439,West Midlands,3131,Networking;Active Directory;Office 365,6.5,3,Low,Not Applicable
+EMP-0715,Oliver Wright,35,Digital Services,IT Support Analyst,28971,Scotland,3131,Networking;Troubleshooting,3.9,3,Low,Not Applicable
+EMP-0716,Freya Roberts,57,Green Energy Projects,Energy Plant Operator,39135,Scotland,8124,Plant Operations;SCADA;Health & Safety,14.9,3,Medium,No Successor
+EMP-0717,Amelia Martin,53,Green Energy Projects,Battery Design Engineer,50711,West Midlands,2126,SolidWorks;Prototyping,14.0,3,Medium,Ready 1-2 Years
+EMP-0718,Amelia Thompson,32,Digital Services,Software Developer,40801,South West,2136,Python;JavaScript;SQL;Git,5.0,3,Low,Not Applicable
+EMP-0719,Robert Wilson,31,Corporate Services,Operations Administrator,26665,South East,4159,Customer Service;Scheduling,3.1,3,Low,Not Applicable
+EMP-0720,Clara Johnson,54,Clinical Operations,Healthcare Assistant,29446,London,6141,Vital Signs;Patient Mobility,7.9,3,Medium,Ready Now
+EMP-0721,Henry Williams,47,Green Energy Projects,Chemical Engineer,54587,West Midlands,2125,ASPEN;Chemical Process,4.8,3,Low,Not Applicable
+EMP-0722,Rachel Williams,53,Green Energy Projects,Chemical Engineer,65562,London,2125,ASPEN;Chemical Process;Mass Balance,10.6,2,Medium,No Successor
+EMP-0723,Thomas Thompson,42,Green Energy Projects,Mechanical Engineer,46693,South East,2122,Mechanical Design;Thermodynamics,2.6,4,Low,Not Applicable
+EMP-0724,Helen Taylor,32,Clinical Operations,Medical Imaging Technician,30826,West Midlands,3211,Medical Imaging;X-Ray,2.6,2,Low,Not Applicable
+EMP-0725,Thomas Hall,24,Digital Services,IT Support Analyst,27815,West Midlands,3131,Active Directory;Networking,1.1,5,Low,Not Applicable
+EMP-0726,David White,43,Green Energy Projects,Mechanical Engineer,53319,London,2122,Thermodynamics;CAD,3.2,3,Low,Not Applicable
+EMP-0727,Robert Wood,38,Clinical Operations,Healthcare Assistant,24357,West Midlands,6141,Personal Care;Vital Signs,5.5,3,Low,Not Applicable
+EMP-0728,Ivy Wilson,33,Digital Services,Data Engineer,45453,London,2139,Python;SQL,5.1,3,Low,Not Applicable
+EMP-0729,Rachel Jones,26,Digital Services,IT Business Analyst,52313,South East,2135,UML;Agile,2.1,1,Low,Not Applicable
+EMP-0730,Muhammad Wright,39,Clinical Operations,Medical Imaging Technician,30868,North West,3211,X-Ray;Medical Imaging;MRI,3.0,3,Low,Not Applicable
+EMP-0731,Amelia Davies,28,Digital Services,Software Developer,40145,West Midlands,2136,Git;Python;SQL,3.9,2,Low,Not Applicable
+EMP-0732,Jack Robinson,65,Green Energy Projects,Mechanical Engineer,55759,London,2122,Mechanical Design;CAD;Thermodynamics,10.3,2,High,Ready 1-2 Years
+EMP-0733,David Evans,54,Green Energy Projects,Turbine Maintenance Technician,42387,London,3112,Maintenance;Electrical Testing;Instrumentation,8.1,2,Medium,Ready Now
+EMP-0734,Freya Brown,27,Clinical Operations,Medical Imaging Technician,30148,West Midlands,3211,MRI;Medical Imaging;X-Ray,1.1,3,Low,Not Applicable
+EMP-0735,Isla Walker,36,Corporate Services,HR Advisor,42120,London,3562,Employment Law;Recruitment;Employee Relations,6.8,3,Low,Not Applicable
+EMP-0736,David Harris,51,Clinical Operations,Healthcare Assistant,27111,London,6141,Patient Mobility;Personal Care;Vital Signs,6.0,4,Medium,No Successor
+EMP-0737,Helen Wood,39,Green Energy Projects,Energy Plant Operator,34338,West Midlands,8124,Plant Operations;SCADA,3.7,3,Low,Not Applicable
+EMP-0738,Jack Jones,47,Corporate Services,Operations Administrator,27528,West Midlands,4159,Customer Service;Scheduling;Administration,11.4,3,Low,Not Applicable
+EMP-0739,Grace Roberts,59,Green Energy Projects,Electrical Grid Engineer,52521,South West,2123,Grid Connections;HV Electrical,12.9,4,High,Ready 1-2 Years
+EMP-0740,George Davies,36,Corporate Services,HR Advisor,39604,London,3562,Employee Relations;Recruitment;Employment Law,4.9,3,Low,Not Applicable
+EMP-0741,Muhammad Wood,46,Clinical Operations,Medical Imaging Technician,40120,London,3211,Medical Imaging;X-Ray;MRI,9.8,5,Low,Not Applicable
+EMP-0742,Florence Hall,40,Corporate Services,HR Advisor,33319,Scotland,3562,Recruitment;Employment Law,2.7,3,Low,Not Applicable
+EMP-0743,Grace Brown,49,Green Energy Projects,Turbine Maintenance Technician,41252,London,3112,Maintenance;Electrical Testing;Instrumentation,10.2,3,Low,Not Applicable
+EMP-0744,Henry Walker,41,Digital Services,Web Designer,33189,South West,2137,WordPress;UI/UX,8.7,4,Low,Not Applicable
+EMP-0745,Amelia Evans,29,Digital Services,Data Engineer,36748,Wales,2139,SQL;AWS;Python,1.1,3,Low,Not Applicable
+EMP-0746,George Hall,56,Green Energy Projects,Mechanical Engineer,45468,Wales,2122,CAD;Thermodynamics;Mechanical Design,8.5,3,Medium,Ready 1-2 Years
+EMP-0747,Mia Wilson,56,Green Energy Projects,Electrical Grid Engineer,62653,London,2123,Power Systems;Grid Connections;HV Electrical,13.4,2,Medium,Ready 1-2 Years
+EMP-0748,Amelia Williams,55,Green Energy Projects,Turbine Maintenance Technician,40936,London,3112,Instrumentation;Maintenance;Electrical Testing,7.4,3,Medium,No Successor
+EMP-0749,Lily Williams,50,Green Energy Projects,Energy Plant Operator,37842,West Midlands,8124,Plant Operations;Health & Safety,10.2,4,Medium,Ready Now
+EMP-0750,Harry Evans,40,Green Energy Projects,Energy Plant Operator,42398,London,8124,Health & Safety;Plant Operations;SCADA,6.7,3,Low,Not Applicable
+EMP-0751,Sophia Green,33,Digital Services,Data Engineer,42892,South East,2139,Python;Data Pipelines;AWS,3.8,3,Low,Not Applicable
+EMP-0752,David Brown,54,Clinical Operations,Healthcare Assistant,30599,London,6141,Personal Care;Vital Signs,10.2,2,Medium,Ready Now
+EMP-0753,Jack Johnson,46,Corporate Services,Finance Analyst,51900,South East,2424,Financial Modelling;Excel,10.1,3,Low,Not Applicable
+EMP-0754,Amelia Hall,49,Green Energy Projects,Civil Engineer,50393,South East,2121,Project Management;Structural Analysis;AutoCAD,5.9,3,Low,Not Applicable
+EMP-0755,Amelia Wilson,29,Digital Services,IT Business Analyst,50871,South East,2135,UML;Agile;Requirements Gathering;Jira;Business Analysis,2.0,3,Low,Not Applicable
+EMP-0756,Isla Smith,42,Clinical Operations,Staff Nurse,37618,West Midlands,2231,NMC Pin;Patient Assessment;Medication Administration;CPR,4.8,3,Low,Not Applicable
+EMP-0757,George Brown,39,Digital Services,IT Support Analyst,29122,West Midlands,3131,Active Directory;Troubleshooting;Office 365;Networking,7.8,3,Low,Not Applicable
+EMP-0758,Lily Johnson,57,Green Energy Projects,Mechanical Engineer,52729,London,2122,Mechanical Design;Thermodynamics;CAD,4.4,3,Medium,No Successor
+EMP-0759,Isla White,21,Digital Services,Data Engineer,43370,London,2139,Data Pipelines;SQL,1.0,5,Low,Not Applicable
+EMP-0760,Amelia Johnson,36,Clinical Operations,Medical Imaging Technician,32046,North West,3211,Medical Imaging;MRI,4.5,4,Low,Not Applicable
+EMP-0761,Oscar Wood,34,Clinical Operations,Medical Imaging Technician,30933,North West,3211,X-Ray;MRI,1.6,3,Low,Not Applicable
+EMP-0762,Sarah Hall,45,Green Energy Projects,Energy Plant Operator,34288,West Midlands,8124,Plant Operations;Health & Safety,4.5,3,Low,Not Applicable
+EMP-0763,Sophia Jones,47,Clinical Operations,Pharmacist,46064,West Midlands,2237,Patient Counselling;Medicines Management,9.8,1,Low,Not Applicable
+EMP-0764,Grace Martin,36,Corporate Services,Finance Analyst,43539,West Midlands,2424,Excel;Budgeting,2.2,3,Low,Not Applicable
+EMP-0765,Amelia Smith,48,Clinical Operations,Staff Nurse,45517,London,2231,Patient Assessment;NMC Pin;Medication Administration;CPR,5.3,4,Low,Not Applicable
+EMP-0766,Thomas Martin,41,Green Energy Projects,Energy Plant Operator,36170,South East,8124,Plant Operations;SCADA;Health & Safety,5.4,3,Low,Not Applicable
+EMP-0767,Mia Evans,36,Digital Services,Data Engineer,37678,Scotland,2139,Python;Data Pipelines;AWS,2.8,1,Low,Not Applicable
+EMP-0768,Ava Wilson,52,Clinical Operations,Healthcare Assistant,27693,London,6141,Vital Signs;Patient Mobility;Personal Care,5.3,3,Medium,Ready Now
+EMP-0769,Sarah Smith,36,Clinical Operations,Medical Imaging Technician,31915,Scotland,3211,Medical Imaging;X-Ray,1.9,3,Low,Not Applicable
+EMP-0770,Thomas Martin,35,Digital Services,IT Business Analyst,60059,London,2135,Business Analysis;UML;Requirements Gathering;Jira,6.6,4,Low,Not Applicable
+EMP-0771,William Roberts,37,Clinical Operations,Pharmacist,42767,West Midlands,2237,Medicines Management;Patient Counselling,2.2,2,Low,Not Applicable
+EMP-0772,Sophia Brown,53,Green Energy Projects,Energy Plant Operator,41058,London,8124,SCADA;Health & Safety,7.9,2,Medium,No Successor
+EMP-0773,Sophia Davies,24,Corporate Services,Operations Administrator,28271,London,4159,Administration;Customer Service,2.1,5,Low,Not Applicable
+EMP-0774,Sophia Evans,42,Digital Services,Web Designer,31806,South West,2137,CSS;HTML,3.3,3,Low,Not Applicable
+EMP-0775,Leo Martin,39,Digital Services,Data Engineer,38831,Scotland,2139,Data Pipelines;Python,4.0,3,Low,Not Applicable
+EMP-0776,Clara Robinson,52,Clinical Operations,Clinical Practitioner,99654,Scotland,2211,Patient Care;Clinical Diagnostics,11.4,3,Medium,No Successor
+EMP-0777,Helen Green,18,Clinical Operations,Clinical Practitioner,100743,London,2211,Patient Care;Prescribing,0.5,3,Low,Not Applicable
+EMP-0778,Mia Green,28,Clinical Operations,Medical Imaging Technician,30343,West Midlands,3211,MRI;X-Ray,2.8,3,Low,Not Applicable
+EMP-0779,Freya Wood,52,Green Energy Projects,Battery Design Engineer,51576,South East,2126,Prototyping;Product Design,9.3,3,Medium,Ready Now
+EMP-0780,Noah Smith,41,Green Energy Projects,Chemical Engineer,54656,South West,2125,ASPEN;Chemical Process;Mass Balance,8.9,3,Low,Not Applicable
+EMP-0781,Robert Wood,40,Corporate Services,Finance Analyst,53079,London,2424,Excel;Financial Modelling,2.6,3,Low,Not Applicable
+EMP-0782,Mia Evans,46,Digital Services,IT Business Analyst,62024,London,2135,Business Analysis;UML;Jira,8.4,2,Low,Not Applicable
+EMP-0783,Emily Taylor,35,Digital Services,Data Engineer,40780,West Midlands,2139,AWS;Python;Data Pipelines,5.5,3,Low,Not Applicable
+EMP-0784,Thomas Smith,53,Green Energy Projects,Mechanical Engineer,44936,West Midlands,2122,Mechanical Design;CAD,4.1,1,Medium,Ready 1-2 Years
+EMP-0785,Florence Roberts,48,Green Energy Projects,Energy Plant Operator,38539,South East,8124,Plant Operations;SCADA;Health & Safety,5.8,3,Low,Not Applicable
+EMP-0786,Oscar Martin,42,Digital Services,Data Engineer,39326,West Midlands,2139,AWS;Python,3.7,3,Low,Not Applicable
+EMP-0787,Thomas Walker,57,Clinical Operations,Staff Nurse,41732,South East,2231,NMC Pin;Patient Assessment;CPR,8.9,3,Medium,No Successor
+EMP-0788,Isla Taylor,35,Digital Services,IT Business Analyst,53305,South East,2135,UML;Agile,5.6,2,Low,Not Applicable
+EMP-0789,Henry Harris,38,Digital Services,Data Engineer,47985,London,2139,AWS;Data Pipelines;SQL,7.7,3,Low,Not Applicable
+EMP-0790,Oscar Evans,42,Corporate Services,Operations Administrator,29423,South East,4159,Customer Service;Administration,7.3,1,Low,Not Applicable
+EMP-0791,Helen Walker,53,Green Energy Projects,Energy Plant Operator,35495,North West,8124,Health & Safety;Plant Operations,5.1,4,Medium,No Successor
+EMP-0792,Thomas Williams,43,Clinical Operations,Staff Nurse,42415,North West,2231,NMC Pin;Medication Administration;Patient Assessment;CPR,10.0,3,Low,Not Applicable
+EMP-0793,Ivy White,34,Digital Services,Data Engineer,39798,South West,2139,SQL;AWS;Data Pipelines,4.5,4,Low,Not Applicable
+EMP-0794,Sophia Wood,65,Clinical Operations,Clinical Practitioner,93806,North West,2211,Clinical Diagnostics;Prescribing;Patient Care,11.7,3,High,No Successor
+EMP-0795,George Wilson,39,Clinical Operations,Medical Imaging Technician,32032,Wales,3211,Medical Imaging;MRI,3.7,1,Low,Not Applicable
+EMP-0796,Rachel Wright,59,Green Energy Projects,Energy Plant Operator,37422,West Midlands,8124,SCADA;Plant Operations;Health & Safety,11.7,3,High,No Successor
+EMP-0797,Jack Jones,39,Clinical Operations,Clinical Practitioner,109732,London,2211,Patient Care;Clinical Diagnostics;Prescribing,7.3,4,Low,Not Applicable
+EMP-0798,Emily Walker,32,Clinical Operations,Clinical Practitioner,85773,North West,2211,Clinical Diagnostics;Prescribing;Patient Care,2.9,3,Low,Not Applicable
+EMP-0799,Clara Walker,46,Clinical Operations,Staff Nurse,37634,West Midlands,2231,CPR;Patient Assessment;Medication Administration;NMC Pin,5.7,1,Low,Not Applicable
+EMP-0800,Harry Green,34,Digital Services,Software Developer,48042,London,2136,Python;SQL;Git,3.1,5,Low,Not Applicable

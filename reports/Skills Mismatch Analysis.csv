@@ -1,0 +1,21 @@
+soc_code,job_title,total_staff,has_python,has_react,has_scada,has_nmc_pin,has_aws,has_autocad
+2121,Civil Engineer,33,0,0,0,0,0,26
+2122,Mechanical Engineer,49,0,0,0,0,0,0
+2123,Electrical Grid Engineer,29,0,0,0,0,0,0
+2125,Chemical Engineer,43,0,0,0,0,0,0
+2126,Battery Design Engineer,39,0,0,0,0,0,0
+2135,IT Business Analyst,33,0,0,0,0,0,0
+2136,Software Developer,42,36,0,0,0,0,0
+2137,Web Designer,35,0,0,0,0,0,0
+2139,Data Engineer,47,32,0,0,0,36,0
+2211,Clinical Practitioner,47,0,0,0,0,0,0
+2231,Staff Nurse,53,0,0,0,42,0,0
+2237,Pharmacist,52,0,0,0,0,0,0
+2424,Finance Analyst,29,0,0,0,0,0,0
+3112,Turbine Maintenance Technician,39,0,0,0,0,0,0
+3131,IT Support Analyst,37,0,0,0,0,0,0
+3211,Medical Imaging Technician,50,0,0,0,0,0,0
+3562,HR Advisor,23,0,0,0,0,0,0
+4159,Operations Administrator,29,0,0,0,0,0,0
+6141,Healthcare Assistant,48,0,0,0,0,0,0
+8124,Energy Plant Operator,43,0,0,36,0,0,0

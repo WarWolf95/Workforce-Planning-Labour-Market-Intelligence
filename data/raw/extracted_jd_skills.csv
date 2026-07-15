@@ -1,0 +1,21 @@
+job_title,soc_code,extracted_skills,skills_count
+IT Business Analyst,2135,Business Analysis;UML;Agile;Requirements Gathering,4
+Software Developer,2136,Javascript;Git;Python;SQL,4
+Web Designer,2137,HTML;CSS;WordPress,3
+Data Engineer,2139,AWS;Data Pipelines;Python;SQL,4
+IT Support Analyst,3131,Active Directory;Troubleshooting;Networking;Office 365,4
+Civil Engineer,2121,AutoCAD;Structural Analysis;Project Management,3
+Mechanical Engineer,2122,CAD;Thermodynamics;Mechanical Design,3
+Electrical Grid Engineer,2123,Power Systems;Grid Connections;HV Electrical,3
+Chemical Engineer,2125,Chemical Process;ASPEN;Mass Balance,3
+Battery Design Engineer,2126,Product Design;SolidWorks;Prototyping,3
+Turbine Maintenance Technician,3112,Maintenance;Electrical Testing;Instrumentation,3
+Energy Plant Operator,8124,Plant Operations;SCADA,2
+Clinical Practitioner,2211,Clinical Diagnostics;Patient Care;Prescribing,3
+Staff Nurse,2231,Patient Assessment;Medication Administration;NMC Pin;CPR;Administration,5
+Pharmacist,2237,Medicines Management;Clinical Pharmacy;Patient Counselling,3
+Medical Imaging Technician,3211,Medical Imaging;MRI,2
+Healthcare Assistant,6141,Personal Care;Patient Mobility;Vital Signs,3
+HR Advisor,3562,Employee Relations;Recruitment;Employment Law,3
+Finance Analyst,2424,Financial Modelling;Excel;Budgeting,3
+Operations Administrator,4159,Scheduling;Customer Service;Administration,3

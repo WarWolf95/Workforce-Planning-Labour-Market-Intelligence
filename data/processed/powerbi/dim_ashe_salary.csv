@@ -1,0 +1,154 @@
+soc_code,soc_title,category,region,median_salary,mean_salary,hourly_median
+2135,"IT business analysts, architects and systems designers",Tech,United Kingdom,58837,65897,30.17
+2135,"IT business analysts, architects and systems designers",Tech,London,73134,81910,37.5
+2135,"IT business analysts, architects and systems designers",Tech,South East,63024,70586,32.32
+2135,"IT business analysts, architects and systems designers",Tech,West Midlands,55421,62071,28.42
+2135,"IT business analysts, architects and systems designers",Tech,North West,55438,62090,28.43
+2135,"IT business analysts, architects and systems designers",Tech,Scotland,57349,64230,29.41
+2135,"IT business analysts, architects and systems designers",Tech,Wales,53312,59709,27.34
+2135,"IT business analysts, architects and systems designers",Tech,East of England,59523,66665,30.52
+2135,"IT business analysts, architects and systems designers",Tech,South West,54271,60783,27.83
+2136,Programmers and software development professionals,Tech,United Kingdom,51872,58096,26.6
+2136,Programmers and software development professionals,Tech,London,65040,72844,33.35
+2136,Programmers and software development professionals,Tech,South East,56583,63372,29.02
+2136,Programmers and software development professionals,Tech,West Midlands,49161,55060,25.21
+2136,Programmers and software development professionals,Tech,North West,49772,55744,25.52
+2136,Programmers and software development professionals,Tech,Scotland,51343,57504,26.33
+2136,Programmers and software development professionals,Tech,Wales,47707,53431,24.47
+2136,Programmers and software development professionals,Tech,East of England,53143,59520,27.25
+2136,Programmers and software development professionals,Tech,South West,48724,54570,24.99
+2137,Web design and development professionals,Tech,United Kingdom,38575,43204,19.78
+2137,Web design and development professionals,Tech,London,47755,53485,24.49
+2137,Web design and development professionals,Tech,South East,41303,46259,21.18
+2137,Web design and development professionals,Tech,West Midlands,36101,40433,18.51
+2137,Web design and development professionals,Tech,North West,36331,40690,18.63
+2137,Web design and development professionals,Tech,Scotland,37637,42153,19.3
+2137,Web design and development professionals,Tech,Wales,35339,39579,18.12
+2137,Web design and development professionals,Tech,East of England,39638,44394,20.33
+2137,Web design and development professionals,Tech,South West,35566,39833,18.24
+2139,Information technology professionals n.e.c.,Tech,United Kingdom,48469,54285,24.86
+2139,Information technology professionals n.e.c.,Tech,London,59373,66497,30.45
+2139,Information technology professionals n.e.c.,Tech,South East,52138,58394,26.74
+2139,Information technology professionals n.e.c.,Tech,West Midlands,45542,51007,23.35
+2139,Information technology professionals n.e.c.,Tech,North West,45862,51365,23.52
+2139,Information technology professionals n.e.c.,Tech,Scotland,46727,52334,23.96
+2139,Information technology professionals n.e.c.,Tech,Wales,44009,49290,22.57
+2139,Information technology professionals n.e.c.,Tech,East of England,49361,55284,25.31
+2139,Information technology professionals n.e.c.,Tech,South West,44897,50284,23.02
+3131,IT operations technicians,Tech,United Kingdom,33814,37871,17.34
+3131,IT operations technicians,Tech,London,42367,47451,21.73
+3131,IT operations technicians,Tech,South East,36622,41016,18.78
+3131,IT operations technicians,Tech,West Midlands,31942,35775,16.38
+3131,IT operations technicians,Tech,North West,32214,36079,16.52
+3131,IT operations technicians,Tech,Scotland,33268,37260,17.06
+3131,IT operations technicians,Tech,Wales,30692,34375,15.74
+3131,IT operations technicians,Tech,East of England,34396,38523,17.64
+3131,IT operations technicians,Tech,South West,31535,35319,16.17
+2121,Civil engineers,Green Energy,United Kingdom,46599,52190,23.9
+2121,Civil engineers,Green Energy,London,57225,64092,29.35
+2121,Civil engineers,Green Energy,South East,50351,56393,25.82
+2121,Civil engineers,Green Energy,West Midlands,43674,48914,22.4
+2121,Civil engineers,Green Energy,North West,44290,49604,22.71
+2121,Civil engineers,Green Energy,Scotland,45255,50685,23.21
+2121,Civil engineers,Green Energy,Wales,42102,47154,21.59
+2121,Civil engineers,Green Energy,East of England,47115,52768,24.16
+2121,Civil engineers,Green Energy,South West,43358,48560,22.23
+2122,Mechanical engineers,Green Energy,United Kingdom,44701,50065,22.92
+2122,Mechanical engineers,Green Energy,London,55372,62016,28.4
+2122,Mechanical engineers,Green Energy,South East,48547,54372,24.9
+2122,Mechanical engineers,Green Energy,West Midlands,42390,47476,21.74
+2122,Mechanical engineers,Green Energy,North West,42704,47828,21.9
+2122,Mechanical engineers,Green Energy,Scotland,43858,49120,22.49
+2122,Mechanical engineers,Green Energy,Wales,40641,45517,20.84
+2122,Mechanical engineers,Green Energy,East of England,45965,51480,23.57
+2122,Mechanical engineers,Green Energy,South West,41805,46821,21.44
+2123,Electrical engineers,Green Energy,United Kingdom,49070,54958,25.16
+2123,Electrical engineers,Green Energy,London,60340,67580,30.94
+2123,Electrical engineers,Green Energy,South East,52434,58726,26.89
+2123,Electrical engineers,Green Energy,West Midlands,45754,51244,23.46
+2123,Electrical engineers,Green Energy,North West,46122,51656,23.65
+2123,Electrical engineers,Green Energy,Scotland,48146,53923,24.69
+2123,Electrical engineers,Green Energy,Wales,44248,49557,22.69
+2123,Electrical engineers,Green Energy,East of England,50043,56048,25.66
+2123,Electrical engineers,Green Energy,South West,45151,50569,23.15
+2125,Chemical engineers,Green Energy,United Kingdom,53164,59543,27.26
+2125,Chemical engineers,Green Energy,London,65892,73799,33.79
+2125,Chemical engineers,Green Energy,South East,57362,64245,29.42
+2125,Chemical engineers,Green Energy,West Midlands,49883,55868,25.58
+2125,Chemical engineers,Green Energy,North West,50457,56511,25.88
+2125,Chemical engineers,Green Energy,Scotland,51463,57638,26.39
+2125,Chemical engineers,Green Energy,Wales,47965,53720,24.6
+2125,Chemical engineers,Green Energy,East of England,54138,60634,27.76
+2125,Chemical engineers,Green Energy,South West,49395,55322,25.33
+2126,Design and development engineers,Green Energy,United Kingdom,44063,49350,22.6
+2126,Design and development engineers,Green Energy,London,54501,61041,27.95
+2126,Design and development engineers,Green Energy,South East,47204,52868,24.21
+2126,Design and development engineers,Green Energy,West Midlands,41488,46466,21.28
+2126,Design and development engineers,Green Energy,North West,41522,46504,21.29
+2126,Design and development engineers,Green Energy,Scotland,43084,48254,22.09
+2126,Design and development engineers,Green Energy,Wales,40145,44962,20.59
+2126,Design and development engineers,Green Energy,East of England,45247,50676,23.2
+2126,Design and development engineers,Green Energy,South West,40648,45525,20.85
+3112,Electrical and electronics technicians,Green Energy,United Kingdom,33214,37199,17.03
+3112,Electrical and electronics technicians,Green Energy,London,41953,46987,21.51
+3112,Electrical and electronics technicians,Green Energy,South East,36207,40551,18.57
+3112,Electrical and electronics technicians,Green Energy,West Midlands,31250,35000,16.03
+3112,Electrical and electronics technicians,Green Energy,North West,31848,35669,16.33
+3112,Electrical and electronics technicians,Green Energy,Scotland,33130,37105,16.99
+3112,Electrical and electronics technicians,Green Energy,Wales,30454,34108,15.62
+3112,Electrical and electronics technicians,Green Energy,East of England,34493,38632,17.69
+3112,Electrical and electronics technicians,Green Energy,South West,31178,34919,15.99
+8124,Energy plant operatives,Green Energy,United Kingdom,35204,39428,18.05
+8124,Energy plant operatives,Green Energy,London,43498,48717,22.31
+8124,Energy plant operatives,Green Energy,South East,37987,42545,19.48
+8124,Energy plant operatives,Green Energy,West Midlands,33079,37048,16.96
+8124,Energy plant operatives,Green Energy,North West,33414,37423,17.14
+8124,Energy plant operatives,Green Energy,Scotland,34232,38339,17.55
+8124,Energy plant operatives,Green Energy,Wales,31970,35806,16.39
+8124,Energy plant operatives,Green Energy,East of England,35772,40064,18.34
+8124,Energy plant operatives,Green Energy,South West,32711,36636,16.77
+2211,Medical practitioners,Healthcare,United Kingdom,85456,95710,43.82
+2211,Medical practitioners,Healthcare,London,105953,118667,54.33
+2211,Medical practitioners,Healthcare,South East,93339,104539,47.87
+2211,Medical practitioners,Healthcare,West Midlands,81220,90966,41.65
+2211,Medical practitioners,Healthcare,North West,82104,91956,42.1
+2211,Medical practitioners,Healthcare,Scotland,84562,94709,43.37
+2211,Medical practitioners,Healthcare,Wales,78396,87803,40.2
+2211,Medical practitioners,Healthcare,East of England,86981,97418,44.61
+2211,Medical practitioners,Healthcare,South West,80375,90020,41.22
+2231,Nurses,Healthcare,United Kingdom,39210,43915,20.11
+2231,Nurses,Healthcare,London,48550,54376,24.9
+2231,Nurses,Healthcare,South East,42741,47869,21.92
+2231,Nurses,Healthcare,West Midlands,37168,41628,19.06
+2231,Nurses,Healthcare,North West,37596,42107,19.28
+2231,Nurses,Healthcare,Scotland,38520,43142,19.75
+2231,Nurses,Healthcare,Wales,35981,40298,18.45
+2231,Nurses,Healthcare,East of England,40416,45265,20.73
+2231,Nurses,Healthcare,South West,36804,41220,18.87
+2237,Pharmacists,Healthcare,United Kingdom,44096,49387,22.61
+2237,Pharmacists,Healthcare,London,55118,61732,28.27
+2237,Pharmacists,Healthcare,South East,48163,53942,24.7
+2237,Pharmacists,Healthcare,West Midlands,41806,46822,21.44
+2237,Pharmacists,Healthcare,North West,42366,47449,21.73
+2237,Pharmacists,Healthcare,Scotland,43289,48483,22.2
+2237,Pharmacists,Healthcare,Wales,40500,45360,20.77
+2237,Pharmacists,Healthcare,East of England,45073,50481,23.11
+2237,Pharmacists,Healthcare,South West,41474,46450,21.27
+3211,Medical technicians,Healthcare,United Kingdom,32115,35968,16.47
+3211,Medical technicians,Healthcare,London,39721,44487,20.37
+3211,Medical technicians,Healthcare,South East,34865,39048,17.88
+3211,Medical technicians,Healthcare,West Midlands,30371,34015,15.57
+3211,Medical technicians,Healthcare,North West,30668,34348,15.73
+3211,Medical technicians,Healthcare,Scotland,31308,35064,16.06
+3211,Medical technicians,Healthcare,Wales,29366,32889,15.06
+3211,Medical technicians,Healthcare,East of England,32540,36444,16.69
+3211,Medical technicians,Healthcare,South West,30022,33624,15.4
+6141,Nursing auxiliaries and assistants,Healthcare,United Kingdom,23454,26268,12.03
+6141,Nursing auxiliaries and assistants,Healthcare,London,29038,32522,14.89
+6141,Nursing auxiliaries and assistants,Healthcare,South East,25400,28448,13.03
+6141,Nursing auxiliaries and assistants,Healthcare,West Midlands,22116,24769,11.34
+6141,Nursing auxiliaries and assistants,Healthcare,North West,22343,25024,11.46
+6141,Nursing auxiliaries and assistants,Healthcare,Scotland,23209,25994,11.9
+6141,Nursing auxiliaries and assistants,Healthcare,Wales,21311,23868,10.93
+6141,Nursing auxiliaries and assistants,Healthcare,East of England,24004,26884,12.31
+6141,Nursing auxiliaries and assistants,Healthcare,South West,21872,24496,11.22

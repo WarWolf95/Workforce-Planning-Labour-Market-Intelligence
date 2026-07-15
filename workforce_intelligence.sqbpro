@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Projects/Workforce Planning &amp; Labour Market Intelligence/data/processed/workforce_intelligence.sqlite" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1757"/><column_width id="4" width="0"/><expanded_item id="0" parent="0"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="dim_soc_taxonomy" custom_title="0" dock_id="1" table="4,16:maindim_soc_taxonomy"/><dock_state state="000000ff00000000fd0000000100000002000005bb000003fffc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000000005bb0000012300ffffff0000026b0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="dim_ashe_salary" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="61"/><column index="2" value="346"/><column index="3" value="103"/><column index="4" value="127"/><column index="5" value="92"/><column index="6" value="82"/><column index="7" value="93"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="dim_extracted_skills" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="247"/><column index="2" value="61"/><column index="3" value="972"/><column index="4" value="75"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="dim_labor_supply" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="61"/><column index="2" value="300"/><column index="3" value="103"/><column index="4" value="127"/><column index="5" value="103"/><column index="6" value="117"/><column index="7" value="129"/><column index="8" value="123"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="dim_soc_taxonomy" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="61"/><column index="2" value="247"/><column index="3" value="103"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="fact_employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="81"/><column index="2" value="143"/><column index="3" value="35"/><column index="4" value="175"/><column index="5" value="247"/><column index="6" value="55"/><column index="7" value="111"/><column index="8" value="61"/><column index="9" value="300"/><column index="10" value="85"/><column index="11" value="122"/><column index="12" value="98"/><column index="13" value="131"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="fact_market_vacancies" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="95"/><column index="2" value="300"/><column index="3" value="300"/><column index="4" value="87"/><column index="5" value="199"/><column index="6" value="127"/><column index="7" value="61"/><column index="8" value="71"/><column index="9" value="75"/><column index="10" value="103"/><column index="11" value="300"/><column index="12" value="103"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">SELECT 
+    e.soc_code,
+    e.job_title,
+    t.category,
+    e.region,
+    COUNT(*) as employee_count,
+    ROUND(AVG(e.salary), 0) as avg_internal_salary,
+    a.median_salary as ONS_median_salary,
+    ROUND(AVG(e.salary) - a.median_salary, 0) as salary_difference,
+    ROUND(((AVG(e.salary) - a.median_salary) / a.median_salary) * 100, 1) as salary_gap_percentage
+FROM fact_employees e
+JOIN dim_soc_taxonomy t ON e.soc_code = t.soc_code
+JOIN dim_ashe_salary a ON e.soc_code = a.soc_code AND e.region = a.region
+GROUP BY e.soc_code, e.job_title, t.category, e.region, a.median_salary
+ORDER BY salary_gap_percentage ASC;</sql><sql name="SQL 2*">SELECT 
+    e.soc_code,
+    e.job_title,
+    t.category,
+    COUNT(*) as total_employees,
+    SUM(CASE WHEN e.age &gt;= 55 THEN 1 ELSE 0 END) as retirement_risk_count_5yr,
+    ROUND(SUM(CASE WHEN e.age &gt;= 55 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 1) as retirement_risk_pct,
+    SUM(CASE WHEN e.age &gt;= 50 AND e.succession_readiness = 'No Successor' THEN 1 ELSE 0 END) as critical_no_successor_count,
+    ROUND(
+        (SUM(CASE WHEN e.age &gt;= 55 THEN 1 ELSE 0 END) * 100.0 / COUNT(*)) * 0.5 + 
+        (SUM(CASE WHEN e.age &gt;= 50 AND e.succession_readiness = 'No Successor' THEN 1 ELSE 0 END) * 100.0 / COUNT(*)) * 0.5,
+        1
+    ) as composite_succession_risk_score
+FROM fact_employees e
+JOIN dim_soc_taxonomy t ON e.soc_code = t.soc_code
+GROUP BY e.soc_code, e.job_title, t.category
+ORDER BY composite_succession_risk_score DESC;</sql><sql name="SQL 3*">SELECT 
+    v.soc_code,
+    t.soc_title,
+    t.category,
+    v.region,
+    COUNT(*) as active_postings_count,
+    ROUND(AVG(v.salary_min), 0) as avg_market_min_salary,
+    ROUND(AVG(v.salary_max), 0) as avg_market_max_salary
+FROM fact_market_vacancies v
+JOIN dim_soc_taxonomy t ON v.soc_code = t.soc_code
+WHERE v.region != 'United Kingdom'
+GROUP BY v.soc_code, t.soc_title, t.category, v.region
+ORDER BY active_postings_count DESC;</sql><sql name="SQL 4*">SELECT 
+    soc_code,
+    job_title,
+    COUNT(*) as total_staff,
+    SUM(CASE WHEN skills LIKE '%Python%' THEN 1 ELSE 0 END) as has_python,
+    SUM(CASE WHEN skills LIKE '%React%' THEN 1 ELSE 0 END) as has_react,
+    SUM(CASE WHEN skills LIKE '%SCADA%' THEN 1 ELSE 0 END) as has_scada,
+    SUM(CASE WHEN skills LIKE '%NMC Pin%' THEN 1 ELSE 0 END) as has_nmc_pin,
+    SUM(CASE WHEN skills LIKE '%AWS%' THEN 1 ELSE 0 END) as has_aws,
+    SUM(CASE WHEN skills LIKE '%AutoCAD%' THEN 1 ELSE 0 END) as has_autocad
+FROM fact_employees
+GROUP BY soc_code, job_title;</sql><current_tab id="3"/></tab_sql></sqlb_project>

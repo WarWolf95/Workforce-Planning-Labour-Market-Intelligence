@@ -1,0 +1,1433 @@
+[
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2092957697,
+      "description": "United Kingdom",
+      "geogcode": "K02000001"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 642.5,
+      "description": "GB pounds Value for United Kingdom (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2092957697d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2092957697,
+      "description": "United Kingdom",
+      "geogcode": "K02000001"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for United Kingdom (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2092957697d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2092957697,
+      "description": "United Kingdom",
+      "geogcode": "K02000001"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.1",
+      "description": "Percent Confidence for United Kingdom (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2092957697d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265921,
+      "description": "North East",
+      "geogcode": "E12000001"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 574.5,
+      "description": "GB pounds Value for North East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265921d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265921,
+      "description": "North East",
+      "geogcode": "E12000001"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for North East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265921d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265921,
+      "description": "North East",
+      "geogcode": "E12000001"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 1.2,
+      "description": "Percent Confidence for North East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265921d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265922,
+      "description": "North West",
+      "geogcode": "E12000002"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 619.7,
+      "description": "GB pounds Value for North West (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265922d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265922,
+      "description": "North West",
+      "geogcode": "E12000002"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for North West (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265922d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265922,
+      "description": "North West",
+      "geogcode": "E12000002"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.7",
+      "description": "Percent Confidence for North West (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265922d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265923,
+      "description": "Yorkshire and The Humber",
+      "geogcode": "E12000003"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 595.2,
+      "description": "GB pounds Value for Yorkshire and The Humber (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265923d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265923,
+      "description": "Yorkshire and The Humber",
+      "geogcode": "E12000003"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for Yorkshire and The Humber (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265923d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265923,
+      "description": "Yorkshire and The Humber",
+      "geogcode": "E12000003"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.8",
+      "description": "Percent Confidence for Yorkshire and The Humber (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265923d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265924,
+      "description": "East Midlands",
+      "geogcode": "E12000004"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 592.4,
+      "description": "GB pounds Value for East Midlands (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265924d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265924,
+      "description": "East Midlands",
+      "geogcode": "E12000004"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for East Midlands (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265924d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265924,
+      "description": "East Midlands",
+      "geogcode": "E12000004"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.9",
+      "description": "Percent Confidence for East Midlands (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265924d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265925,
+      "description": "West Midlands",
+      "geogcode": "E12000005"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 620.9,
+      "description": "GB pounds Value for West Midlands (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265925d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265925,
+      "description": "West Midlands",
+      "geogcode": "E12000005"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for West Midlands (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265925d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265925,
+      "description": "West Midlands",
+      "geogcode": "E12000005"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.8",
+      "description": "Percent Confidence for West Midlands (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265925d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265926,
+      "description": "East",
+      "geogcode": "E12000006"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 625.9,
+      "description": "GB pounds Value for East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265926d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265926,
+      "description": "East",
+      "geogcode": "E12000006"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265926d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265926,
+      "description": "East",
+      "geogcode": "E12000006"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.9",
+      "description": "Percent Confidence for East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265926d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265927,
+      "description": "London",
+      "geogcode": "E12000007"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 835.1,
+      "description": "GB pounds Value for London (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265927d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265927,
+      "description": "London",
+      "geogcode": "E12000007"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for London (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265927d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265927,
+      "description": "London",
+      "geogcode": "E12000007"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.6",
+      "description": "Percent Confidence for London (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265927d7d1d2d20701"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265928,
+      "description": "South East",
+      "geogcode": "E12000008"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20100,
+      "description": "Value"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "GBP",
+      "description": "GB pounds"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": 647.9,
+      "description": "GB pounds Value for South East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265928d7d1d2d20100"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265928,
+      "description": "South East",
+      "geogcode": "E12000008"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20301,
+      "description": "Percent"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "X",
+      "description": "Undefined"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "",
+      "description": "Undefined Percent for South East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "Q",
+      "description": "These figures are missing."
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265928d7d1d2d20301"
+  },
+  {
+    "dataset": {
+      "value": "NM_99_1",
+      "description": "annual survey of hours and earnings - workplace analysis"
+    },
+    "geography": {
+      "value": 2013265928,
+      "description": "South East",
+      "geogcode": "E12000008"
+    },
+    "sex": {
+      "value": 7,
+      "description": "Total"
+    },
+    "item": {
+      "value": 2,
+      "description": "Median"
+    },
+    "pay": {
+      "value": 1,
+      "description": "Weekly pay - gross"
+    },
+    "measures": {
+      "value": 20701,
+      "description": "Confidence"
+    },
+    "freq": "A",
+    "time_format": {
+      "value": "P1Y",
+      "description": "Annual"
+    },
+    "unit": {
+      "value": "PCT",
+      "description": "Percent"
+    },
+    "time": {
+      "value": 2025,
+      "description": 2025
+    },
+    "obs_value": {
+      "value": "0.5",
+      "description": "Percent Confidence for South East (geography), Median (item), Weekly pay - gross (pay) for 2025 from annual survey of hours and earnings - workplace analysis"
+    },
+    "obs_status": {
+      "value": "A",
+      "description": "Normal Value"
+    },
+    "obs_conf": {
+      "value": "F",
+      "description": "Free (free for publication)"
+    },
+    "urn": "Nm-99d1d32400e0d2013265928d7d1d2d20701"
+  }
+]

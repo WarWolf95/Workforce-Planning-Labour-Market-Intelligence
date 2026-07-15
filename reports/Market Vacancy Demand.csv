@@ -1,0 +1,137 @@
+soc_code,soc_title,category,region,active_postings_count,avg_market_min_salary,avg_market_max_salary
+2237,Pharmacist,Healthcare,Wales,41,48220.0,53271.0
+3211,Medical Imaging Technician,Healthcare,South West,36,43701.0,48180.0
+3131,IT Support Analyst,Tech,London,35,85354.0,94136.0
+2231,Staff Nurse,Healthcare,East of England,34,51607.0,56409.0
+2139,Data Engineer,Tech,Wales,33,63043.0,69047.0
+2135,IT Business Analyst,Tech,London,32,85772.0,94170.0
+2137,Web Designer,Tech,Scotland,32,64806.0,71104.0
+2231,Staff Nurse,Healthcare,South East,32,55260.0,60828.0
+2237,Pharmacist,Healthcare,South West,32,46368.0,50876.0
+3211,Medical Imaging Technician,Healthcare,South East,32,51372.0,56658.0
+2135,IT Business Analyst,Tech,East of England,31,67339.0,73602.0
+2237,Pharmacist,Healthcare,West Midlands,31,48400.0,53526.0
+6141,Healthcare Assistant,Healthcare,Wales,31,45877.0,50539.0
+2231,Staff Nurse,Healthcare,Wales,30,48729.0,53804.0
+3131,IT Support Analyst,Tech,Scotland,30,68074.0,74346.0
+3211,Medical Imaging Technician,Healthcare,London,30,52814.0,57871.0
+2121,Civil Engineer,Green Energy,London,29,70615.0,77875.0
+2135,IT Business Analyst,Tech,Scotland,29,61558.0,67893.0
+2137,Web Designer,Tech,West Midlands,29,65698.0,72511.0
+2139,Data Engineer,Tech,London,29,83771.0,92676.0
+2139,Data Engineer,Tech,South East,29,75368.0,82468.0
+3131,IT Support Analyst,Tech,North West,29,66337.0,72769.0
+3131,IT Support Analyst,Tech,South West,29,66345.0,72969.0
+2136,Software Developer,Tech,North West,28,67385.0,74219.0
+2139,Data Engineer,Tech,East of England,28,65900.0,72666.0
+2211,Clinical Practitioner,Healthcare,East of England,28,66560.0,72641.0
+3211,Medical Imaging Technician,Healthcare,Wales,28,42040.0,46218.0
+2136,Software Developer,Tech,East of England,27,67047.0,74219.0
+2137,Web Designer,Tech,London,27,85960.0,93611.0
+2139,Data Engineer,Tech,West Midlands,27,66139.0,72325.0
+2136,Software Developer,Tech,South West,26,71700.0,78522.0
+2136,Software Developer,Tech,West Midlands,26,63266.0,69120.0
+2231,Staff Nurse,Healthcare,Scotland,26,52383.0,57309.0
+3131,IT Support Analyst,Tech,East of England,26,64595.0,70500.0
+3211,Medical Imaging Technician,Healthcare,Scotland,26,45167.0,49692.0
+3211,Medical Imaging Technician,Healthcare,West Midlands,26,46985.0,51814.0
+6141,Healthcare Assistant,Healthcare,Scotland,26,37566.0,41453.0
+2135,IT Business Analyst,Tech,South East,25,74651.0,82430.0
+2136,Software Developer,Tech,Wales,25,64721.0,70345.0
+2137,Web Designer,Tech,Wales,25,68409.0,74838.0
+2211,Clinical Practitioner,Healthcare,North West,25,75881.0,83029.0
+2211,Clinical Practitioner,Healthcare,South East,25,83497.0,91366.0
+2237,Pharmacist,Healthcare,North West,25,48094.0,52881.0
+3211,Medical Imaging Technician,Healthcare,East of England,25,43694.0,48176.0
+3211,Medical Imaging Technician,Healthcare,North West,25,41519.0,45632.0
+8124,Energy Plant Operator,Green Energy,South West,25,54333.0,59818.0
+2121,Civil Engineer,Green Energy,West Midlands,24,52425.0,57917.0
+2139,Data Engineer,Tech,South West,24,67081.0,73352.0
+2211,Clinical Practitioner,Healthcare,Scotland,24,70677.0,77149.0
+2237,Pharmacist,Healthcare,East of England,24,51251.0,56319.0
+3112,Turbine Maintenance Technician,Green Energy,Scotland,24,49769.0,54467.0
+6141,Healthcare Assistant,Healthcare,East of England,24,50732.0,55471.0
+6141,Healthcare Assistant,Healthcare,North West,24,45579.0,49879.0
+6141,Healthcare Assistant,Healthcare,South East,24,46937.0,51360.0
+2137,Web Designer,Tech,East of England,23,66411.0,73166.0
+2139,Data Engineer,Tech,Scotland,23,68607.0,75008.0
+2231,Staff Nurse,Healthcare,London,23,70050.0,77275.0
+2123,Electrical Grid Engineer,Green Energy,Wales,22,46757.0,51383.0
+2125,Chemical Engineer,Green Energy,East of England,22,47961.0,52865.0
+2126,Battery Design Engineer,Green Energy,London,22,67213.0,73956.0
+2136,Software Developer,Tech,Scotland,22,61377.0,67514.0
+2137,Web Designer,Tech,South East,22,80931.0,88981.0
+2231,Staff Nurse,Healthcare,North West,22,47000.0,51527.0
+2237,Pharmacist,Healthcare,London,22,60977.0,66725.0
+2237,Pharmacist,Healthcare,Scotland,22,45910.0,50540.0
+3112,Turbine Maintenance Technician,Green Energy,East of England,22,56385.0,61907.0
+3131,IT Support Analyst,Tech,South East,22,69759.0,77300.0
+6141,Healthcare Assistant,Healthcare,London,22,61832.0,67789.0
+6141,Healthcare Assistant,Healthcare,South West,22,44789.0,49474.0
+2122,Mechanical Engineer,Green Energy,South West,21,56842.0,62106.0
+2123,Electrical Grid Engineer,Green Energy,East of England,21,53642.0,59178.0
+2125,Chemical Engineer,Green Energy,South East,21,56894.0,61808.0
+2135,IT Business Analyst,Tech,North West,21,66176.0,72076.0
+2136,Software Developer,Tech,South East,21,71468.0,78441.0
+2139,Data Engineer,Tech,North West,21,59292.0,64875.0
+2211,Clinical Practitioner,Healthcare,London,21,86894.0,96079.0
+2211,Clinical Practitioner,Healthcare,West Midlands,21,54218.0,59588.0
+2237,Pharmacist,Healthcare,South East,21,49908.0,54948.0
+6141,Healthcare Assistant,Healthcare,West Midlands,21,52881.0,58300.0
+8124,Energy Plant Operator,Green Energy,London,21,63504.0,69767.0
+8124,Energy Plant Operator,Green Energy,Scotland,21,53518.0,58456.0
+2123,Electrical Grid Engineer,Green Energy,West Midlands,20,51274.0,55391.0
+2135,IT Business Analyst,Tech,Wales,20,65500.0,71923.0
+2137,Web Designer,Tech,North West,20,74264.0,81509.0
+2231,Staff Nurse,Healthcare,West Midlands,20,48236.0,53357.0
+3112,Turbine Maintenance Technician,Green Energy,North West,20,53557.0,58429.0
+2121,Civil Engineer,Green Energy,North West,19,51103.0,56128.0
+2122,Mechanical Engineer,Green Energy,Scotland,19,53166.0,58142.0
+2125,Chemical Engineer,Green Energy,London,19,66032.0,72421.0
+2125,Chemical Engineer,Green Energy,North West,19,53551.0,58636.0
+2125,Chemical Engineer,Green Energy,Scotland,19,56948.0,62750.0
+2135,IT Business Analyst,Tech,South West,19,59074.0,65266.0
+2211,Clinical Practitioner,Healthcare,South West,19,69064.0,75721.0
+3112,Turbine Maintenance Technician,Green Energy,Wales,19,49146.0,54432.0
+3131,IT Support Analyst,Tech,Wales,19,60895.0,66736.0
+8124,Energy Plant Operator,Green Energy,West Midlands,19,51168.0,55922.0
+2121,Civil Engineer,Green Energy,South West,18,52119.0,57511.0
+2122,Mechanical Engineer,Green Energy,Wales,18,51752.0,57260.0
+2126,Battery Design Engineer,Green Energy,North West,18,55368.0,61344.0
+2126,Battery Design Engineer,Green Energy,Scotland,18,52432.0,57551.0
+2231,Staff Nurse,Healthcare,South West,18,53059.0,58599.0
+3112,Turbine Maintenance Technician,Green Energy,South West,18,52758.0,58719.0
+8124,Energy Plant Operator,Green Energy,East of England,18,46393.0,50784.0
+2121,Civil Engineer,Green Energy,East of England,17,49558.0,54372.0
+2123,Electrical Grid Engineer,Green Energy,Scotland,17,48784.0,53244.0
+2125,Chemical Engineer,Green Energy,Wales,17,54455.0,60120.0
+2126,Battery Design Engineer,Green Energy,Wales,17,52542.0,57921.0
+2126,Battery Design Engineer,Green Energy,West Midlands,17,52432.0,57749.0
+2136,Software Developer,Tech,London,17,81743.0,90046.0
+2137,Web Designer,Tech,South West,17,67373.0,74460.0
+3131,IT Support Analyst,Tech,West Midlands,17,66941.0,73038.0
+8124,Energy Plant Operator,Green Energy,South East,17,59362.0,65014.0
+3112,Turbine Maintenance Technician,Green Energy,London,16,75337.0,83761.0
+2121,Civil Engineer,Green Energy,Scotland,15,53520.0,58623.0
+2121,Civil Engineer,Green Energy,South East,15,58691.0,65114.0
+2122,Mechanical Engineer,Green Energy,London,15,62287.0,69026.0
+2123,Electrical Grid Engineer,Green Energy,London,15,66363.0,72797.0
+2123,Electrical Grid Engineer,Green Energy,South West,15,52085.0,57553.0
+2126,Battery Design Engineer,Green Energy,East of England,15,57502.0,63698.0
+2126,Battery Design Engineer,Green Energy,South East,15,59973.0,66614.0
+2126,Battery Design Engineer,Green Energy,South West,15,53039.0,57806.0
+2211,Clinical Practitioner,Healthcare,Wales,15,73010.0,80293.0
+3112,Turbine Maintenance Technician,Green Energy,South East,15,62645.0,68569.0
+8124,Energy Plant Operator,Green Energy,Wales,15,55406.0,60738.0
+2122,Mechanical Engineer,Green Energy,South East,14,61255.0,68015.0
+2123,Electrical Grid Engineer,Green Energy,North West,14,53148.0,58224.0
+2125,Chemical Engineer,Green Energy,South West,14,54663.0,60454.0
+8124,Energy Plant Operator,Green Energy,North West,14,52025.0,57137.0
+2122,Mechanical Engineer,Green Energy,North West,13,57949.0,63345.0
+2135,IT Business Analyst,Tech,West Midlands,13,60390.0,66449.0
+2122,Mechanical Engineer,Green Energy,East of England,12,53042.0,59224.0
+2123,Electrical Grid Engineer,Green Energy,South East,12,62756.0,68412.0
+2122,Mechanical Engineer,Green Energy,West Midlands,11,51546.0,56787.0
+2125,Chemical Engineer,Green Energy,West Midlands,11,52788.0,58337.0
+2121,Civil Engineer,Green Energy,Wales,10,54361.0,58298.0
+3112,Turbine Maintenance Technician,Green Energy,West Midlands,10,47672.0,52494.0
