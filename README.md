@@ -26,6 +26,7 @@ This project identifies skills gaps, succession/retirement risks, and internal-t
 │       ├── powerbi/              # Processed Star Schema CSV files for Power BI model ingestion
 │       ├── workforce_intelligence.db      # Compiled DuckDB database
 │       └── workforce_intelligence.sqlite  # Compiled SQLite database
+├── powerbi/                      # Completed Power BI (.pbix) dashboard and PDF report
 ├── queries/                      # SQL query scripts (market demand, salary gaps, succession risk, skills mismatch)
 ├── reports/                      # Generated CSV report outputs, Oracle setup SQL scripts, and Power BI guide
 ├── scripts/                      # Modular Python processing components
