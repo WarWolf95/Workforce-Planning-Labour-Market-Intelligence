@@ -28,7 +28,7 @@ This project identifies skills gaps, succession/retirement risks, and internal-t
 │       └── workforce_intelligence.sqlite  # Compiled SQLite database
 ├── powerbi/                      # Completed Power BI (.pbix) dashboard and PDF report
 ├── queries/                      # SQL query scripts (market demand, salary gaps, succession risk, skills mismatch)
-├── reports/                      # Generated CSV report outputs, Oracle setup SQL scripts, and Power BI guide
+├── reports/                      # Generated CSV reports, Oracle setup, Power BI guide, and Executive Briefing
 ├── scripts/                      # Modular Python processing components
 │   ├── config.py                 # Centralized configuration mappings and taxonomies
 │   ├── utils.py                  # Shared utilities (casing, TF-IDF skill parser, centralized logger)
