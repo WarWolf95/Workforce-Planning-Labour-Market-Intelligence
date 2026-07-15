@@ -1,10 +1,10 @@
 """
-Diagnostic script to run verification queries against the compiled DuckDB database
+Diagnostic script to run verification queries against the compiled SQLite database
 and assert mathematical alignment with ONS benchmarks and target KPIs.
 """
 
 from pathlib import Path
-import duckdb
+import sqlite3
 from typing import List, Tuple
 
 from utils import setup_logging
@@ -14,7 +14,7 @@ logger = setup_logging("verify_db")
 
 # Define path
 WORKSPACE_DIR = Path(__file__).resolve().parents[1]
-DB_PATH = WORKSPACE_DIR / "data" / "processed" / "workforce_intelligence.db"
+DB_PATH = WORKSPACE_DIR / "data" / "processed" / "workforce_intelligence.sqlite"
 
 def run_verification() -> None:
     logger.info("=========================================")
@@ -22,11 +22,11 @@ def run_verification() -> None:
     logger.info("=========================================")
     
     if not DB_PATH.exists():
-        logger.error(f"DuckDB database not found at {DB_PATH}. Please run data processing first.")
+        logger.error(f"SQLite database not found at {DB_PATH}. Please run data processing first.")
         return
         
-    logger.info(f"Connecting to DuckDB database at: {DB_PATH}")
-    con = duckdb.connect(str(DB_PATH))
+    logger.info(f"Connecting to SQLite database at: {DB_PATH}")
+    con = sqlite3.connect(str(DB_PATH))
     
     # Track pass/fail for exit code
     failures: List[str] = []

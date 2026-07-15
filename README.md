@@ -46,9 +46,8 @@ Key metrics (e.g., **-26.3%** London Software Developer salary gap, **41.0%** Ba
 ## Technical Stack & Architecture
 
 - **Language**: Python 3.10+ (Type annotated, PEP 8 structured, centralized logging)
-- **Data Ingestion & ETL**: Pandas (for utility data handling) and DuckDB (as the high-performance local OLAP query engine to stage and run views)
+- **Data Ingestion, ETL & Storage**: Pandas (for utility data handling) and SQLite (serving as the staging repository, analytical query engine, and Power BI relational database)
 - **Taxonomy Mapping**: Scikit-Learn TF-IDF vectorization (relevance scoring of skills requirements in job descriptions)
-- **BI Storage**: SQLite (serving as the relational database layer for Power BI integration)
 - **Visualization**: Power BI Star Schema representation
 - **Database Migration Utilities**: Oracle DDL/DML setup generator (available for C-Suite LiveSQL review)
 
@@ -61,8 +60,7 @@ Key metrics (e.g., **-26.3%** London Software Developer salary gap, **41.0%** Ba
 │   ├── raw/                      # Ingested datasets (synthetic HR roster, ONS ASHE, ONS supply, vacancy indexes)
 │   └── processed/
 │       ├── powerbi/              # Processed Star Schema CSV files for Power BI model ingestion
-│       ├── workforce_intelligence.db      # Compiled DuckDB database
-│       └── workforce_intelligence.sqlite  # Compiled SQLite database
+│       └── workforce_intelligence.sqlite  # Compiled SQLite database (staging + analytical views + final Star Schema)
 ├── powerbi/                      # Completed Power BI (.pbix) dashboard and PDF report
 ├── queries/                      # SQL query scripts (market demand, salary gaps, skills mismatch, detailed skills gap, succession risk)
 ├── reports/                      # Generated CSV reports, Oracle setup, Power BI guide, and Executive Briefing
@@ -72,11 +70,10 @@ Key metrics (e.g., **-26.3%** London Software Developer salary gap, **41.0%** Ba
 │   ├── generate_synthetic_hr.py  # Produces synthetic corporate HR lists and JDs (fixed seed for reproducibility)
 │   ├── fetch_nomis.py            # Acquires ONS ASHE, vacancy, and labor supply datasets
 │   ├── fetch_adzuna.py           # Contacts Adzuna API (or falls back to seeded mock job postings generation)
-│   ├── process_data.py           # Ingests raw data to DuckDB, builds views, and exports Star Schema CSVs
+│   ├── process_data.py           # Ingests raw data to SQLite, builds staging views, and exports Star Schema CSVs
 │   ├── generate_oracle_setup.py  # Standalone utility to compile Oracle LiveSQL setup DDL/DML scripts
-│   ├── generate_sqlite.py        # Compiles SQLite database tables from processed CSV outputs
-│   └── verify_db.py              # Executes diagnostic assertions against analytical views
-├── requirements.txt              # Standard package requirements (DuckDB, Pandas, Scikit-Learn, HTTPX, xlsxwriter)
+│   └── verify_db.py              # Executes diagnostic assertions against SQLite analytical views
+├── requirements.txt              # Standard package requirements (Pandas, Scikit-Learn, HTTPX, xlsxwriter)
 ├── run_pipeline.py               # Main pipeline orchestrator script
 └── workforce_intelligence.sqbpro # SQLite database project file
 ```

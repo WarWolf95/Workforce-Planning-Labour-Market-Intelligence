@@ -18,7 +18,6 @@ import generate_synthetic_hr
 import fetch_nomis
 import fetch_adzuna
 import process_data
-import generate_sqlite
 import verify_db
 import generate_docx_case_study
 
@@ -89,19 +88,16 @@ def main() -> None:
         # Step 3: Fetch and build Adzuna vacancy listings
         fetch_adzuna.main()
         
-        # Step 4: Process staging data into DuckDB, create analytical views, and export Power BI Star Schema CSVs
+        # Step 4: Process staging data, compile SQLite DB and Views, and export Star Schema CSVs
         process_data.main()
         
-        # Step 5: Load Star Schema CSVs into SQLite database
-        generate_sqlite.main()
-        
-        # Step 7: Verify database integrity in DuckDB
+        # Step 5: Verify database integrity in SQLite
         verify_db.main()
         
-        # Step 8: Execute SQL queries and refresh CSV outputs under reports/
+        # Step 6: Execute SQL queries and refresh CSV outputs under reports/
         execute_queries_and_export_reports()
         
-        # Step 9: Rebuild Word Document Case Study
+        # Step 7: Rebuild Word Document Case Study
         generate_docx_case_study.main()
         
         logger.info("=========================================")

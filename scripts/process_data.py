@@ -5,7 +5,7 @@ for reporting and visualization in Power BI.
 
 from pathlib import Path
 import pandas as pd
-import duckdb
+import sqlite3
 
 from config import SKILLS_VOCABULARY, ROLE_TEMPLATES, CORPORATE_ROLES
 from utils import setup_logging, extract_skills_from_jds
@@ -19,51 +19,52 @@ RAW_DIR = WORKSPACE_DIR / "data" / "raw"
 PROCESSED_DIR = WORKSPACE_DIR / "data" / "processed"
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
-DB_PATH = PROCESSED_DIR / "workforce_intelligence.db"
+DB_PATH = PROCESSED_DIR / "workforce_intelligence.sqlite"
 
-def load_data_to_duckdb(extracted_skills: list) -> None:
+def load_data_to_sqlite(extracted_skills: list) -> None:
     """
-    Initializes DuckDB and loads raw CSV datasets into stage tables,
+    Initializes SQLite database and loads raw CSV datasets into stage tables,
     then builds analytical views.
     """
-    logger.info(f"Connecting to DuckDB database at: {DB_PATH}")
-    con = duckdb.connect(str(DB_PATH))
+    logger.info(f"Connecting to SQLite database at: {DB_PATH}")
+    con = sqlite3.connect(str(DB_PATH))
     
     # 1. Load staging tables from raw CSVs
-    logger.info("Loading datasets into DuckDB staging tables...")
+    logger.info("Loading datasets into SQLite staging tables...")
     
     # Internal workforce
     workforce_csv = RAW_DIR / "internal_workforce.csv"
-    con.execute(f"CREATE OR REPLACE TABLE stg_internal_workforce AS SELECT * FROM read_csv_auto('{workforce_csv.as_posix()}')")
+    pd.read_csv(workforce_csv).to_sql("stg_internal_workforce", con, if_exists="replace", index=False)
     
     # ONS salaries
     ashe_csv = RAW_DIR / "ons_ashe_salaries.csv"
-    con.execute(f"CREATE OR REPLACE TABLE stg_ons_ashe AS SELECT * FROM read_csv_auto('{ashe_csv.as_posix()}')")
+    pd.read_csv(ashe_csv).to_sql("stg_ons_ashe", con, if_exists="replace", index=False)
     
     # ONS vacancies
     vacancies_csv = RAW_DIR / "ons_vacancies.csv"
-    con.execute(f"CREATE OR REPLACE TABLE stg_ons_vacancies AS SELECT * FROM read_csv_auto('{vacancies_csv.as_posix()}')")
+    pd.read_csv(vacancies_csv).to_sql("stg_ons_vacancies", con, if_exists="replace", index=False)
     
     # ONS labor supply
     supply_csv = RAW_DIR / "ons_labor_supply.csv"
-    con.execute(f"CREATE OR REPLACE TABLE stg_ons_labor_supply AS SELECT * FROM read_csv_auto('{supply_csv.as_posix()}')")
+    pd.read_csv(supply_csv).to_sql("stg_ons_labor_supply", con, if_exists="replace", index=False)
     
     # Adzuna vacancies
     adzuna_csv = RAW_DIR / "adzuna_vacancies.csv"
-    con.execute(f"CREATE OR REPLACE TABLE stg_adzuna_vacancies AS SELECT * FROM read_csv_auto('{adzuna_csv.as_posix()}')")
+    pd.read_csv(adzuna_csv).to_sql("stg_adzuna_vacancies", con, if_exists="replace", index=False)
     
     # Extracted JD skills (load from list of dicts)
     extracted_df = pd.DataFrame(extracted_skills)
     jd_skills_csv = RAW_DIR / "extracted_jd_skills.csv"
     extracted_df.to_csv(jd_skills_csv, index=False)
-    con.execute(f"CREATE OR REPLACE TABLE stg_extracted_skills AS SELECT * FROM read_csv_auto('{jd_skills_csv.as_posix()}')")
+    extracted_df.to_sql("stg_extracted_skills", con, if_exists="replace", index=False)
     
     # 2. Build Analytical Views for Reporting
     logger.info("Building analytical views for Workforce Intelligence briefing...")
     
     # View 1: Regional Salary Gap Analysis
+    con.execute("DROP VIEW IF EXISTS v_salary_gap_analysis;")
     con.execute("""
-    CREATE OR REPLACE VIEW v_salary_gap_analysis AS
+    CREATE VIEW v_salary_gap_analysis AS
     with internal_summary as (
         select 
             soc_code,
@@ -86,13 +87,14 @@ def load_data_to_duckdb(extracted_skills: list) -> None:
         round(((i.avg_internal_salary - a.median_salary) / a.median_salary) * 100, 1) as salary_gap_percentage
     from internal_summary i
     join stg_ons_ashe a 
-      on i.soc_code = cast(a.soc_code as varchar) 
-     and i.region = a.region
+      on cast(i.soc_code as text) = cast(a.soc_code as text) 
+     and i.region = a.region;
     """)
     
     # View 2: Succession Risk Scoring
+    con.execute("DROP VIEW IF EXISTS v_succession_risk_scoring;")
     con.execute("""
-    CREATE OR REPLACE VIEW v_succession_risk_scoring AS
+    CREATE VIEW v_succession_risk_scoring AS
     with role_demographics as (
         select 
             soc_code,
@@ -106,7 +108,7 @@ def load_data_to_duckdb(extracted_skills: list) -> None:
     ),
     market_comp as (
         select 
-            cast(soc_code as varchar) as soc_code,
+            cast(soc_code as text) as soc_code,
             sum(vacancies_2024) as national_vacancies_2024,
             avg(growth_rate) as market_growth_rate
         from stg_ons_vacancies
@@ -126,11 +128,11 @@ def load_data_to_duckdb(extracted_skills: list) -> None:
         round(
             (d.pct_retirement_risk_5yr * 0.4) + 
             ((d.critical_no_successor_count * 100.0 / case when d.total_employees = 0 then 1 else d.total_employees end) * 0.4) + 
-            (least(m.national_vacancies_2024 / 150.0, 100.0) * 0.2), 
+            (min(m.national_vacancies_2024 / 150.0, 100.0) * 0.2), 
             1
         ) as composite_risk_score
     from role_demographics d
-    left join market_comp m on d.soc_code = m.soc_code
+    left join market_comp m on cast(d.soc_code as text) = cast(m.soc_code as text);
     """)
     
     # Verify contents
@@ -140,7 +142,7 @@ def load_data_to_duckdb(extracted_skills: list) -> None:
         logger.info(f"- {table}: {cnt} records")
         
     con.close()
-    logger.info("DuckDB database compilation complete.")
+    logger.info("SQLite staging database compilation complete.")
 
 def export_star_schema() -> None:
     """Exports clean dimensional Star Schema CSV files for Power BI and SQLite ingestion."""
@@ -188,17 +190,45 @@ def export_star_schema() -> None:
     
     logger.info(f"Power BI Star Schema CSVs exported successfully to: {pbi_dir}")
 
+def load_star_schema_to_sqlite() -> None:
+    """Loads compiled Power BI Star Schema CSVs into final SQLite tables (retiring generate_sqlite.py)."""
+    logger.info("Loading Star Schema CSVs into final SQLite tables...")
+    pbi_dir = PROCESSED_DIR / "powerbi"
+    
+    tables = {
+        "dim_soc_taxonomy": "dim_soc_taxonomy.csv",
+        "dim_ashe_salary": "dim_ashe_salary.csv",
+        "dim_labor_supply": "dim_labor_supply.csv",
+        "dim_extracted_skills": "dim_extracted_skills.csv",
+        "dim_regions": "dim_regions.csv",
+        "fact_employees": "fact_employees.csv",
+        "fact_market_vacancies": "fact_market_vacancies.csv"
+    }
+    
+    conn = sqlite3.connect(str(DB_PATH))
+    for table_name, csv_filename in tables.items():
+        csv_path = pbi_dir / csv_filename
+        if csv_path.exists():
+            df = pd.read_csv(csv_path)
+            df.to_sql(table_name, conn, if_exists="replace", index=False)
+            logger.info(f"Loaded {csv_filename} into table '{table_name}'")
+    conn.close()
+    logger.info("SQLite database final tables compiled successfully.")
+
 def main() -> None:
     logger.info("=========================================")
-    logger.info("STARTING DATA PROCESSING & DUCKDB LOAD")
+    logger.info("STARTING DATA PROCESSING & SQLITE LOAD")
     logger.info("=========================================")
     
     jd_json_path = RAW_DIR / "internal_job_descriptions.json"
     extracted_skills = extract_skills_from_jds(jd_json_path, SKILLS_VOCABULARY)
-    load_data_to_duckdb(extracted_skills)
+    load_data_to_sqlite(extracted_skills)
     
     # Export Star Schema CSVs for SQLite/Power BI
     export_star_schema()
+    
+    # Load Star Schema CSVs into SQLite database (retiring generate_sqlite logic)
+    load_star_schema_to_sqlite()
     
     logger.info("=========================================")
     logger.info("DATA PROCESSING COMPLETED SUCCESSFULLY")
