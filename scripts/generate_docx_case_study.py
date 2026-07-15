@@ -76,7 +76,7 @@ def main() -> None:
             cell.width = col_widths[j]
             
     # Set labels
-    meta_table.cell(0, 0).paragraphs[0].add_run("AUTHOR: Maulik Patel").bold = True
+    meta_table.cell(0, 0).paragraphs[0].add_run("AUTHOR: Maulik Parmar").bold = True
     meta_table.cell(0, 1).paragraphs[0].add_run("TARGET AUDIENCE: C-Suite / Portfolio Reviewers").bold = True
     meta_table.cell(1, 0).paragraphs[0].add_run("VERSION: 1.0 (Production Grade)").bold = True
     meta_table.cell(1, 1).paragraphs[0].add_run("DATE: July 2026").bold = True
