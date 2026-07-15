@@ -21,6 +21,7 @@ import process_data
 import generate_oracle_setup
 import generate_sqlite
 import verify_db
+import generate_docx_case_study
 
 from utils import setup_logging
 
@@ -103,6 +104,9 @@ def main() -> None:
         
         # Step 8: Execute SQL queries and refresh CSV outputs under reports/
         execute_queries_and_export_reports()
+        
+        # Step 9: Rebuild Word Document Case Study
+        generate_docx_case_study.main()
         
         logger.info("=========================================")
         logger.info("WORKFORCE PLANNING PIPELINE RUN COMPLETED")

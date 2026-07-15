@@ -1,6 +1,6 @@
 -- ========================================================
 -- ORACLE LIVESQL SCHEMA SETUP FOR WORKFORCE INTELLIGENCE
--- Generated on: 2026-07-15 14:18:02
+-- Generated on: 2026-07-15 14:45:43
 -- Instructions: Copy-paste the entire script or upload it in 
 --               the 'My Scripts' section of Oracle Live SQL.
 -- ========================================================
