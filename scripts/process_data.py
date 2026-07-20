@@ -1,5 +1,5 @@
 """
-Processes raw datasets using DuckDB and builds analytical views 
+Processes raw datasets using SQLite and builds analytical views 
 for reporting and visualization in Power BI.
 """
 

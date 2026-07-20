@@ -25,7 +25,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -78,7 +81,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -131,7 +137,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -184,7 +193,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -237,7 +249,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -290,7 +305,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -343,7 +361,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -396,7 +417,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -449,7 +473,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -502,7 +529,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -555,7 +585,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -608,7 +641,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -661,7 +697,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -714,7 +753,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -767,7 +809,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -820,7 +865,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -873,7 +921,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -926,7 +977,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -979,7 +1033,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1032,7 +1089,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1085,7 +1145,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1138,7 +1201,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1191,7 +1257,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1244,7 +1313,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1297,7 +1369,10 @@
       "value": 20100,
       "description": "Value"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1350,7 +1425,10 @@
       "value": 20301,
       "description": "Percent"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"
@@ -1403,7 +1481,10 @@
       "value": 20701,
       "description": "Confidence"
     },
-    "freq": "A",
+    "freq": {
+      "value": "A",
+      "description": "Annually"
+    },
     "time_format": {
       "value": "P1Y",
       "description": "Annual"

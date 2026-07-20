@@ -5,10 +5,12 @@ or generates a realistic mock dataset representing shortages in UK sectors.
 
 import os
 import random
+import json
+import urllib.request
+import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Any, Optional
-import httpx
 import pandas as pd
 
 from config import REGIONS, SKILLS_BY_SOC
@@ -60,45 +62,44 @@ def fetch_real_adzuna(app_id: str, app_key: str) -> List[Dict[str, Any]]:
     
     queries = ["software engineer", "nurse", "electrical engineer", "wind energy"]
     
-    with httpx.Client() as client:
-        for q in queries:
-            try:
-                url = "https://api.adzuna.com/v1/api/jobs/gb/search/1"
-                params = {
-                    "app_id": app_id,
-                    "app_key": app_key,
-                    "what": q,
-                    "results_per_page": 50,
-                    "content-type": "application/json"
-                }
-                response = client.get(url, params=params, timeout=15)
-                response.raise_for_status()
-                data = response.json()
+    for q in queries:
+        try:
+            params = urllib.parse.urlencode({
+                "app_id": app_id,
+                "app_key": app_key,
+                "what": q,
+                "results_per_page": 50,
+                "content-type": "application/json"
+            })
+            url = f"https://api.adzuna.com/v1/api/jobs/gb/search/1?{params}"
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode('utf-8'))
+            
+            postings = data.get("results", [])
+            logger.info(f"Fetched {len(postings)} results for search term '{q}' from Adzuna.")
+            
+            for p in postings:
+                locs = p.get("location", {}).get("area", [])
+                region = locs[0] if locs else "United Kingdom"
                 
-                postings = data.get("results", [])
-                logger.info(f"Fetched {len(postings)} results for search term '{q}' from Adzuna.")
+                created_raw = p.get("created", "")
+                created_date = created_raw[:10] if created_raw else datetime.now().strftime("%Y-%m-%d")
                 
-                for p in postings:
-                    locs = p.get("location", {}).get("area", [])
-                    region = locs[0] if locs else "United Kingdom"
-                    
-                    created_raw = p.get("created", "")
-                    created_date = created_raw[:10] if created_raw else datetime.now().strftime("%Y-%m-%d")
-                    
-                    results.append({
-                        "job_id": p.get("id", ""),
-                        "title": p.get("title", ""),
-                        "description": p.get("description", ""),
-                        "created": created_date,
-                        "company": p.get("company", {}).get("display_name", "Confidential"),
-                        "region": region,
-                        "salary_min": p.get("salary_min", None),
-                        "salary_max": p.get("salary_max", None),
-                        "source": "adzuna_api"
-                    })
-            except Exception as e:
-                logger.error(f"Error querying Adzuna API for term '{q}': {e}")
-                
+                results.append({
+                    "job_id": p.get("id", ""),
+                    "title": p.get("title", ""),
+                    "description": p.get("description", ""),
+                    "created": created_date,
+                    "company": p.get("company", {}).get("display_name", "Confidential"),
+                    "region": region,
+                    "salary_min": p.get("salary_min", None),
+                    "salary_max": p.get("salary_max", None),
+                    "source": "adzuna_api"
+                })
+        except Exception as e:
+            logger.error(f"Error querying Adzuna API for term '{q}': {e}")
+            
     return results
 
 def generate_mock_adzuna(count: int = 3000, seed: int = 42) -> List[Dict[str, Any]]:
