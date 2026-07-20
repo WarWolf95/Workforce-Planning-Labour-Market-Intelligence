@@ -8,7 +8,7 @@ This project identifies skills gaps, succession/retirement risks, and internal-t
 
 ## Data Provenance & Methodology
 
-⚠️ **This project uses a 4-tier hybrid data strategy.** Every dataset is explicitly classified below. No actual employee PII is used or generated.
+**This project uses a 4-tier hybrid data strategy.** Every dataset is explicitly classified below. No actual employee PII is used or generated.
 
 ### Tier 1: Fully Synthetic
 
