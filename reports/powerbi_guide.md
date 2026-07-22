@@ -6,7 +6,7 @@ This guide details the complete, step-by-step implementation of the **Workforce 
 
 ## Step 1: Ingest & Model Data (Star Schema)
 
-1.  **Load Files**: Open Power BI Desktop, click **Get Data** -> **Text/CSV**, and select all 7 files from [data/processed/powerbi/](file:///c:/Projects/Workforce%20Planning%20&%20Labour%20Market%20Intelligence/data/processed/powerbi).
+1.  **Load Files**: Open Power BI Desktop, click **Get Data** -> **Text/CSV**, and select all 7 files from `data/processed/powerbi/`.
 2.  **Verify Relationships**: Go to the **Model View** (left sidebar) and create a clean **Star Schema**. Power BI may auto-detect some links, but verify that they match the following settings:
     *   `dim_soc_taxonomy.soc_code` (1) $\rightarrow$ `fact_employees.soc_code` (*) [Single, Active]
     *   `dim_soc_taxonomy.soc_code` (1) $\rightarrow$ `fact_market_vacancies.soc_code` (*) [Single, Active]
