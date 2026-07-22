@@ -1,5 +1,8 @@
 # Workforce Planning & Labour Market Intelligence
 
+[![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF.svg)](.github/workflows/ci.yml)
+[![Tests Passed](https://img.shields.io/badge/Tests-PyTest_Passed-brightgreen.svg)](tests/test_data_quality.py)
+
 A production-grade Python data engineering pipeline and analysis database designed to model, audit, and benchmark organizational workforce rosters against macroeconomic UK labor supply, ASHE earnings, and Adzuna job postings data.
 
 This project identifies skills gaps, succession/retirement risks, and internal-to-market salary disparities across key UK shortage sectors (Technology, Green Energy, and Healthcare).
